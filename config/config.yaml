@@ -6,6 +6,11 @@ paths:
   output_dir: output        # processed_semantic_chunks.json, eval results
   cache_dir: cache          # embeddings.npz checkpoint
 
+parsing:
+  use_ocr: bool = True                 # للصفحات اللي هي صور (بيحل مشكلة الـ27 صفحة الناقصة)
+  table_mode: str = "accurate"         # أو "fast"
+  images_scale: float = 1.0
+  do_table_structure: bool = True
 preprocessing:
   remove_front_matter: true
   max_front_scan_ratio: 0.35

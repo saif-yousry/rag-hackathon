@@ -20,6 +20,73 @@ from .embeddings import build_embedder
 from .models import ProcessedChunk
 
 # ---------------------------------------------------------------------------
+# BM25 sparse retriever (groune 13 — hybrid fusion via RRF)
+# ---------------------------------------------------------------------------
+
+
+def _bm25_token_weights(
+    texts: List[str],
+    k1: float = 1.5,
+    b: float = 0.75,
+) -> Dict[str, np.ndarray]:
+    """Pre-compute BM25 idf + per-token presence per corpus.
+
+    Simple binary term frequency (tf=1 if present, else 0) — enough for
+    medical corpora where exact spelling matters more than frequency.
+    Returns {term: (idf_score, presence_vector)}.
+    """
+    vocab = set()
+    token_lists: List[List[str]] = []
+    for t in texts:
+        toks = sorted({tok for tok in re.split(r"[^a-z0-9]+", t.lower()) if len(tok) > 1})
+        token_lists.append(toks)
+        vocab.update(toks)
+
+    df = {term: 0 for term in vocab}
+    for toks in token_lists:
+        for tok in toks:
+            df[tok] += 1
+
+    n_docs = len(texts)
+    avgdl = float(np.mean([len(t) for t in token_lists])) or 1.0
+    weights: Dict[str, np.ndarray] = {}
+    for term, freq in df.items():
+        if freq == 0:
+            continue
+        idf = np.log((n_docs - freq + 0.5) / (freq + 0.5) + 1.0)
+        if idf <= 0:
+            continue
+        pres = np.zeros(n_docs, dtype=np.float32)
+        for i, toks in enumerate(token_lists):
+            if term in toks:
+                pres[i] = 1.0
+        weights[term] = np.asarray(idf, dtype=np.float32) * pres
+    return weights
+
+
+def bm25_scores(query: str, bm25_weights: Dict[str, np.ndarray]) -> np.ndarray:
+    """Sum of idf-pweighted token presences across query terms.
+
+    Returns a per-chunk score vector (higher = more keyword overlap).
+    """
+    terms = [
+        tok for tok in re.split(r"[^a-z0-9]+", query.lower())
+        if len(tok) > 1
+    ]
+    if not terms or not bm25_weights:
+        n = next(iter(bm25_weights.values())).shape[0] if bm25_weights else 0
+        return np.zeros(n, dtype=np.float32)
+    n_docs = next(iter(bm25_weights.values())).shape[0]
+    total = np.zeros(n_docs, dtype=np.float32)
+    for term in terms:
+        w = bm25_weights.get(term)
+        if w is not None:
+            total = total + w
+    return total
+
+
+
+# ---------------------------------------------------------------------------
 # Primitives
 # ---------------------------------------------------------------------------
 
@@ -65,6 +132,23 @@ def mmr_search(
         selected.append(best_idx)
     return selected
 
+def rrf_rank_fusion(
+    rank_lists: List[List[int]],
+    weights: Optional[List[float]] = None,
+    k: int = 60,
+) -> List[int]:
+    """Reciprocal Rank Fusion: combines multiple ranked lists.
+
+    score(doc) = sum_i weight_i / (k + rank_i(doc))   (1-based ranks)
+    weights default to equal.
+    """
+    if weights is None:
+        weights = [1.0] * len(rank_lists)
+    scores: Dict[int, float] = {}
+    for rank_list, w in zip(rank_lists, weights):
+        for pos, doc_id in enumerate(rank_list, start=1):
+            scores[doc_id] = scores.get(doc_id, 0.0) + w / (k + pos)
+    return sorted(scores, key=lambda d: -scores[d])
 
 # ---------------------------------------------------------------------------
 # Reranker
@@ -193,6 +277,7 @@ class Retriever:
         embedder,
         reranker: Reranker,
     ):
+        self.bm25_weights = _bm25_token_weights([c.original_text for c in chunks])
         self.chunks = chunks
         self.matrix = matrix
         self.cfg = cfg
@@ -205,31 +290,28 @@ class Retriever:
         )
         query_vec = query_vec / (np.linalg.norm(query_vec) + 1e-9)
 
-        search_type = self.cfg.search_types[0]
-        if search_type == "mmr":
-            indices = mmr_search(
-                query_vec, self.matrix, k, fetch_k=self.cfg.mmr_fetch_k_cap,
-                diversity=self.cfg.mmr_diversity,
-            )
-        else:
-            indices = similarity_search(dense_similarity(query_vec, self.matrix), k)
+        # --- Stage 1: dense ---
+        dense_scores = dense_similarity(query_vec, self.matrix)
+        dense_indices = similarity_search(dense_scores, k)
 
-        # Keep candidate_matrix_indices[i] as the ONLY source of truth for
-        # "which row of `matrix` does candidates[i] correspond to". Filtering
-        # out low-quality candidates must never be allowed to desync
-        # `candidates` from `indices` -- that was the bug: `idx` returned by
-        # the reranker indexes into `candidates` (post-filter), but was
-        # previously used to index into `indices` (pre-filter) when
-        # computing dense_score, silently attaching the wrong chunk's dense
-        # score whenever any candidate got filtered out.
+        # --- Stage 2: BM25 (sparse) with keyword-expanded query ---
+        bm25_terms = extract_query_keywords(query)
+        bm25_vec = bm25_scores(" ".join(bm25_terms), self.bm25_weights)
+
+        # --- Stage 3: RRF fusion of both ranked lists ---
+        fused = rrf_rank_fusion(
+            rank_lists=[dense_indices, similarity_search(bm25_vec, k)],
+            weights=[1.0, 1.0],  # dense == BM25 weight; اضبط لو حبيت
+            k=60,
+        )
+
+        # Use the fused rank order but keep dense scores for display
         candidate_matrix_indices = [
-            i for i in indices
+            i for i in fused
             if not is_low_quality_candidate(query, self.chunks[i].original_text)
         ]
         if not candidate_matrix_indices:
-            # Total-quality-filter failure: fall back to all original candidates
-            # (never return an empty result set).
-            candidate_matrix_indices = list(indices)
+            candidate_matrix_indices = list(dense_indices)
         candidates = [self.chunks[i] for i in candidate_matrix_indices]
 
         reranked = (
@@ -237,20 +319,20 @@ class Retriever:
             if self.cfg.rerank_k > 0 else [(j, 0.0) for j in range(len(candidates))]
         )
 
+        # fused_dense_scores mirrors candidate order for display
+        fused_dense = {idx: float(dense_scores[idx]) for idx in candidate_matrix_indices}
+
         results: List[RetrievalResult] = []
         for rank, (idx, score) in enumerate(reranked, start=1):
             results.append(
                 RetrievalResult(
                     chunk=candidates[idx],
                     rank=rank,
-                    dense_score=float(
-                        np.dot(self.matrix[candidate_matrix_indices[idx]], query_vec)
-                    ),
+                    dense_score=fused_dense.get(candidate_matrix_indices[idx], 0.0),
                     rerank_score=score,
                 )
             )
         return results
-
 
 # ---------------------------------------------------------------------------
 # Configuration selection sweep

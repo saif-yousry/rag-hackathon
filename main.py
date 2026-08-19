@@ -18,7 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from src.config import AppConfig  # noqa: E402
-from src.evaluation import DEFAULT_TEST_QUERIES, run_evaluation  # noqa: E402
+from src.evaluation import load_questions, run_evaluation  # noqa: E402
 from src.models import ProcessedChunk  # noqa: E402
 from src.pipeline import build_retrieval_stack, process_corpus  # noqa: E402
 
@@ -66,7 +66,7 @@ def cmd_eval(cfg: AppConfig) -> None:
         else cfg.embeddings.index_embedder
     )
     run_evaluation(
-        retriever, DEFAULT_TEST_QUERIES, embedder_name,
+        retriever, load_questions(), embedder_name,
         cfg.embeddings.reranker_model,
         Path(cfg.paths.output_dir) / cfg.paths.evaluation_json,
     )

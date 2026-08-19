@@ -43,6 +43,12 @@ class PathsConfig:
     def retriever_config_path(self) -> Path:
         return Path(self.output_dir) / self.retriever_config_json
 
+@dataclass
+class ParsingConfig:
+    use_ocr: bool = True                 # للصفحات اللي هي صور (بيحل مشكلة الـ27 صفحة الناقصة)
+    table_mode: str = "accurate"         # أو "fast"
+    images_scale: float = 1.0
+    do_table_structure: bool = True
 
 @dataclass
 class PreprocessingConfig:
@@ -117,6 +123,7 @@ class RetrievalConfig:
 @dataclass
 class AppConfig:
     paths: PathsConfig = field(default_factory=PathsConfig)
+    parsing: ParsingConfig = field(default_factory=ParsingConfig)  # ← جديد
     preprocessing: PreprocessingConfig = field(default_factory=PreprocessingConfig)
     chunking: ChunkingConfig = field(default_factory=ChunkingConfig)
     embeddings: EmbeddingConfig = field(default_factory=EmbeddingConfig)

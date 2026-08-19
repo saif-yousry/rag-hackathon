@@ -15,10 +15,10 @@ from langchain_experimental.text_splitter import SemanticChunker
 
 from .chunking import (
     build_base_documents,
-    build_structural_units,
+    build_structural_units_from_docling,
     merge_structural_units,
 )
-from .cleaning import prepare_pdf_pages
+from .cleaning import prepare_pdf_pages_from_docling
 from .config import AppConfig
 from .embeddings import build_embedder, build_index, load_index
 from .enrich import (
@@ -79,8 +79,7 @@ def process_corpus(cfg: AppConfig) -> List[ProcessedChunk]:
 
     for name, info in pdf_infos.items():
         print(f"\n  Processing {info.name}")
-        prepared, _ = prepare_pdf_pages(info.pages, pre_cfg)
-        raw_units = build_structural_units(prepared)
+        raw_units = build_structural_units_from_docling(info.docling_doc)
         grouped = merge_structural_units(raw_units, pre_cfg)
         print(f"    Structural units: {len(raw_units)} raw -> {len(grouped)} grouped")
 
@@ -152,10 +151,10 @@ def build_retrieval_stack(
         print(f"    Loaded saved retriever config: {saved['search_type']} k={saved['k']}")
     else:
         print("\n[6/6] Selecting best retriever configuration...")
-        from .evaluation import DEFAULT_TEST_QUERIES
+        from .evaluation import load_questions
         best_name, best = select_best_retriever(
             chunks, matrix, cfg.retrieval, embedder, reranker,
-            DEFAULT_TEST_QUERIES, output_dir / cfg.paths.retriever_config_json,
+            load_questions(), output_dir / cfg.paths.retriever_config_json,
         )
         retriever = Retriever(chunks, matrix, RetrievalConfig(
             search_types=[best.search_type],

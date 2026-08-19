@@ -3,6 +3,9 @@
 Runs the selected retriever configuration over the evaluation question set
 and writes a self-describing JSON document (evidence + chunk metadata) that
 can be consumed by notebooks, dashboards, or CI checks.
+
+Question source: external JSON file (default ``data/questions.json``),
+overridable via ``load_questions(path)`` or the ``QUESTIONS_PATH`` default.
 """
 
 from __future__ import annotations
@@ -14,213 +17,37 @@ from typing import Dict, List
 
 from .retrieval import Retriever
 
+# Path to the external question file (relative to the project root).
+QUESTIONS_PATH: str = "data/questions.json"
 
-DEFAULT_TEST_QUERIES: List[Dict[str, str]] = [
-    {
-        "question": "What alternative medicines to clopidogrel exist and who can prescribe them?",
-        "keywords": [
-            "prasugrel",
-            "ticagrelor",
-            "clopidogrel",
-            "specialist"
-        ],
-        "note": "Answer spans a 163-char chunk ending mid-sentence ('T hese need to be...') plus the next chunk."
-    },
-    {
-        "question": "How does prasugrel work as an antiplatelet medicine?",
-        "keywords": [
-            "prasugrel",
-            "platelet inhibitor",
-            "clumping",
-            "blood clot"
-        ],
-        "note": "245-char chunk cut off mid-sentence ('instead of')."
-    },
-    {
-        "question": "What should you do if you need to stop taking beta-blockers?",
-        "keywords": [
-            "beta-blockers",
-            "stop",
-            "medical advice",
-            "calcium channel blockers"
-        ],
-        "note": "Two unrelated topics (beta-blocker warning + calcium channel blocker intro) got merged into one 174-char chunk."
-    },
-    {
-        "question": "What is the funny current (If) and what role does it play in phase 4 of the cardiac action potential?",
-        "keywords": [
-            "funny current",
-            "phase 4",
-            "diastolic depolarization",
-            "SA node"
-        ],
-        "note": "207-char chunk cut off mid-word ('ve...')."
-    },
-    {
-        "question": "How do acetylcholine and catecholamines affect heart rate through the SA node?",
-        "keywords": [
-            "acetylcholine",
-            "catecholamines",
-            "SA node",
-            "heart rate",
-            "depolarization"
-        ],
-        "note": "248-char chunk, sympathetic/parasympathetic content likely continues into next chunk."
-    },
-    {
-        "question": "What is cardiac cell depolarization and how does it occur in pacemaker cells?",
-        "keywords": [
-            "depolarization",
-            "pacemaker cells",
-            "spontaneously",
-            "polarized"
-        ],
-        "note": "Two tiny chunks (137 and 154 chars) that are really one continuous idea about resting potential -> depolarization."
-    },
-    {
-        "question": "How do nitrates cause vasodilation at the molecular level?",
-        "keywords": [
-            "nitrates",
-            "nitric oxide",
-            "guanylate cyclase",
-            "cyclic GMP"
-        ],
-        "note": "241-char chunk, mechanism description likely continues into the next chunk for the full pathway."
-    },
-    {
-        "question": "How do niacin's effects on lipolysis change plasma lipid levels?",
-        "keywords": [
-            "niacin",
-            "lipolysis",
-            "VLDL",
-            "LDL",
-            "HDL"
-        ],
-        "note": "167-char chunk with no drug name stated -- context (which drug this describes) lives in a preceding chunk."
-    },
-    {
-        "question": "How does septum primum development contribute to atrial septation?",
-        "keywords": [
-            "septum primum",
-            "endocardial cushion",
-            "primitive atrium"
-        ],
-        "note": "Whole section (5/5 chunks) is fragmented; answer requires stitching together septum primum, foramen primum, and foramen secundum chunks."
-    },
-    {
-        "question": "What is the relationship between the foramen primum and the foramen secundum during atrial septation?",
-        "keywords": [
-            "foramen primum",
-            "foramen secundum",
-            "septum primum",
-            "shunt"
-        ],
-        "note": "Answer requires combining 3 separate ~190-220 char chunks describing sequential embryological steps."
-    },
-    {
-        "question": "What do MRAs (mineralocorticoid receptor antagonists) do for heart failure patients?",
-        "keywords": [
-            "MRA",
-            "spironolactone",
-            "eplerenone",
-            "blood pressure",
-            "salt"
-        ],
-        "note": "161-char chunk; drug class name and mechanism are compressed into a very short fragment."
-    },
-    {
-        "question": "What do diuretics do for heart failure patients and what are some examples?",
-        "keywords": [
-            "diuretics",
-            "furosemide",
-            "fluid",
-            "lungs"
-        ],
-        "note": "237-char chunk cut off mid-sentence ('and other')."
-    },
-    {
-        "question": "What happens to the ductus arteriosus shunt direction after birth in patent ductus arteriosus?",
-        "keywords": [
-            "ductus arteriosus",
-            "shunt",
-            "pulmonary vascular resistance",
-            "left to right"
-        ],
-        "note": "120-char chunk -- one of the smallest in the corpus, describing a specific physiological transition."
-    },
-    {
-        "question": "How is patent ductus arteriosus treated pharmacologically, and what keeps it open when needed?",
-        "keywords": [
-            "indomethacin",
-            "PGE",
-            "patent ductus arteriosus",
-            "prostaglandin"
-        ],
-        "note": "249-char chunk cut off mid-word ('Narrowing')."
-    },
-    {
-        "question": "What causes the infantile (preductal) form of aortic coarctation?",
-        "keywords": [
-            "coarctation",
-            "aorta",
-            "tunica media",
-            "ductus arteriosus",
-            "preductal"
-        ],
-        "note": "230-char chunk cut off mid-sentence."
-    },
-    {
-        "question": "What class Ic antiarrhythmic effect do these drugs have on the cardiac action potential?",
-        "keywords": [
-            "class Ic",
-            "action potential",
-            "conduction",
-            "tachycardia"
-        ],
-        "note": "169-char chunk with no drug name given -- requires context from a preceding chunk to know which drug class."
-    },
-    {
-        "question": "How does ezetimibe lower LDL cholesterol and what are its side effects?",
-        "keywords": [
-            "cholesterol absorption",
-            "LDL",
-            "side effect",
-            "gastrointestinal",
-            "LFTs"
-        ],
-        "note": "216-char chunk -- drug name likely never appears in this specific chunk despite describing ezetimibe's mechanism."
-    },
-    {
-        "question": "Why is medication adherence important for heart failure patients?",
-        "keywords": [
-            "medication adherence",
-            "heart failure",
-            "prescriptions",
-            "health care team"
-        ],
-        "note": "Two near-duplicate ~150-char chunks describing the same medications list, likely a chunking/dedup artifact."
-    },
-    {
-        "question": "What are antiplatelet medicines used for and who should avoid them?",
-        "keywords": [
-            "antiplatelet",
-            "high risk",
-            "recommended",
-            "treatment"
-        ],
-        "note": "202-char chunk cut off mid-sentence ('aren't at high ri...')."
-    },
-    {
-        "question": "What does the slope of phase 4 depolarization in the SA node control?",
-        "keywords": [
-            "phase 4",
-            "SA node",
-            "heart rate",
-            "slope"
-        ],
-        "note": "Tests whether a 248-char chunk fragment retrieves correctly despite starting mid-topic."
-    }
-]
+
+def load_questions(path: str | Path = QUESTIONS_PATH) -> List[Dict[str, str]]:
+    """Load the question set from an external JSON file.
+
+    The file must contain a JSON array of objects, each with at least:
+        {"question": "...", "keywords": ["...", "..."]}
+    (an optional "note" field per question is allowed but ignored).
+    """
+    qpath = Path(path)
+    if not qpath.is_absolute():
+        qpath = Path.cwd() / qpath
+    if not qpath.exists():
+        raise FileNotFoundError(
+            f"Question file not found: {qpath}. Place the 50-question set at "
+            f"data/questions.json (see questions_50.json)."
+        )
+    with qpath.open(encoding="utf-8") as fh:
+        questions = json.load(fh)
+    if not isinstance(questions, list) or not questions:
+        raise ValueError(f"Question file must contain a non-empty JSON array: {qpath}")
+    for i, item in enumerate(questions, start=1):
+        if not isinstance(item, dict) or "question" not in item:
+            raise ValueError(
+                f"Question file entry #{i} is missing a 'question' field: {qpath}"
+            )
+        item.setdefault("keywords", [])
+    print(f"    Loaded {len(questions)} questions from {qpath}")
+    return questions
 
 
 def run_evaluation(

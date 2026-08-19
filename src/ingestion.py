@@ -25,7 +25,8 @@ class PdfInfo:
     size_bytes: int
     mime_type: str
     total_pages: int
-    pages: List[str] = field(default_factory=list)
+    pages: List[str] = field(default_factory=list)     # ← ده هيتشال
+    docling_doc: "DoclingDocument" = None                # ← جديد: الناتج الخام من Docling
 
 
 def compute_file_hash(path: Path) -> str:
@@ -36,10 +37,10 @@ def compute_file_hash(path: Path) -> str:
             hasher.update(chunk)
     return hasher.hexdigest()
 
-
+"""
 def clean_pdf_text(text: str) -> str:
-    """Basic text repair copied from the notebook: line endings, whitespace,
-    hyphen-joined words split across lines."""
+    Basic text repair copied from the notebook: line endings, whitespace,
+    hyphen-joined words split across lines.
     if not text:
         return text
     # Hard line endings
@@ -50,16 +51,16 @@ def clean_pdf_text(text: str) -> str:
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
-
-
+"""
+"""
 def extract_pdf_pages(path: Path) -> Tuple[List[str], int]:
-    """Extract per-page text. Returns (pages, total_pages)."""
+    Extract per-page text. Returns (pages, total_pages).
     reader = PdfReader(str(path))
     pages: List[str] = []
     for page in reader.pages:
         pages.append(clean_pdf_text(page.extract_text() or ""))
     return pages, len(pages)
-
+"""
 
 def discover_pdfs(data_dir: Path) -> List[Path]:
     """Find all PDFs in the data directory (non-recursive)."""
@@ -70,8 +71,9 @@ def discover_pdfs(data_dir: Path) -> List[Path]:
 
 
 def ingest_pdf(path: Path) -> PdfInfo:
-    """Full ingestion of a single PDF: metadata + per-page text."""
-    pages, total = extract_pdf_pages(path)
+    from docling.document_converter import DocumentConverter
+    converter = DocumentConverter()
+    result = converter.convert(str(path))          # ← بديل PdfReader + extract_pdf_pages
     mime, _ = mimetypes.guess_type(str(path))
     return PdfInfo(
         name=path.name,
@@ -79,10 +81,9 @@ def ingest_pdf(path: Path) -> PdfInfo:
         hash_sha256=compute_file_hash(path),
         size_bytes=path.stat().st_size,
         mime_type=mime or "application/pdf",
-        total_pages=total,
-        pages=pages,
+        total_pages=len(result.document.pages),
+        docling_doc=result.document,
     )
-
 
 def ingest_all(data_dir: Path) -> List[PdfInfo]:
     results = []

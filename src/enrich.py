@@ -177,6 +177,8 @@ def enrich_and_build(
         local_index = file_index[norm]
         total_in_file = 0  # filled in a second pass below
 
+        is_table = meta.get("content_type") == "table"
+
         chunk_metadata = ChunkMetadata(
             source_file=source_file,
             file_path=meta.get("source_path", ""),
@@ -194,6 +196,9 @@ def enrich_and_build(
             char_count=len(text),
             word_count=len(text.split()),
             estimated_tokens=int(len(text.split()) * 1.3),
+            parser_type="docling",  # ← كان "complex" ثابتة
+            content_type="table" if is_table else "text",  # ← كان "text" ثابتة
+            table_atomic=is_table,  # ← كان False ثابتة
         )
         text = " ".join(text.split())
         chunks.append(

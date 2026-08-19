@@ -9,9 +9,8 @@ Implements the notebook's Block 8A logic as pure functions:
 
 from __future__ import annotations
 
-import re
 from dataclasses import dataclass, field
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Tuple, Optional
 try:
     from langchain.docstore.document import Document  # legacy
 except ModuleNotFoundError:
@@ -20,21 +19,73 @@ from langchain_experimental.text_splitter import SemanticChunker
 
 from .nlp_utils import get_nlp as _get_nlp
 
-from .cleaning import (
-    PreparedPage,
-    detect_section,
-    find_recurring_heading_texts,   # <-- NEW import
-    get_context,
-    is_strong_end_heading,
-    is_toc_entry,
-    is_toc_title,
-    update_hierarchy,
-)
+
 
 from .config import ChunkingConfig, PreprocessingConfig
 
 
+import re
 
+# أنماط الحطام: حقوق نشر + أكواد وثائق (نفس patterns اللي في cleaning.py)
+_GARBAGE_PATTERNS = [
+    re.compile(r"(unauthorized\s+use\s+(is\s+)?prohibited|all\s+rights\s+reserved)", re.IGNORECASE),
+    re.compile(r"(no\s+part\s+of\s+(this\s+(publication|document))|(may\s+not\s+be\s+reproduced|stored\s+in\s+a\s+retrieval))", re.IGNORECASE),
+    re.compile(r"^[A-Z]{2,6}\d{4,8}$"),                          # أكواد زي WF618229
+    re.compile(r"^\s*[©]\s*$|^(www\.[\w.-]+\.\w{2,}|doi\s*:?\s*\S+)\s*$"),
+]
+_GARBAGE_BOOST_RE = re.compile(r"(copyright|©|prohibited|reproduction|WF\d{4,}|JACC-?\d)", re.IGNORECASE)
+
+# markers اللي مش عناوين فعلًا (bullet markers من المحاضرات)
+_BULLET_MARKERS = ("❖", "▪", "•", "* N.B", "N.B.", "Note:", "Clinical note")
+
+# أسماء عامة تُرفع لقسم أبوي بدل ما تبهدل الـ breadcrumbs
+_GENERIC_SECTIONS = {
+    "methods", "results", "discussion", "conclusion", "side effects",
+    "appendices", "appendix", "references", "summary", "introduction",
+}
+_PARENT_MAP = {
+    "methods": "Study Methods",
+    "results": "Study Results",
+    "discussion": "Discussion",
+    "conclusion": "Study Conclusions",
+    "side effects": "Adverse Effects",
+    "appendices": "Appendices",
+    "appendix": "Appendices",
+    "references": "References",
+    "summary": "Summary",
+    "introduction": "Introduction",
+}
+
+
+def _is_garbage_text(text: str) -> bool:
+    """True للسطور المكونة من حطام: حقوق نشر / أكواد وثائق / سطور قصيرة مليانة junk tokens."""
+    t = text.strip()
+    if not t:
+        return True
+    if any(p.search(t) for p in _GARBAGE_PATTERNS):
+        return True
+    if len(t) < 150 and len(_GARBAGE_BOOST_RE.findall(t)) >= 2:
+        return True
+    return False
+
+
+def _is_bullet_marker(section: str) -> bool:
+    s = section.strip()
+    return bool(s) and s.startswith(_BULLET_MARKERS)
+
+
+def _normalize_section(section: str, current_markers: int) -> str:
+    """يعيد تسمية markers والعناوين العامة لقسم أبوي واضح."""
+    s = section.strip()
+    if not s:
+        return "General Context"
+    # markers -> High-Yield Notes
+    if s.startswith(_BULLET_MARKERS) or s.startswith(("N.B.", "* N.B", "Note:")):
+        return "High-Yield Notes"
+    low = s.lower().rstrip(":.")
+    if low in _PARENT_MAP:
+        return _PARENT_MAP[low]
+    return s
 
 
 
@@ -106,7 +157,8 @@ def split_large_chunk(text: str, max_chars: int, overlap_ratio: float = 0.15) ->
 @dataclass
 class StructuralUnit:
     section: str
-    lines: List[Tuple[str, int]]  # (line_text, page_number), in original order
+    lines: List[Tuple[str, int]]
+    content_type: str = "text"   # ← جديد: "text" أو "table"
 
     @property
     def text(self) -> str:
@@ -116,9 +168,9 @@ class StructuralUnit:
     def pages(self) -> List[int]:
         return sorted({page for _, page in self.lines})
 
-
+"""
 def build_structural_units(prepared_pages: List[PreparedPage]) -> List[StructuralUnit]:
-    """Group page lines into section-keyed units; skip TOC pages."""
+    Group page lines into section-keyed units; skip TOC pages.
     units: List[StructuralUnit] = []
     hierarchy: Dict[str, Any] = {}
     current_section = "General Context"
@@ -166,7 +218,88 @@ def build_structural_units(prepared_pages: List[PreparedPage]) -> List[Structura
             current_lines.append((line, page.page_number))
     flush()
     return units
+"""
 
+def build_structural_units_from_docling(
+    docling_doc: "DoclingDocument",
+) -> List[StructuralUnit]:
+    """يستخدم item.label == 'section_header' بدل ما يخمن، ويستخدم
+    item.prov[0].page_no كصفحة حقيقية لكل سطر.
+
+    جديد في الجولة 12:
+    - فلتر حطام (حقوق نشر / أكواد وثائق) داخل اللوب نفسه
+    - تجاوز العناصر اللي مالهوش attribute "text" (صور/رسومات)
+    - إعادة تسمية bullet markers لقسم "High-Yield Notes"
+    - إعادة تسمية العناوين العامة لقسم أبوي
+    """
+    units: List[StructuralUnit] = []
+    current_section = "General Context"
+    current_lines: List[Tuple[str, int]] = []
+
+    def flush():
+        nonlocal current_lines
+        if current_lines:
+            units.append(StructuralUnit(current_section, list(current_lines)))
+        current_lines = []
+
+    def _get_text(item) -> Optional[str]:
+        # الصور والرسومات مالهوش text — تجاهلها
+        if not hasattr(item, "text"):
+            return None
+        t = getattr(item, "text", None)
+        if not isinstance(t, str) or not t.strip():
+            return None
+        t = t.strip()
+        # فلتر الحطام: سطر مكون من حقوق نشر / كود وثيقة
+        if _is_garbage_text(t):
+            return None
+        return t
+
+    for item, _level in docling_doc.iterate_items():
+        page_no = item.prov[0].page_no if item.prov else None
+        if page_no is None:
+            continue
+
+        if item.label == "section_header":
+            # العنوان نفسه ممكن يكون حطام (صفحة حقوق نشر) — تجاهل
+            if hasattr(item, "text") and _is_garbage_text(item.text):
+                continue
+            flush()
+            current_section = _normalize_section(item.text.strip(), 0)
+            continue
+
+        if item.label == "table":
+            flush()
+            try:
+                md = item.export_to_markdown()
+            except Exception:  # noqa: BLE001
+                md = None
+            if md:
+                units.append(StructuralUnit(
+                    section=current_section,
+                    lines=[(md, page_no)],
+                    content_type="table",
+                ))
+            continue
+
+        if item.label == "picture":
+            # التقط caption لو موجود عشان ما نضيعش معلومات الشكل
+            caption = getattr(item, "caption", None)
+            if caption is not None:
+                try:
+                    cap_text = caption.text if hasattr(caption, "text") else str(caption)
+                except Exception:  # noqa: BLE001
+                    cap_text = None
+                if cap_text and not _is_garbage_text(cap_text):
+                    current_lines.append((f"[Figure: {cap_text}]", page_no))
+            continue
+
+        text = _get_text(item)
+        if text:
+            current_lines.append((text, page_no))
+
+    flush()
+    return units
 
 def merge_structural_units(
     units: List[StructuralUnit],
@@ -396,6 +529,7 @@ def build_base_documents(
                         "end_page": (max(chunk_pages) if chunk_pages else None),
                         "page_numbers": chunk_pages,
                         "section_title": unit.section,
+                        "content_type": unit.content_type,  # ← جديد
                     },
                 )
             )
@@ -407,6 +541,9 @@ def build_base_documents(
             for overlap in chunking_cfg.overlap_options:
                 variant_docs: List[Document] = []
                 for doc in base_docs:
+                    if doc.metadata.get("content_type") == "table":
+                        variant_docs.append(doc)  # ← الجدول ميتقسمش خالص
+                        continue
                     pieces = split_large_chunk(doc.page_content, max_chars, overlap)
                     for piece in pieces:
                         variant_docs.append(

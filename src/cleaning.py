@@ -18,7 +18,7 @@ from .config import PreprocessingConfig
 # ---------------------------------------------------------------------------
 # Line-level artifact detection
 # ---------------------------------------------------------------------------
-
+"""
 _PAGE_ARTIFACT_RE = re.compile(r"^\s*page\s*\d{1,4}\s*$", re.IGNORECASE)
 _PAGE_NUMBER_RE = re.compile(r"^\s*\d{1,4}\s*$")
 _EPAGE_RE = re.compile(r"^\s*e\d{3,5}\s*$")
@@ -42,7 +42,7 @@ _GARBAGE_BOOST_RE = re.compile(r"(copyright|©|prohibited|reproduction|WF\d{4,}|
 
 
 def is_garbage_line(line: str) -> bool:
-    """True for pure junk lines: copyright boilerplate, document codes, etc."""
+    True for pure junk lines: copyright boilerplate, document codes, etc.
     text = line.strip()
     if not text:
         return True
@@ -80,8 +80,8 @@ def is_toc_entry(line: str) -> bool:
 def find_repeated_lines(
     pages: List[str], min_ratio: float = 0.12, threshold: int = 3
 ) -> set:
-    """Lines that appear on >= threshold pages (a fraction of the book)
-    are almost certainly running headers/footers."""
+    Lines that appear on >= threshold pages (a fraction of the book)
+    are almost certainly running headers/footers.
     counts: Counter[str] = Counter()
     for page in pages:
         seen = set()
@@ -100,7 +100,7 @@ def find_recurring_heading_texts(
     prepared_pages: List["PreparedPage"],
     min_occurrences: int = 3,
 ) -> set:
-    """Detect heading-like lines that recur many times across one document.
+    Detect heading-like lines that recur many times across one document.
 
     A genuine section heading appears once (or occasionally repeats across
     a handful of nested subsections). A line that matches a heading pattern
@@ -111,7 +111,7 @@ def find_recurring_heading_texts(
 
     Must be called BEFORE the real per-line pass, using detect_section
     with no context args (context-based bullet filtering still applies).
-    """
+    
     counts: Counter[str] = Counter()
     for page in prepared_pages:
         for line in page.lines:
@@ -201,14 +201,14 @@ def is_strong_end_heading(line: str) -> bool:
 
 
 def update_hierarchy(hierarchy: Dict[str, Dict], heading: str) -> None:
-    """Maintain a parent -> children tree and set current path."""
+    Maintain a parent -> children tree and set current path.
     depth = heading.count(".") + (1 if re.match(r"^\d", heading) else 0)
     hierarchy.setdefault("_current", {})["heading"] = heading
     hierarchy["_current"]["depth"] = depth
 
 
 def get_context(hierarchy: Dict[str, Dict]) -> str:
-    """Return a readable breadcrumb like 'Chapter 1 → Physiology'."""
+    Return a readable breadcrumb like 'Chapter 1 → Physiology'.
     current = hierarchy.get("_current", {})
     return current.get("heading", "General Context")
 
@@ -228,11 +228,11 @@ _JOURNAL_METADATA_RE = re.compile(r"(doi\s*:?\s*\S+|issn|pii\s*:?\s*\S+)", re.IG
 
 
 def classify_front_page(page: str) -> str:
-    """Classify a page as front matter type or 'clinical' / 'unknown'.
+    Classify a page as front matter type or 'clinical' / 'unknown'.
 
     Returns one of: blank, toc, authors_membership, copyright,
     journal_metadata, title, clinical, front_matter, unknown.
-    """
+    
     text = page.strip()
     if not text:
         return "blank"
@@ -266,7 +266,7 @@ STRONG_CLINICAL_HEADINGS = {"methods", "results", "conclusion", "abstract"}
 def find_clinical_start_page(
     pages: List[str], max_scan_ratio: float = 0.35
 ) -> int:
-    """First page index that is clearly clinical content (or 0)."""
+    First page index that is clearly clinical content (or 0).
     max_scan = max(1, int(len(pages) * max_scan_ratio))
     for idx, page in enumerate(pages[:max_scan]):
         lower = page.lower()
@@ -283,14 +283,14 @@ def find_clinical_start_page(
 
 
 def detect_end_boundary(pages: List[str]) -> int:
-    """Page index of the first end section (References etc.), or len(pages)."""
+    Page index of the first end section (References etc.), or len(pages).
     for idx, page in enumerate(pages):
         for line in page.splitlines():
             if is_strong_end_heading(line):
                 return idx
     return len(pages)
 
-
+"""
 # ---------------------------------------------------------------------------
 # Page preparation (the main entry point)
 # ---------------------------------------------------------------------------
@@ -301,15 +301,15 @@ class PreparedPage:
     page_number: int
     lines: List[str]
 
-
+"""
 def prepare_pdf_pages(
     pages: List[str],
     cfg: Optional[PreprocessingConfig] = None,
 ) -> Tuple[List[PreparedPage], List[Tuple[int, str]]]:
-    """Strip artifacts, headers/footers, and front matter from raw pages.
+    Strip artifacts, headers/footers, and front matter from raw pages.
 
     Returns (prepared_pages, removed_pages_report).
-    """
+    
     cfg = cfg or PreprocessingConfig()
     removed: List[Tuple[int, str]] = []
     prepared: List[PreparedPage] = []
@@ -390,3 +390,23 @@ def prepare_pdf_pages(
         f"({len(removed)} removed)"
     )
     return prepared, removed
+"""
+
+
+def prepare_pdf_pages_from_docling(
+    docling_doc: "DoclingDocument",
+    cfg: PreprocessingConfig,
+) -> Tuple[List[PreparedPage], List[Tuple[int, str]]]:
+    """يمشي على عناصر Docling (headings/paragraphs/tables) بترتيب القراءة
+    الصح، ويبني PreparedPage لكل صفحة — بدون أي تخمين regex."""
+    prepared: Dict[int, List[str]] = {}
+    removed = []
+    for item, _level in docling_doc.iterate_items():
+        page_no = item.prov[0].page_no if item.prov else None
+        if page_no is None:
+            continue
+        if item.label in ("page_header", "page_footer", "footnote"):
+            continue  # Docling عرفهم بنفسه، مش محتاجين regex
+        prepared.setdefault(page_no, []).append(item.text)
+    pages = [PreparedPage(page_number=p, lines=lines) for p, lines in sorted(prepared.items())]
+    return pages, removed
