@@ -52,8 +52,8 @@ class ChromaConfig:
 
 @dataclass
 class ParsingConfig:
-    use_ocr: bool = True                 # للصفحات اللي هي صور (بيحل مشكلة الـ27 صفحة الناقصة)
-    table_mode: str = "accurate"         # أو "fast"
+    use_ocr: bool = True                 
+    table_mode: str = "accurate"       
     images_scale: float = 1.0
     do_table_structure: bool = True
 
