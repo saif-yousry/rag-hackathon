@@ -126,7 +126,7 @@ def mmr_search(
                 continue
             relevance = float(scores[cand])
             max_sim = max(float(matrix[cand] @ matrix[s]) for s in selected)
-            score = (1 - diversity) * relevance - diversity * max_sim  # يطابق التوثيق
+            score = (1 - diversity) * relevance - diversity * max_sim   
             if score > best_score:
                 best_idx, best_score = cand, score
         selected.append(best_idx)
@@ -375,7 +375,7 @@ def select_best_retriever(
                 mmr_fetch_k_cap=eval_cfg.mmr_fetch_k_cap,
                 mmr_diversity=eval_cfg.mmr_diversity,
             )
-            ret = Retriever(chunks_by_id, collection, cfg, embedder, reranker)   # ← اتغيرت هنا بس
+            ret = Retriever(chunks_by_id, collection, cfg, embedder, reranker)     
             relevance_scores, top_scores = [], []
             for item in test_queries:
                 results = ret.retrieve(item["question"], k, eval_cfg.rerank_k)
