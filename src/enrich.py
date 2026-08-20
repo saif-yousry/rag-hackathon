@@ -196,9 +196,9 @@ def enrich_and_build(
             char_count=len(text),
             word_count=len(text.split()),
             estimated_tokens=int(len(text.split()) * 1.3),
-            parser_type="docling",  # ← كان "complex" ثابتة
-            content_type="table" if is_table else "text",  # ← كان "text" ثابتة
-            table_atomic=is_table,  # ← كان False ثابتة
+            parser_type="docling",  
+            content_type="table" if is_table else "text",  
+            table_atomic=is_table,  
         )
         text = " ".join(text.split())
         chunks.append(
