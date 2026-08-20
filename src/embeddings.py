@@ -156,7 +156,6 @@ def load_index(cache_path: Path):
 import json as json_lib
 
 def _metadata_to_chroma(chunk: ProcessedChunk) -> dict:
-    """يحوّل ChunkMetadata لصيغة Chroma-compatible (scalars بس)."""
     m = chunk.metadata
     return {
         "source_file": m.source_file,
@@ -194,7 +193,6 @@ def build_chroma_index(
     chunk_ids = [c.chunk_id for c in chunks]
     texts = [c.original_text.strip() for c in chunks]
 
-    # --- المسار المهم: استيراد الـ embeddings القديمة من غير re-embed ---
     matrix = None
     if legacy_npz_cache and Path(legacy_npz_cache).exists():
         with np.load(legacy_npz_cache, allow_pickle=True) as data:
@@ -207,14 +205,13 @@ def build_chroma_index(
         embedder = embedder or build_embedder(cfg, role="index")
         matrix = embedder.encode(texts)
 
-    # يمسح أي نسخة قديمة من نفس الـ IDs قبل الإضافة (عشان upsert نضيف)
     existing = collection.get(ids=chunk_ids, include=[])["ids"]
     if existing:
         collection.delete(ids=existing)
 
     collection.add(
         ids=chunk_ids,
-        embeddings=matrix.tolist(),           # ← بيدّي الـ vectors جاهزة، Chroma ملهاش دعوة تحسبها
+        embeddings=matrix.tolist(),           
         documents=texts,
         metadatas=[_metadata_to_chroma(c) for c in chunks],
     )
