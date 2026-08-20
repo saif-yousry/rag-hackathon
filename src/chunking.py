@@ -163,70 +163,11 @@ class StructuralUnit:
     def pages(self) -> List[int]:
         return sorted({page for _, page in self.lines})
 
-"""
-def build_structural_units(prepared_pages: List[PreparedPage]) -> List[StructuralUnit]:
-    Group page lines into section-keyed units; skip TOC pages.
-    units: List[StructuralUnit] = []
-    hierarchy: Dict[str, Any] = {}
-    current_section = "General Context"
-    current_lines: List[Tuple[str, int]] = []
-    inside_toc = False
-
-    # NEW: first pass — find heading-like lines that recur too often to be
-    # real structural boundaries (e.g. a repeated in-text prompt).
-    recurring_headings = find_recurring_heading_texts(prepared_pages)
-
-    def flush() -> None:
-        nonlocal current_lines
-        if current_lines:
-            units.append(StructuralUnit(section=current_section, lines=list(current_lines)))
-        current_lines = []
-
-    for page in prepared_pages:
-        for line_idx, line in enumerate(page.lines):
-            prev_line = page.lines[line_idx - 1] if line_idx > 0 else ""
-            next_line = page.lines[line_idx + 1] if line_idx + 1 < len(page.lines) else ""
-
-            if is_toc_title(line):
-                flush()
-                inside_toc = True
-                continue
-            if inside_toc:
-                if is_toc_entry(line):
-                    continue
-                heading = detect_section(line, prev_line, next_line, recurring_headings)
-                if heading:
-                    inside_toc = False
-                    update_hierarchy(hierarchy, heading)
-                    current_section = get_context(hierarchy)
-                    continue
-                continue
-            if is_strong_end_heading(line):
-                flush()
-                continue
-            heading = detect_section(line, prev_line, next_line, recurring_headings)
-            if heading:
-                flush()
-                update_hierarchy(hierarchy, heading)
-                current_section = get_context(hierarchy)
-                continue
-            current_lines.append((line, page.page_number))
-    flush()
-    return units
-"""
 
 def build_structural_units_from_docling(
     docling_doc: "DoclingDocument",
 ) -> List[StructuralUnit]:
-    """يستخدم item.label == 'section_header' بدل ما يخمن، ويستخدم
-    item.prov[0].page_no كصفحة حقيقية لكل سطر.
-
-    جديد في الجولة 12:
-    - فلتر حطام (حقوق نشر / أكواد وثائق) داخل اللوب نفسه
-    - تجاوز العناصر اللي مالهوش attribute "text" (صور/رسومات)
-    - إعادة تسمية bullet markers لقسم "High-Yield Notes"
-    - إعادة تسمية العناوين العامة لقسم أبوي
-    """
+    
     units: List[StructuralUnit] = []
     current_section = "General Context"
     current_lines: List[Tuple[str, int]] = []
@@ -238,14 +179,12 @@ def build_structural_units_from_docling(
         current_lines = []
 
     def _get_text(item) -> Optional[str]:
-        # الصور والرسومات مالهوش text — تجاهلها
         if not hasattr(item, "text"):
             return None
         t = getattr(item, "text", None)
         if not isinstance(t, str) or not t.strip():
             return None
         t = t.strip()
-        # فلتر الحطام: سطر مكون من حقوق نشر / كود وثيقة
         if _is_garbage_text(t):
             return None
         return t
@@ -256,7 +195,6 @@ def build_structural_units_from_docling(
             continue
 
         if item.label == "section_header":
-            # العنوان نفسه ممكن يكون حطام (صفحة حقوق نشر) — تجاهل
             if hasattr(item, "text") and _is_garbage_text(item.text):
                 continue
             flush()
@@ -278,7 +216,6 @@ def build_structural_units_from_docling(
             continue
 
         if item.label == "picture":
-            # التقط caption لو موجود عشان ما نضيعش معلومات الشكل
             caption = getattr(item, "caption", None)
             if caption is not None:
                 try:
@@ -438,7 +375,7 @@ def _line_offsets(lines: List[Tuple[str, int]]) -> List[Tuple[int, int, int]]:
         start = pos
         end = start + len(line)
         spans.append((start, end, page))
-        pos = end + 1  # +1 for the newline joiner
+        pos = end + 1 
     return spans
 
 
@@ -537,7 +474,7 @@ def build_base_documents(
                 variant_docs: List[Document] = []
                 for doc in base_docs:
                     if doc.metadata.get("content_type") == "table":
-                        variant_docs.append(doc)  # ← الجدول ميتقسمش خالص
+                        variant_docs.append(doc)   
                         continue
                     pieces = split_large_chunk(doc.page_content, max_chars, overlap)
                     for piece in pieces:
