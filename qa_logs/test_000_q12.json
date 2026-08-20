@@ -1,0 +1,920 @@
+{
+  "events": [],
+  "question": "What is cardiovascular-kidney-metabolic syndrome?",
+  "sub_queries": [
+    "What is cardiovascular-kidney-metabolic syndrome?",
+    "cardiovascular kidney metabolic syndrome definition",
+    "pathophysiology of cardiovascular kidney metabolic syndrome",
+    "cardiovascular-renal-metabolic syndrome mechanisms and risk factors",
+    "treatment and management of cardiovascular kidney metabolic syndrome"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is cardiovascular-kidney-metabolic syndrome?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:403",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 1.0,
+          "dense": 0.6328
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Abdominal aortic aneurysm:221",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            135
+          ],
+          "rerank": 0.9132,
+          "dense": 0.6302
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.8022,
+          "dense": 0.5501
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:206",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            127
+          ],
+          "rerank": 0.7757,
+          "dense": 0.4842
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fibromuscular dysplasia:197",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            121,
+            122
+          ],
+          "rerank": 0.6378,
+          "dense": 0.679
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:437",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.5677,
+          "dense": 0.5468
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:44",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30
+          ],
+          "rerank": 0.5485,
+          "dense": 0.5372
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:stenosis:194",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.543,
+          "dense": 0.6211
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:451",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.4122,
+          "dense": 0.652
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:Causes of Heart Failure:604",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            5
+          ],
+          "rerank": 0.361,
+          "dense": 0.6227
+        }
+      ]
+    },
+    {
+      "query": "cardiovascular kidney metabolic syndrome definition",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "living-with-hf-guide.pdf:UNDERSTANDING YOUR RISK FACTORS:607",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            5
+          ],
+          "rerank": 0.1095,
+          "dense": 0.7109
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:403",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.0591,
+          "dense": 0.613
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:488",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0566,
+          "dense": 0.5197
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:291",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            173,
+            174
+          ],
+          "rerank": 0.0481,
+          "dense": 0.5461
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.0459,
+          "dense": 0.5366
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stable angina::226",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            137,
+            138
+          ],
+          "rerank": 0.0411,
+          "dense": 0.5238
+        },
+        {
+          "rank": 7,
+          "chunk_id": "heart disease.pdf:Cardiovascular disease ::508",
+          "source": "heart disease.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.029,
+          "dense": 0.6306
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:206",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            127
+          ],
+          "rerank": 0.0242,
+          "dense": 0.4952
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:258",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            155
+          ],
+          "rerank": 0.0226,
+          "dense": 0.6034
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Secondary hypertension::193",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.0159,
+          "dense": 0.646
+        }
+      ]
+    },
+    {
+      "query": "pathophysiology of cardiovascular kidney metabolic syndrome",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:stenosis:194",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.3475,
+          "dense": 0.6868
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Natriuretic peptides:118",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            78
+          ],
+          "rerank": 0.3176,
+          "dense": 0.6461
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:267",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            159
+          ],
+          "rerank": 0.2922,
+          "dense": 0.6667
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:370",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.2244,
+          "dense": 0.631
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Reported CVDs in Women Compared to Men:448",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.1707,
+          "dense": 0.6154
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.1132,
+          "dense": 0.5925
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Arteriolosclerosis::207",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            127,
+            128
+          ],
+          "rerank": 0.0927,
+          "dense": 0.6346
+        },
+        {
+          "rank": 8,
+          "chunk_id": "living-with-hf-guide.pdf:UNDERSTANDING YOUR RISK FACTORS:607",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            5
+          ],
+          "rerank": 0.0741,
+          "dense": 0.699
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stable angina::226",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            137,
+            138
+          ],
+          "rerank": 0.069,
+          "dense": 0.533
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:116",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            77
+          ],
+          "rerank": 0.0645,
+          "dense": 0.6266
+        }
+      ]
+    },
+    {
+      "query": "cardiovascular-renal-metabolic syndrome mechanisms and risk factors",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:405",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.9986,
+          "dense": 0.6554
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:Reported CVDs in Women Compared to Men:448",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.96,
+          "dense": 0.6738
+        },
+        {
+          "rank": 3,
+          "chunk_id": "living-with-hf-guide.pdf:UNDERSTANDING YOUR RISK FACTORS:607",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            5
+          ],
+          "rerank": 0.9257,
+          "dense": 0.7453
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:Abstract:401",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.8213,
+          "dense": 0.5939
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:CV Risk Factors in Women Compared to Men:449",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.7869,
+          "dense": 0.6861
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Aortic dissection:211",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            130
+          ],
+          "rerank": 0.7347,
+          "dense": 0.6008
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Primary HTN::192",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.4683,
+          "dense": 0.7092
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:stenosis:194",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.3762,
+          "dense": 0.6554
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.2628,
+          "dense": 0.6273
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:450",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.2457,
+          "dense": 0.7715
+        }
+      ]
+    },
+    {
+      "query": "treatment and management of cardiovascular kidney metabolic syndrome",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:466",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8,
+            9
+          ],
+          "rerank": 0.7594,
+          "dense": 0.5499
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:355",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.6614,
+          "dense": 0.6375
+        },
+        {
+          "rank": 3,
+          "chunk_id": "heart disease.pdf:Prevention ::514",
+          "source": "heart disease.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.4106,
+          "dense": 0.6615
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:stenosis:194",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.3306,
+          "dense": 0.6361
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Data Analysis:438",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.2819,
+          "dense": 0.6189
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:503",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            14
+          ],
+          "rerank": 0.2628,
+          "dense": 0.5921
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.159,
+          "dense": 0.6306
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.1466,
+          "dense": 0.5875
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Hypertensive emergency:325",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            196
+          ],
+          "rerank": 0.1411,
+          "dense": 0.6391
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:262",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.1368,
+          "dense": 0.6223
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:403",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 1.0,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Abdominal aortic aneurysm:221",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        135
+      ],
+      "max_rerank": 0.9132,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        192
+      ],
+      "max_rerank": 0.8022,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:206",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        127
+      ],
+      "max_rerank": 0.7757,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fibromuscular dysplasia:197",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        121,
+        122
+      ],
+      "max_rerank": 0.6378,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:437",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.5677,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:44",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        30
+      ],
+      "max_rerank": 0.5485,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:stenosis:194",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        119
+      ],
+      "max_rerank": 0.543,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:451",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.4122,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Causes of Heart Failure:604",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        5
+      ],
+      "max_rerank": 0.361,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:UNDERSTANDING YOUR RISK FACTORS:607",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        5
+      ],
+      "max_rerank": 0.9257,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:488",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.0566,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:291",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        173,
+        174
+      ],
+      "max_rerank": 0.0481,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stable angina::226",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        137,
+        138
+      ],
+      "max_rerank": 0.069,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "heart disease.pdf:Cardiovascular disease ::508",
+      "source": "heart disease.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 0.029,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:258",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        155
+      ],
+      "max_rerank": 0.0226,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Secondary hypertension::193",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        119
+      ],
+      "max_rerank": 0.0159,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Natriuretic peptides:118",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        78
+      ],
+      "max_rerank": 0.3176,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:267",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        159
+      ],
+      "max_rerank": 0.2922,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:370",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        216
+      ],
+      "max_rerank": 0.2244,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Reported CVDs in Women Compared to Men:448",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        7
+      ],
+      "max_rerank": 0.96,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Arteriolosclerosis::207",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        127,
+        128
+      ],
+      "max_rerank": 0.0927,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:116",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        77
+      ],
+      "max_rerank": 0.0645,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:405",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 0.9986,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Abstract:401",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 0.8213,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:CV Risk Factors in Women Compared to Men:449",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        7
+      ],
+      "max_rerank": 0.7869,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Aortic dissection:211",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        130
+      ],
+      "max_rerank": 0.7347,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Primary HTN::192",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        119
+      ],
+      "max_rerank": 0.4683,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:450",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.2457,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:466",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8,
+        9
+      ],
+      "max_rerank": 0.7594,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:355",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        209
+      ],
+      "max_rerank": 0.6614,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "heart disease.pdf:Prevention ::514",
+      "source": "heart disease.pdf",
+      "pages": [
+        4
+      ],
+      "max_rerank": 0.4106,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Data Analysis:438",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.2819,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:503",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        14
+      ],
+      "max_rerank": 0.2628,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        216
+      ],
+      "max_rerank": 0.159,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Hypertensive emergency:325",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        196
+      ],
+      "max_rerank": 0.1411,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:262",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        157
+      ],
+      "max_rerank": 0.1368,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "reason": "escape hatch"
+  },
+  "top_context": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:403",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:405",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Reported CVDs in Women Compared to Men:448",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        7
+      ]
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:UNDERSTANDING YOUR RISK FACTORS:607",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        5
+      ]
+    }
+  ],
+  "raw_answer": "I don't have enough information in the provided context to answer this question.",
+  "expected": "answered"
+}

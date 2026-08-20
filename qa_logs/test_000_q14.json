@@ -1,0 +1,814 @@
+{
+  "events": [],
+  "question": "What is the difference between warfarin and NOACs such as rivaroxaban?",
+  "sub_queries": [
+    "What is the difference between warfarin and NOACs such as rivaroxaban?",
+    "warfarin versus rivaroxaban mechanism of action comparison",
+    "differences between warfarin and NOACs pharmacology and monitoring requirements",
+    "warfarin vs NOACs clinical efficacy and safety profile comparison",
+    "treatment guidelines and management differences for warfarin and rivaroxaban"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is the difference between warfarin and NOACs such as rivaroxaban?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:548",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.8844,
+          "dense": 0.6912
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:553",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13
+          ],
+          "rerank": 0.5314,
+          "dense": 0.7664
+        },
+        {
+          "rank": 3,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:555",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13,
+            14
+          ],
+          "rerank": 0.482,
+          "dense": 0.6659
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:554",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13
+          ],
+          "rerank": 0.1768,
+          "dense": 0.6643
+        },
+        {
+          "rank": 5,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Anticoagulant medicines:546",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.1373,
+          "dense": 0.6187
+        },
+        {
+          "rank": 6,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:549",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.1109,
+          "dense": 0.67
+        },
+        {
+          "rank": 7,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:550",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11,
+            12
+          ],
+          "rerank": 0.0295,
+          "dense": 0.6245
+        },
+        {
+          "rank": 8,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:552",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            12
+          ],
+          "rerank": 0.0176,
+          "dense": 0.63
+        },
+        {
+          "rank": 9,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Medicines that reduce triglyceride levels (fish oils):573",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.0105,
+          "dense": 0.5399
+        },
+        {
+          "rank": 10,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Anticoagulant medicines:547",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0047,
+          "dense": 0.6079
+        }
+      ]
+    },
+    {
+      "query": "warfarin versus rivaroxaban mechanism of action comparison",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:555",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13,
+            14
+          ],
+          "rerank": 0.2418,
+          "dense": 0.7098
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Digoxin:341",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            203,
+            204
+          ],
+          "rerank": 0.1226,
+          "dense": 0.6299
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219,
+            220
+          ],
+          "rerank": 0.0951,
+          "dense": 0.6209
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223,
+            224
+          ],
+          "rerank": 0.0893,
+          "dense": 0.6172
+        },
+        {
+          "rank": 5,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:548",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0828,
+          "dense": 0.7179
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Antianginal Drugs:334",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            199
+          ],
+          "rerank": 0.0762,
+          "dense": 0.6095
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Adenosine::390",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            226
+          ],
+          "rerank": 0.075,
+          "dense": 0.6177
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            214
+          ],
+          "rerank": 0.066,
+          "dense": 0.5823
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):388",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.0653,
+          "dense": 0.6458
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Procainamide::374",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            218
+          ],
+          "rerank": 0.0629,
+          "dense": 0.6428
+        }
+      ]
+    },
+    {
+      "query": "differences between warfarin and NOACs pharmacology and monitoring requirements",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:553",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13
+          ],
+          "rerank": 0.3546,
+          "dense": 0.7499
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:548",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.2673,
+          "dense": 0.6767
+        },
+        {
+          "rank": 3,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Anticoagulant medicines:546",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0375,
+          "dense": 0.5963
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:549",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0319,
+          "dense": 0.7103
+        },
+        {
+          "rank": 5,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:554",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13
+          ],
+          "rerank": 0.0303,
+          "dense": 0.67
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:486",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0128,
+          "dense": 0.618
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:468",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0119,
+          "dense": 0.6186
+        },
+        {
+          "rank": 8,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:550",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11,
+            12
+          ],
+          "rerank": 0.0105,
+          "dense": 0.6772
+        },
+        {
+          "rank": 9,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:22 tIm's stoRy:544",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0084,
+          "dense": 0.6082
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:469",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0079,
+          "dense": 0.617
+        }
+      ]
+    },
+    {
+      "query": "warfarin vs NOACs clinical efficacy and safety profile comparison",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:553",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13
+          ],
+          "rerank": 0.2466,
+          "dense": 0.7588
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:548",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.1294,
+          "dense": 0.6806
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.0606,
+          "dense": 0.5591
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:554",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13
+          ],
+          "rerank": 0.016,
+          "dense": 0.6481
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:364",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            214
+          ],
+          "rerank": 0.0133,
+          "dense": 0.5694
+        },
+        {
+          "rank": 6,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Anticoagulant medicines:546",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0121,
+          "dense": 0.5958
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:486",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.007,
+          "dense": 0.6107
+        },
+        {
+          "rank": 8,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:549",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0055,
+          "dense": 0.6504
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Discussion:483",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0042,
+          "dense": 0.5717
+        },
+        {
+          "rank": 10,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:552",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            12
+          ],
+          "rerank": 0.0041,
+          "dense": 0.6186
+        }
+      ]
+    },
+    {
+      "query": "treatment guidelines and management differences for warfarin and rivaroxaban",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:555",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13,
+            14
+          ],
+          "rerank": 0.2881,
+          "dense": 0.6872
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:548",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.255,
+          "dense": 0.7081
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.1717,
+          "dense": 0.5976
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:549",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.1184,
+          "dense": 0.7131
+        },
+        {
+          "rank": 5,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:552",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            12
+          ],
+          "rerank": 0.057,
+          "dense": 0.6634
+        },
+        {
+          "rank": 6,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:553",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13
+          ],
+          "rerank": 0.049,
+          "dense": 0.6998
+        },
+        {
+          "rank": 7,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:550",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11,
+            12
+          ],
+          "rerank": 0.0445,
+          "dense": 0.6522
+        },
+        {
+          "rank": 8,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Anticoagulant medicines:547",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0296,
+          "dense": 0.6518
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:502",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            14
+          ],
+          "rerank": 0.028,
+          "dense": 0.6742
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.0252,
+          "dense": 0.6291
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:548",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.8844,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:553",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        13
+      ],
+      "max_rerank": 0.5314,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:555",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        13,
+        14
+      ],
+      "max_rerank": 0.482,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:554",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        13
+      ],
+      "max_rerank": 0.1768,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Anticoagulant medicines:546",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.1373,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:549",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.1184,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:550",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        11,
+        12
+      ],
+      "max_rerank": 0.0445,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:552",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        12
+      ],
+      "max_rerank": 0.057,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Medicines that reduce triglyceride levels (fish oils):573",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        23
+      ],
+      "max_rerank": 0.0105,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Anticoagulant medicines:547",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.0296,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Digoxin:341",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        203,
+        204
+      ],
+      "max_rerank": 0.1226,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219,
+        220
+      ],
+      "max_rerank": 0.0951,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        223,
+        224
+      ],
+      "max_rerank": 0.0893,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Antianginal Drugs:334",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        199
+      ],
+      "max_rerank": 0.0762,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Adenosine::390",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        226
+      ],
+      "max_rerank": 0.075,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        214
+      ],
+      "max_rerank": 0.066,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):388",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        225
+      ],
+      "max_rerank": 0.0653,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Procainamide::374",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        218
+      ],
+      "max_rerank": 0.0629,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:486",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.0128,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:468",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0119,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:22 tIm's stoRy:544",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0084,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:469",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0079,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        225
+      ],
+      "max_rerank": 0.1717,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:364",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        214
+      ],
+      "max_rerank": 0.0133,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Discussion:483",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0042,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:502",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        14
+      ],
+      "max_rerank": 0.028,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9,
+        10
+      ],
+      "max_rerank": 0.0252,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "reason": "escape hatch"
+  },
+  "top_context": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:548",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        11
+      ]
+    }
+  ],
+  "raw_answer": "I don't have enough information in the provided context to answer this question.",
+  "expected": "answered"
+}

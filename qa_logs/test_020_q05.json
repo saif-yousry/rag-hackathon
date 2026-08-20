@@ -1,0 +1,726 @@
+{
+  "events": [],
+  "question": "What is tetralogy of Fallot and what are its four components?",
+  "sub_queries": [
+    "What is tetralogy of Fallot and what are its four components?",
+    "Tetralogy of Fallot definition and its four components",
+    "Tetralogy of Fallot four cardiac anomalies description",
+    "Tetralogy of Fallot pathophysiology and associated defects",
+    "Tetralogy of Fallot congenital heart disease overview and components"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is tetralogy of Fallot and what are its four components?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::175",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            110
+          ],
+          "rerank": 0.9973,
+          "dense": 0.7753
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:177",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            112
+          ],
+          "rerank": 0.9959,
+          "dense": 0.7471
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::176",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            111
+          ],
+          "rerank": 0.9399,
+          "dense": 0.6874
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            118
+          ],
+          "rerank": 0.882,
+          "dense": 0.6423
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Right to left shunts:170",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            108
+          ],
+          "rerank": 0.8718,
+          "dense": 0.6653
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:16",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.6082,
+          "dense": 0.5432
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Septation of Ventricles:7",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            6,
+            7
+          ],
+          "rerank": 0.6029,
+          "dense": 0.6331
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Second Heart Sound (S2)::71",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            50
+          ],
+          "rerank": 0.3539,
+          "dense": 0.5739
+        },
+        {
+          "rank": 9,
+          "chunk_id": "book14-cardiovascular.pdf:Psychological Disturbances:532",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            48,
+            49
+          ],
+          "rerank": 0.0351,
+          "dense": 0.4573
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Heart embryology:9",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.0293,
+          "dense": 0.6636
+        }
+      ]
+    },
+    {
+      "query": "Tetralogy of Fallot definition and its four components",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::175",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            110
+          ],
+          "rerank": 0.9739,
+          "dense": 0.789
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:177",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            112
+          ],
+          "rerank": 0.9147,
+          "dense": 0.7623
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Septation of Ventricles:7",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            6,
+            7
+          ],
+          "rerank": 0.5458,
+          "dense": 0.6547
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:16",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.5393,
+          "dense": 0.5652
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            118
+          ],
+          "rerank": 0.453,
+          "dense": 0.6732
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::176",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            111
+          ],
+          "rerank": 0.4253,
+          "dense": 0.7148
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Right to left shunts:170",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            108
+          ],
+          "rerank": 0.3535,
+          "dense": 0.6894
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Second Heart Sound (S2)::71",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            50
+          ],
+          "rerank": 0.341,
+          "dense": 0.594
+        },
+        {
+          "rank": 9,
+          "chunk_id": "book14-cardiovascular.pdf:Psychological Disturbances:532",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            48,
+            49
+          ],
+          "rerank": 0.1285,
+          "dense": 0.4856
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Heart embryology:9",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.0903,
+          "dense": 0.6777
+        }
+      ]
+    },
+    {
+      "query": "Tetralogy of Fallot four cardiac anomalies description",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::175",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            110
+          ],
+          "rerank": 0.998,
+          "dense": 0.7659
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            118
+          ],
+          "rerank": 0.8718,
+          "dense": 0.6889
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Septation of Ventricles:7",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            6,
+            7
+          ],
+          "rerank": 0.8153,
+          "dense": 0.669
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::176",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            111
+          ],
+          "rerank": 0.7475,
+          "dense": 0.6617
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:177",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            112
+          ],
+          "rerank": 0.5801,
+          "dense": 0.7084
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Tricuspid atresia::174",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            110
+          ],
+          "rerank": 0.4198,
+          "dense": 0.6382
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Study Characteristics:781",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6,
+            7
+          ],
+          "rerank": 0.3935,
+          "dense": 0.5626
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Right to left shunts:170",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            108
+          ],
+          "rerank": 0.3152,
+          "dense": 0.681
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:16",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.2667,
+          "dense": 0.524
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Heart embryology:9",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.1703,
+          "dense": 0.6599
+        }
+      ]
+    },
+    {
+      "query": "Tetralogy of Fallot pathophysiology and associated defects",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::175",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            110
+          ],
+          "rerank": 0.9956,
+          "dense": 0.7785
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:177",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            112
+          ],
+          "rerank": 0.972,
+          "dense": 0.7709
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            118
+          ],
+          "rerank": 0.9418,
+          "dense": 0.7482
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Septation of Ventricles:7",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            6,
+            7
+          ],
+          "rerank": 0.8805,
+          "dense": 0.7253
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::176",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            111
+          ],
+          "rerank": 0.8634,
+          "dense": 0.7142
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:16",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.4926,
+          "dense": 0.598
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Tricuspid atresia::174",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            110
+          ],
+          "rerank": 0.4443,
+          "dense": 0.6528
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Right to left shunts:170",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            108
+          ],
+          "rerank": 0.318,
+          "dense": 0.6487
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:112",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            76
+          ],
+          "rerank": 0.1281,
+          "dense": 0.5982
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Cardiac murmurs* *:107",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            74
+          ],
+          "rerank": 0.0947,
+          "dense": 0.6494
+        }
+      ]
+    },
+    {
+      "query": "Tetralogy of Fallot congenital heart disease overview and components",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:177",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            112
+          ],
+          "rerank": 0.9616,
+          "dense": 0.774
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::175",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            110
+          ],
+          "rerank": 0.907,
+          "dense": 0.7832
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:16",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.8391,
+          "dense": 0.5754
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::176",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            111
+          ],
+          "rerank": 0.797,
+          "dense": 0.7011
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            118
+          ],
+          "rerank": 0.7149,
+          "dense": 0.7251
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Second Heart Sound (S2)::71",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            50
+          ],
+          "rerank": 0.7148,
+          "dense": 0.5915
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Heart embryology:9",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.6964,
+          "dense": 0.6834
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Tricuspid atresia::174",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            110
+          ],
+          "rerank": 0.6892,
+          "dense": 0.6572
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. D-transposition of great vessels::173",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            109
+          ],
+          "rerank": 0.6881,
+          "dense": 0.6508
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Septation of Ventricles:7",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            6,
+            7
+          ],
+          "rerank": 0.5847,
+          "dense": 0.6942
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::175",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        110
+      ],
+      "max_rerank": 0.998,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:177",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        112
+      ],
+      "max_rerank": 0.9959,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::176",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        111
+      ],
+      "max_rerank": 0.9399,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        118
+      ],
+      "max_rerank": 0.9418,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Right to left shunts:170",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        108
+      ],
+      "max_rerank": 0.8718,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:16",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.8391,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Septation of Ventricles:7",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        6,
+        7
+      ],
+      "max_rerank": 0.8805,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Second Heart Sound (S2)::71",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        50
+      ],
+      "max_rerank": 0.7148,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Psychological Disturbances:532",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        48,
+        49
+      ],
+      "max_rerank": 0.1285,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Heart embryology:9",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        7
+      ],
+      "max_rerank": 0.6964,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Tricuspid atresia::174",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        110
+      ],
+      "max_rerank": 0.6892,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Study Characteristics:781",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6,
+        7
+      ],
+      "max_rerank": 0.3935,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:112",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        76
+      ],
+      "max_rerank": 0.1281,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Cardiac murmurs* *:107",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        74
+      ],
+      "max_rerank": 0.0947,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. D-transposition of great vessels::173",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        109
+      ],
+      "max_rerank": 0.6881,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "generated",
+    "best_score": 0.9980323910713196
+  },
+  "top_context": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::175",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        110
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:177",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        112
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        118
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:4. Tetralogy of Fallot::176",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        111
+      ]
+    }
+  ],
+  "raw_answer": "C1| Tetralogy of Fallot is the most common cyanotic heart defect in children and is characterized by four anomalies: pulmonary stenosis, right ventricular hypertrophy, ventricular septal defect, and overriding aorta. |Passage 1|\n\nSpeak to your doctor or pharmacist about your specific situation.",
+  "overall": {
+    "score": 0.9980323910713196,
+    "level": "Strongly Supported"
+  },
+  "expected": "answered"
+}

@@ -1,0 +1,365 @@
+{
+  "events": [],
+  "question": "Give me a detailed recipe for Egyptian koshary with exact cooking temperatures.",
+  "sub_queries": [
+    "Give me a detailed recipe for Egyptian koshary with exact cooking temperatures.",
+    "give detailed recipe egyptian koshary exact"
+  ],
+  "sub_query_results": [
+    {
+      "query": "Give me a detailed recipe for Egyptian koshary with exact cooking temperatures.",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "living-with-hf-guide.pdf:HEALTHY COOKING TIPS:631",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0006,
+          "dense": 0.5607
+        },
+        {
+          "rank": 2,
+          "chunk_id": "living-with-hf-guide.pdf:WHEN EATING AWAY FROM HOME:632",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0003,
+          "dense": 0.5674
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:461",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0003,
+          "dense": 0.5248
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::396",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0003,
+          "dense": 0.5043
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::395",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5079
+        },
+        {
+          "rank": 6,
+          "chunk_id": "living-with-hf-guide.pdf:Limiting Saturated and Trans Fats and Added Sugars:628",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5062
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::394",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5159
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:452",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5078
+        },
+        {
+          "rank": 9,
+          "chunk_id": "living-with-hf-guide.pdf:TIPS FOR REDUCING SODIUM AT HOME:625",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0,
+          "dense": 0.5744
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:THE IMPORTANCE OF POTASSIUM:630",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0,
+          "dense": 0.5295
+        }
+      ]
+    },
+    {
+      "query": "give detailed recipe egyptian koshary exact",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::396",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0002,
+          "dense": 0.5488
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:Author Contributions:497",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            13
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5257
+        },
+        {
+          "rank": 3,
+          "chunk_id": "living-with-hf-guide.pdf:WHEN EATING AWAY FROM HOME:632",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5619
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::395",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5713
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Gender Bias in Diagnosis, Prevention, and Treatment of Cardiovascular Diseases: A Systematic Review:399",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.0,
+          "dense": 0.5178
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::394",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0,
+          "dense": 0.5827
+        },
+        {
+          "rank": 7,
+          "chunk_id": "living-with-hf-guide.pdf:HEALTHY COOKING TIPS:631",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0,
+          "dense": 0.5274
+        },
+        {
+          "rank": 8,
+          "chunk_id": "living-with-hf-guide.pdf:Identifying Your Activity Goals:685",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            25
+          ],
+          "rerank": 0.0,
+          "dense": 0.3745
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:504",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            14,
+            15
+          ],
+          "rerank": 0.0,
+          "dense": 0.4276
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:STAYING CONNECTED WITH FRIENDS AND FAMILY:682",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            24
+          ],
+          "rerank": 0.0,
+          "dense": 0.3936
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "living-with-hf-guide.pdf:HEALTHY COOKING TIPS:631",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0006,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:WHEN EATING AWAY FROM HOME:632",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0003,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:461",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0003,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::396",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        229
+      ],
+      "max_rerank": 0.0003,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::395",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        229
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Limiting Saturated and Trans Fats and Added Sugars:628",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::394",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        229
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:452",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:TIPS FOR REDUCING SODIUM AT HOME:625",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:THE IMPORTANCE OF POTASSIUM:630",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Author Contributions:497",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        13
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Gender Bias in Diagnosis, Prevention, and Treatment of Cardiovascular Diseases: A Systematic Review:399",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Identifying Your Activity Goals:685",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        25
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:504",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        14,
+        15
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:STAYING CONNECTED WITH FRIENDS AND FAMILY:682",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        24
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "best_score": 0.0006218104972504079,
+    "reason": "best retrieval score below 0.77"
+  },
+  "expected": "refused"
+}

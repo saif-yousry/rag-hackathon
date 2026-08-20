@@ -1,0 +1,858 @@
+{
+  "events": [],
+  "question": "What are the side effects of amiodarone?",
+  "sub_queries": [
+    "What are the side effects of amiodarone?",
+    "amiodarone side effects",
+    "amiodarone adverse reactions and toxicity",
+    "amiodarone drug safety profile complications",
+    "amiodarone"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What are the side effects of amiodarone?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:899",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 1.0,
+          "dense": 0.7184
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.9999,
+          "dense": 0.6447
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:331",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197,
+            198
+          ],
+          "rerank": 0.9992,
+          "dense": 0.4986
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:925",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            29
+          ],
+          "rerank": 0.9986,
+          "dense": 0.6311
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            105,
+            106
+          ],
+          "rerank": 0.9983,
+          "dense": 0.6454
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            214
+          ],
+          "rerank": 0.9969,
+          "dense": 0.5927
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.9965,
+          "dense": 0.7011
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:339",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201,
+            202
+          ],
+          "rerank": 0.9948,
+          "dense": 0.634
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.9888,
+          "dense": 0.6468
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:368",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.987,
+          "dense": 0.5947
+        }
+      ]
+    },
+    {
+      "query": "amiodarone side effects",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223,
+            224
+          ],
+          "rerank": 0.9983,
+          "dense": 0.7857
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Dronedarone:878",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.9715,
+          "dense": 0.7037
+        },
+        {
+          "rank": 3,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Amiodarone:877",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.9501,
+          "dense": 0.7718
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Lidocaine::376",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219
+          ],
+          "rerank": 0.8953,
+          "dense": 0.6512
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            105,
+            106
+          ],
+          "rerank": 0.7285,
+          "dense": 0.6594
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:343",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            204
+          ],
+          "rerank": 0.6842,
+          "dense": 0.6913
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.5578,
+          "dense": 0.6947
+        },
+        {
+          "rank": 8,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:899",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.554,
+          "dense": 0.6901
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:368",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.5467,
+          "dense": 0.572
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219,
+            220
+          ],
+          "rerank": 0.4543,
+          "dense": 0.6306
+        }
+      ]
+    },
+    {
+      "query": "amiodarone adverse reactions and toxicity",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:343",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            204
+          ],
+          "rerank": 0.837,
+          "dense": 0.7226
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223,
+            224
+          ],
+          "rerank": 0.6429,
+          "dense": 0.7874
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Lidocaine::376",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219
+          ],
+          "rerank": 0.5238,
+          "dense": 0.6745
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Amiodarone:877",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.4241,
+          "dense": 0.7648
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            105,
+            106
+          ],
+          "rerank": 0.3005,
+          "dense": 0.662
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:622",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            74,
+            75
+          ],
+          "rerank": 0.2534,
+          "dense": 0.6508
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219,
+            220
+          ],
+          "rerank": 0.2346,
+          "dense": 0.6534
+        },
+        {
+          "rank": 8,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Dronedarone:878",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.2167,
+          "dense": 0.6835
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.1741,
+          "dense": 0.6445
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.1292,
+          "dense": 0.6552
+        }
+      ]
+    },
+    {
+      "query": "amiodarone drug safety profile complications",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "book14-cardiovascular.pdf:CONCLUDING REMARKS:729",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            115,
+            116
+          ],
+          "rerank": 0.6203,
+          "dense": 0.703
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:343",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            204
+          ],
+          "rerank": 0.6046,
+          "dense": 0.7148
+        },
+        {
+          "rank": 3,
+          "chunk_id": "book14-cardiovascular.pdf:CONCLUDING REMARKS:728",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            115,
+            116
+          ],
+          "rerank": 0.5938,
+          "dense": 0.6766
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:626",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            76
+          ],
+          "rerank": 0.5769,
+          "dense": 0.677
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:576",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            62,
+            63
+          ],
+          "rerank": 0.5403,
+          "dense": 0.6684
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:575",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            62,
+            63
+          ],
+          "rerank": 0.4396,
+          "dense": 0.6711
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223,
+            224
+          ],
+          "rerank": 0.3625,
+          "dense": 0.7352
+        },
+        {
+          "rank": 8,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:622",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            74,
+            75
+          ],
+          "rerank": 0.2438,
+          "dense": 0.6641
+        },
+        {
+          "rank": 9,
+          "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            105,
+            106
+          ],
+          "rerank": 0.1663,
+          "dense": 0.6864
+        },
+        {
+          "rank": 10,
+          "chunk_id": "book14-cardiovascular.pdf:Head-up Tilt Test:504",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            39
+          ],
+          "rerank": 0.1586,
+          "dense": 0.5994
+        }
+      ]
+    },
+    {
+      "query": "amiodarone",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Amiodarone:877",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.9942,
+          "dense": 0.7585
+        },
+        {
+          "rank": 2,
+          "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            105,
+            106
+          ],
+          "rerank": 0.982,
+          "dense": 0.7178
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223,
+            224
+          ],
+          "rerank": 0.9382,
+          "dense": 0.7423
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Dronedarone:878",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.8451,
+          "dense": 0.6875
+        },
+        {
+          "rank": 5,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Antiarrhythmic medicines:876",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.8145,
+          "dense": 0.699
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Potassium channel blockers (class III):384",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223
+          ],
+          "rerank": 0.6428,
+          "dense": 0.6885
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Lidocaine::376",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219
+          ],
+          "rerank": 0.5616,
+          "dense": 0.6455
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:343",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            204
+          ],
+          "rerank": 0.5258,
+          "dense": 0.6206
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::393",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            227
+          ],
+          "rerank": 0.3036,
+          "dense": 0.6325
+        },
+        {
+          "rank": 10,
+          "chunk_id": "book14-cardiovascular.pdf:Several Changes:705",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            104
+          ],
+          "rerank": 0.135,
+          "dense": 0.6033
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:899",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        19
+      ],
+      "max_rerank": 1.0,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        192
+      ],
+      "max_rerank": 0.9999,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:331",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        197,
+        198
+      ],
+      "max_rerank": 0.9992,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:925",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        29
+      ],
+      "max_rerank": 0.9986,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        105,
+        106
+      ],
+      "max_rerank": 0.9983,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        214
+      ],
+      "max_rerank": 0.9969,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        225
+      ],
+      "max_rerank": 0.9965,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:339",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        201,
+        202
+      ],
+      "max_rerank": 0.9948,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        222
+      ],
+      "max_rerank": 0.9888,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:368",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        216
+      ],
+      "max_rerank": 0.987,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        223,
+        224
+      ],
+      "max_rerank": 0.9983,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Dronedarone:878",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.9715,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Amiodarone:877",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.9942,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Lidocaine::376",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219
+      ],
+      "max_rerank": 0.8953,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:343",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        204
+      ],
+      "max_rerank": 0.837,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219,
+        220
+      ],
+      "max_rerank": 0.4543,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:622",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        74,
+        75
+      ],
+      "max_rerank": 0.2534,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        216
+      ],
+      "max_rerank": 0.1292,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:CONCLUDING REMARKS:729",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        115,
+        116
+      ],
+      "max_rerank": 0.6203,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:CONCLUDING REMARKS:728",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        115,
+        116
+      ],
+      "max_rerank": 0.5938,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:626",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        76
+      ],
+      "max_rerank": 0.5769,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:576",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        62,
+        63
+      ],
+      "max_rerank": 0.5403,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:575",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        62,
+        63
+      ],
+      "max_rerank": 0.4396,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Head-up Tilt Test:504",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        39
+      ],
+      "max_rerank": 0.1586,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Antiarrhythmic medicines:876",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.8145,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Potassium channel blockers (class III):384",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        223
+      ],
+      "max_rerank": 0.6428,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::393",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        227
+      ],
+      "max_rerank": 0.3036,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Several Changes:705",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        104
+      ],
+      "max_rerank": 0.135,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "reason": "escape hatch"
+  },
+  "top_context": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:899",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        19
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        192
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:331",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        197,
+        198
+      ]
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:925",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        29
+      ]
+    }
+  ],
+  "raw_answer": "I don't have enough information in the provided context to answer this question.",
+  "expected": "answered"
+}

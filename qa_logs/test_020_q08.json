@@ -1,0 +1,356 @@
+{
+  "events": [],
+  "question": "What is the difference between prasugrel and ticagrelor?",
+  "sub_queries": [
+    "What is the difference between prasugrel and ticagrelor?",
+    "difference between prasugrel ticagrelor"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is the difference between prasugrel and ticagrelor?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:896",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.834,
+          "dense": 0.7345
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:897",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            18
+          ],
+          "rerank": 0.4192,
+          "dense": 0.6781
+        },
+        {
+          "rank": 3,
+          "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:669",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            93
+          ],
+          "rerank": 0.0487,
+          "dense": 0.4865
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:451",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            21
+          ],
+          "rerank": 0.0232,
+          "dense": 0.691
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:450",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            20,
+            21
+          ],
+          "rerank": 0.0108,
+          "dense": 0.6938
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:452",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            21
+          ],
+          "rerank": 0.0072,
+          "dense": 0.6457
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:813",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.0061,
+          "dense": 0.6176
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.0061,
+          "dense": 0.6348
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:803",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0046,
+          "dense": 0.6399
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:810",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0024,
+          "dense": 0.5791
+        }
+      ]
+    },
+    {
+      "query": "difference between prasugrel ticagrelor",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:896",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.622,
+          "dense": 0.7161
+        },
+        {
+          "rank": 2,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:451",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            21
+          ],
+          "rerank": 0.0698,
+          "dense": 0.6941
+        },
+        {
+          "rank": 3,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:450",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            20,
+            21
+          ],
+          "rerank": 0.0396,
+          "dense": 0.6764
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:897",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            18
+          ],
+          "rerank": 0.0286,
+          "dense": 0.6719
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Mechanism of Injury:568",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            58
+          ],
+          "rerank": 0.013,
+          "dense": 0.53
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:813",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.0084,
+          "dense": 0.6247
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.0054,
+          "dense": 0.633
+        },
+        {
+          "rank": 8,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:452",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            21
+          ],
+          "rerank": 0.0033,
+          "dense": 0.6481
+        },
+        {
+          "rank": 9,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:890",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13,
+            14
+          ],
+          "rerank": 0.003,
+          "dense": 0.6315
+        },
+        {
+          "rank": 10,
+          "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:669",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            93
+          ],
+          "rerank": 0.0022,
+          "dense": 0.5073
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:896",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        17
+      ],
+      "max_rerank": 0.834,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:897",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        18
+      ],
+      "max_rerank": 0.4192,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:669",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        93
+      ],
+      "max_rerank": 0.0487,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Treatment:451",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        21
+      ],
+      "max_rerank": 0.0698,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Treatment:450",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        20,
+        21
+      ],
+      "max_rerank": 0.0396,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Treatment:452",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        21
+      ],
+      "max_rerank": 0.0072,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:813",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9,
+        10
+      ],
+      "max_rerank": 0.0084,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        141,
+        142
+      ],
+      "max_rerank": 0.0061,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:803",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0046,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:810",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0024,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Mechanism of Injury:568",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        58
+      ],
+      "max_rerank": 0.013,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:890",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        13,
+        14
+      ],
+      "max_rerank": 0.003,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "reason": "escape hatch"
+  },
+  "top_context": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:896",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        17
+      ]
+    }
+  ],
+  "raw_answer": "I don't have enough information in the provided context to answer this question.",
+  "expected": "answered"
+}

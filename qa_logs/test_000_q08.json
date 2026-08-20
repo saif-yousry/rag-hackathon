@@ -1,0 +1,917 @@
+{
+  "events": [],
+  "question": "What is the difference between prasugrel and ticagrelor?",
+  "sub_queries": [
+    "What is the difference between prasugrel and ticagrelor?",
+    "prasugrel versus ticagrelor mechanism of action comparison",
+    "prasugrel and ticagrelor clinical efficacy differences",
+    "prasugrel ticagrelor antiplatelet drug class comparison",
+    "prasugrel vs ticagrelor side effect profile differences"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is the difference between prasugrel and ticagrelor?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.834,
+          "dense": 0.7345
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:562",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            18
+          ],
+          "rerank": 0.4192,
+          "dense": 0.6781
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.0061,
+          "dense": 0.6176
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.0061,
+          "dense": 0.6348
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:468",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0046,
+          "dense": 0.6399
+        },
+        {
+          "rank": 6,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:548",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0036,
+          "dense": 0.5837
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Study Characteristics:444",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.003,
+          "dense": 0.4675
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:475",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0024,
+          "dense": 0.5791
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stable angina::227",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            138
+          ],
+          "rerank": 0.0012,
+          "dense": 0.5903
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Discussion:483",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0011,
+          "dense": 0.5301
+        }
+      ]
+    },
+    {
+      "query": "prasugrel versus ticagrelor mechanism of action comparison",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.2732,
+          "dense": 0.7009
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Digoxin:341",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            203,
+            204
+          ],
+          "rerank": 0.1303,
+          "dense": 0.608
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219,
+            220
+          ],
+          "rerank": 0.0987,
+          "dense": 0.5828
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (CCBs):315",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            191
+          ],
+          "rerank": 0.0861,
+          "dense": 0.6382
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Antianginal Drugs:334",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            199
+          ],
+          "rerank": 0.0685,
+          "dense": 0.6341
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.0665,
+          "dense": 0.6792
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Adenosine::390",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            226
+          ],
+          "rerank": 0.0619,
+          "dense": 0.6299
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Niacin:367",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            215
+          ],
+          "rerank": 0.0592,
+          "dense": 0.5886
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Phosphodiesterase inhibitors:347",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            205
+          ],
+          "rerank": 0.0569,
+          "dense": 0.6168
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Procainamide::374",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            218
+          ],
+          "rerank": 0.0545,
+          "dense": 0.6564
+        }
+      ]
+    },
+    {
+      "query": "prasugrel and ticagrelor clinical efficacy differences",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.5012,
+          "dense": 0.6883
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:562",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            18
+          ],
+          "rerank": 0.0602,
+          "dense": 0.6498
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:350",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            207
+          ],
+          "rerank": 0.0226,
+          "dense": 0.6027
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.0112,
+          "dense": 0.6262
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.0106,
+          "dense": 0.661
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:407",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            2
+          ],
+          "rerank": 0.0076,
+          "dense": 0.5473
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Discussion:483",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0073,
+          "dense": 0.5935
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Drugs for Heart failure:340",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            203
+          ],
+          "rerank": 0.0046,
+          "dense": 0.6176
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:486",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0042,
+          "dense": 0.612
+        },
+        {
+          "rank": 10,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:555",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            13,
+            14
+          ],
+          "rerank": 0.0036,
+          "dense": 0.6258
+        }
+      ]
+    },
+    {
+      "query": "prasugrel ticagrelor antiplatelet drug class comparison",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.5952,
+          "dense": 0.7062
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            214
+          ],
+          "rerank": 0.0744,
+          "dense": 0.5575
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. Class 1B::375",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219
+          ],
+          "rerank": 0.0735,
+          "dense": 0.6054
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:135",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            86
+          ],
+          "rerank": 0.0725,
+          "dense": 0.597
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Mechanism of action of vasodilators:336",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            200
+          ],
+          "rerank": 0.0649,
+          "dense": 0.6172
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::378",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            220
+          ],
+          "rerank": 0.0627,
+          "dense": 0.6232
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::393",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            227
+          ],
+          "rerank": 0.0528,
+          "dense": 0.6055
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.0495,
+          "dense": 0.6521
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:379",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            221
+          ],
+          "rerank": 0.0494,
+          "dense": 0.5752
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:469",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0363,
+          "dense": 0.6615
+        }
+      ]
+    },
+    {
+      "query": "prasugrel vs ticagrelor side effect profile differences",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.3367,
+          "dense": 0.6766
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.2001,
+          "dense": 0.6174
+        },
+        {
+          "rank": 3,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:562",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            18
+          ],
+          "rerank": 0.1585,
+          "dense": 0.7061
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. α 1 blockers::320",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            193
+          ],
+          "rerank": 0.1499,
+          "dense": 0.6151
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.0687,
+          "dense": 0.6306
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. α 1 blockers::321",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            193,
+            194
+          ],
+          "rerank": 0.0636,
+          "dense": 0.5886
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.0551,
+          "dense": 0.62
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:339",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201,
+            202
+          ],
+          "rerank": 0.0433,
+          "dense": 0.5436
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.0289,
+          "dense": 0.6618
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Direct acting vasodilators:323",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            194,
+            195
+          ],
+          "rerank": 0.0274,
+          "dense": 0.5344
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        17
+      ],
+      "max_rerank": 0.834,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:562",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        18
+      ],
+      "max_rerank": 0.4192,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9,
+        10
+      ],
+      "max_rerank": 0.0289,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        141,
+        142
+      ],
+      "max_rerank": 0.0495,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:468",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0046,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Warfarin:548",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.0036,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Study Characteristics:444",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.003,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:475",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0024,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stable angina::227",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        138
+      ],
+      "max_rerank": 0.0012,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Discussion:483",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0073,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Digoxin:341",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        203,
+        204
+      ],
+      "max_rerank": 0.1303,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219,
+        220
+      ],
+      "max_rerank": 0.0987,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (CCBs):315",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        191
+      ],
+      "max_rerank": 0.0861,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Antianginal Drugs:334",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        199
+      ],
+      "max_rerank": 0.0685,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        192
+      ],
+      "max_rerank": 0.0687,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Adenosine::390",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        226
+      ],
+      "max_rerank": 0.0619,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Niacin:367",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        215
+      ],
+      "max_rerank": 0.0592,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Phosphodiesterase inhibitors:347",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        205
+      ],
+      "max_rerank": 0.0569,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Procainamide::374",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        218
+      ],
+      "max_rerank": 0.0545,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:350",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        207
+      ],
+      "max_rerank": 0.0226,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:407",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        2
+      ],
+      "max_rerank": 0.0076,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Drugs for Heart failure:340",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        203
+      ],
+      "max_rerank": 0.0046,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:486",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.0042,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Apixaban, dabigatran, edoxaban and rivaroxaban:555",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        13,
+        14
+      ],
+      "max_rerank": 0.0036,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        214
+      ],
+      "max_rerank": 0.0744,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. Class 1B::375",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219
+      ],
+      "max_rerank": 0.0735,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:135",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        86
+      ],
+      "max_rerank": 0.0725,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Mechanism of action of vasodilators:336",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        200
+      ],
+      "max_rerank": 0.0649,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::378",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        220
+      ],
+      "max_rerank": 0.0627,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::393",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        227
+      ],
+      "max_rerank": 0.0528,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:379",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        221
+      ],
+      "max_rerank": 0.0494,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:469",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0363,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        222
+      ],
+      "max_rerank": 0.2001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. α 1 blockers::320",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        193
+      ],
+      "max_rerank": 0.1499,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. α 1 blockers::321",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        193,
+        194
+      ],
+      "max_rerank": 0.0636,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        225
+      ],
+      "max_rerank": 0.0551,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:339",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        201,
+        202
+      ],
+      "max_rerank": 0.0433,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Direct acting vasodilators:323",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        194,
+        195
+      ],
+      "max_rerank": 0.0274,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "reason": "escape hatch"
+  },
+  "top_context": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        17
+      ]
+    }
+  ],
+  "raw_answer": "I don't have enough information in the provided context to answer this question.",
+  "expected": "answered"
+}

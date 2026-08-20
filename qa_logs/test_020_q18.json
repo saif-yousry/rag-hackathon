@@ -1,0 +1,347 @@
+{
+  "events": [],
+  "question": "What is the current stock price of Apple and should I buy it?",
+  "sub_queries": [
+    "What is the current stock price of Apple and should I buy it?",
+    "current stock price apple buy"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is the current stock price of Apple and should I buy it?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:796",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.6758,
+          "dense": 0.4393
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:787",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.2975,
+          "dense": 0.437
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:790",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.2772,
+          "dense": 0.4271
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:808",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0774,
+          "dense": 0.4337
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:795",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0486,
+          "dense": 0.4317
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:797",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.027,
+          "dense": 0.4353
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:788",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0031,
+          "dense": 0.4313
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:789",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0002,
+          "dense": 0.4519
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219,
+            220
+          ],
+          "rerank": 0.0,
+          "dense": 0.3216
+        },
+        {
+          "rank": 10,
+          "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:652",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            89
+          ],
+          "rerank": 0.0,
+          "dense": 0.3999
+        }
+      ]
+    },
+    {
+      "query": "current stock price apple buy",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:806",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0142,
+          "dense": 0.4715
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:797",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0128,
+          "dense": 0.4932
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:796",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0112,
+          "dense": 0.4738
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:787",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0047,
+          "dense": 0.4848
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::396",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0024,
+          "dense": 0.4797
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:790",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0018,
+          "dense": 0.4757
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:788",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0011,
+          "dense": 0.4827
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:808",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0005,
+          "dense": 0.4727
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:807",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0005,
+          "dense": 0.4627
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:789",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0005,
+          "dense": 0.4981
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:796",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.6758,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:787",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.2975,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:790",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.2772,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:808",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0774,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:795",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0486,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:797",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.027,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:788",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0031,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:789",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0005,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219,
+        220
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:652",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        89
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:806",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0142,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::396",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        229
+      ],
+      "max_rerank": 0.0024,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:807",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0005,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "best_score": 0.675765335559845,
+    "reason": "best retrieval score below 0.77"
+  },
+  "expected": "refused"
+}

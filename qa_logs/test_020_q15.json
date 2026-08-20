@@ -1,0 +1,388 @@
+{
+  "events": [],
+  "question": "What are the signs that myocardial infarction in women is often diagnosed late?",
+  "sub_queries": [
+    "What are the signs that myocardial infarction in women is often diagnosed late?",
+    "signs myocardial infarction women often diagnosed"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What are the signs that myocardial infarction in women is often diagnosed late?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:742",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            2
+          ],
+          "rerank": 0.9978,
+          "dense": 0.7286
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:741",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.9936,
+          "dense": 0.7821
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:Discussion:819",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.9562,
+          "dense": 0.7007
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:801",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8,
+            9
+          ],
+          "rerank": 0.896,
+          "dense": 0.718
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Discussion:818",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.8855,
+          "dense": 0.761
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:813",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.8602,
+          "dense": 0.7012
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:802",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.8472,
+          "dense": 0.7183
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Reported CVDs in Women Compared to Men:782",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.7538,
+          "dense": 0.7474
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Discussion:820",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.5804,
+          "dense": 0.6868
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:822",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.577,
+          "dense": 0.7222
+        }
+      ]
+    },
+    {
+      "query": "signs myocardial infarction women often diagnosed",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:741",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.996,
+          "dense": 0.8236
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:801",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8,
+            9
+          ],
+          "rerank": 0.9324,
+          "dense": 0.728
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:813",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.8056,
+          "dense": 0.7196
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:Abstract:736",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.7403,
+          "dense": 0.7679
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Reported CVDs in Women Compared to Men:782",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.6707,
+          "dense": 0.7626
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stable angina::226",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            137,
+            138
+          ],
+          "rerank": 0.6666,
+          "dense": 0.6672
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            156
+          ],
+          "rerank": 0.6605,
+          "dense": 0.6332
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:802",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.4531,
+          "dense": 0.7209
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Discussion:819",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.4388,
+          "dense": 0.7257
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:742",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            2
+          ],
+          "rerank": 0.4261,
+          "dense": 0.7296
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:742",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        2
+      ],
+      "max_rerank": 0.9978,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:741",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 0.996,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Discussion:819",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.9562,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:801",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8,
+        9
+      ],
+      "max_rerank": 0.9324,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Discussion:818",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.8855,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:813",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9,
+        10
+      ],
+      "max_rerank": 0.8602,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:802",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.8472,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Reported CVDs in Women Compared to Men:782",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        7
+      ],
+      "max_rerank": 0.7538,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Discussion:820",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.5804,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:822",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.577,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Abstract:736",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 0.7403,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stable angina::226",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        137,
+        138
+      ],
+      "max_rerank": 0.6666,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        156
+      ],
+      "max_rerank": 0.6605,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "generated",
+    "best_score": 0.9977937936782837
+  },
+  "top_context": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:742",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:741",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Discussion:819",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        10
+      ]
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:801",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8,
+        9
+      ]
+    }
+  ],
+  "raw_answer": "C1| Women with acute myocardial infarction often present with atypical symptoms such as abdominal pain, dyspnoea, nausea, back and neck pain, indigestion, palpitations, and unexplained fatigue, rather than the well‑defined chest pain typical in men. |Passage 2|\n\nC2| Women are less likely to report their symptoms and to know the risks of cardiovascular diseases, which leads to delayed or underdiagnosis and negatively affects clinical outcomes. |Passage 1|\n\nC3| Physicians sometimes misdiagnose coronary heart disease symptoms in women as gastrointestinal or mental health conditions, contributing to delayed diagnosis. |Passage 3|\n\nC4| In the initial assessment of angina, women are less frequently subjected to exercise ECG and coronary angiography, which can result in later diagnosis of myocardial infarction. |Passage 4|",
+  "overall": {
+    "score": 0.9324305057525635,
+    "level": "Well Supported"
+  },
+  "expected": "answered"
+}

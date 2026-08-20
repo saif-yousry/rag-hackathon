@@ -1,0 +1,805 @@
+{
+  "events": [],
+  "question": "What is the treatment of chronic heart failure and which drug classes are used?",
+  "sub_queries": [
+    "What is the treatment of chronic heart failure and which drug classes are used?",
+    "chronic heart failure treatment drug classes",
+    "pharmacologic management of chronic heart failure",
+    "drug classes used in chronic heart failure therapy",
+    "therapeutic options for chronic heart failure medication categories"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is the treatment of chronic heart failure and which drug classes are used?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:468",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.9546,
+          "dense": 0.6671
+        },
+        {
+          "rank": 2,
+          "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:660",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.9502,
+          "dense": 0.7702
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:357",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            210
+          ],
+          "rerank": 0.9478,
+          "dense": 0.7711
+        },
+        {
+          "rank": 4,
+          "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:661",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.808,
+          "dense": 0.6744
+        },
+        {
+          "rank": 5,
+          "chunk_id": "living-with-hf-guide.pdf:Healthier Living With Heart Failure:595",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            2
+          ],
+          "rerank": 0.7487,
+          "dense": 0.6831
+        },
+        {
+          "rank": 6,
+          "chunk_id": "living-with-hf-guide.pdf:Taking Medications for Heart Failure:658",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.7358,
+          "dense": 0.7307
+        },
+        {
+          "rank": 7,
+          "chunk_id": "living-with-hf-guide.pdf:SURGERY OR PROCEDURES:674",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.6913,
+          "dense": 0.6766
+        },
+        {
+          "rank": 8,
+          "chunk_id": "living-with-hf-guide.pdf:WHEN YOU HAVE HEART FAILURE:600",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.5558,
+          "dense": 0.6571
+        },
+        {
+          "rank": 9,
+          "chunk_id": "living-with-hf-guide.pdf:If a Heart Transplant Is Needed:678",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.5533,
+          "dense": 0.6982
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:Managing Heart Failure Medications:664",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            21
+          ],
+          "rerank": 0.5369,
+          "dense": 0.6921
+        }
+      ]
+    },
+    {
+      "query": "chronic heart failure treatment drug classes",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:357",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            210
+          ],
+          "rerank": 0.9678,
+          "dense": 0.7598
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:133",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            86
+          ],
+          "rerank": 0.9615,
+          "dense": 0.7188
+        },
+        {
+          "rank": 3,
+          "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:660",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.9504,
+          "dense": 0.715
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:328",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197
+          ],
+          "rerank": 0.8698,
+          "dense": 0.6814
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.7315,
+          "dense": 0.6156
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:262",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.6868,
+          "dense": 0.6903
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:477",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.6748,
+          "dense": 0.6509
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Drugs for Heart failure:340",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            203
+          ],
+          "rerank": 0.5952,
+          "dense": 0.6931
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:355",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.5916,
+          "dense": 0.6891
+        },
+        {
+          "rank": 10,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:22 tIm's stoRy:544",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.5164,
+          "dense": 0.655
+        }
+      ]
+    },
+    {
+      "query": "pharmacologic management of chronic heart failure",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:357",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            210
+          ],
+          "rerank": 0.9186,
+          "dense": 0.7826
+        },
+        {
+          "rank": 2,
+          "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:660",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.7113,
+          "dense": 0.7003
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:133",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            86
+          ],
+          "rerank": 0.4194,
+          "dense": 0.7167
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Phosphodiesterase inhibitors:347",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            205
+          ],
+          "rerank": 0.4069,
+          "dense": 0.6458
+        },
+        {
+          "rank": 5,
+          "chunk_id": "living-with-hf-guide.pdf:Taking Medications for Heart Failure:658",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.2851,
+          "dense": 0.7021
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:349",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            206
+          ],
+          "rerank": 0.2789,
+          "dense": 0.6545
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:342",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            204
+          ],
+          "rerank": 0.2044,
+          "dense": 0.6545
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:128",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            82
+          ],
+          "rerank": 0.1633,
+          "dense": 0.5189
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:355",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.0983,
+          "dense": 0.721
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:Tracking Your Fluid Intake:633",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0983,
+          "dense": 0.6771
+        }
+      ]
+    },
+    {
+      "query": "drug classes used in chronic heart failure therapy",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:477",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.9925,
+          "dense": 0.6629
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:133",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            86
+          ],
+          "rerank": 0.9223,
+          "dense": 0.7232
+        },
+        {
+          "rank": 3,
+          "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:660",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.8378,
+          "dense": 0.73
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Phosphodiesterase inhibitors:347",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            205
+          ],
+          "rerank": 0.8078,
+          "dense": 0.6691
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:357",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            210
+          ],
+          "rerank": 0.7564,
+          "dense": 0.7716
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:355",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.6264,
+          "dense": 0.7059
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:328",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197
+          ],
+          "rerank": 0.5572,
+          "dense": 0.7001
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:349",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            206
+          ],
+          "rerank": 0.4864,
+          "dense": 0.6697
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.4632,
+          "dense": 0.6385
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:661",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.4445,
+          "dense": 0.6586
+        }
+      ]
+    },
+    {
+      "query": "therapeutic options for chronic heart failure medication categories",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:357",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            210
+          ],
+          "rerank": 0.9411,
+          "dense": 0.761
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:355",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.916,
+          "dense": 0.7282
+        },
+        {
+          "rank": 3,
+          "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:660",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.9032,
+          "dense": 0.7445
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:133",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            86
+          ],
+          "rerank": 0.8171,
+          "dense": 0.7481
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:332",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            198
+          ],
+          "rerank": 0.7252,
+          "dense": 0.7573
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:262",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.684,
+          "dense": 0.7131
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:328",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197
+          ],
+          "rerank": 0.6622,
+          "dense": 0.6775
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:342",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            204
+          ],
+          "rerank": 0.6298,
+          "dense": 0.6929
+        },
+        {
+          "rank": 9,
+          "chunk_id": "living-with-hf-guide.pdf:IMPLANTABLE CARDIAC DEVICES:672",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            22
+          ],
+          "rerank": 0.5306,
+          "dense": 0.6759
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Drugs for Heart failure:340",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            203
+          ],
+          "rerank": 0.4929,
+          "dense": 0.7314
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:468",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.9546,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:660",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        19
+      ],
+      "max_rerank": 0.9504,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:357",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        210
+      ],
+      "max_rerank": 0.9678,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:661",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        19
+      ],
+      "max_rerank": 0.808,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Healthier Living With Heart Failure:595",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        2
+      ],
+      "max_rerank": 0.7487,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Taking Medications for Heart Failure:658",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        19
+      ],
+      "max_rerank": 0.7358,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:SURGERY OR PROCEDURES:674",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        23
+      ],
+      "max_rerank": 0.6913,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:WHEN YOU HAVE HEART FAILURE:600",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        4
+      ],
+      "max_rerank": 0.5558,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:If a Heart Transplant Is Needed:678",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        23
+      ],
+      "max_rerank": 0.5533,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Managing Heart Failure Medications:664",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        21
+      ],
+      "max_rerank": 0.5369,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:133",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        86
+      ],
+      "max_rerank": 0.9615,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:328",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        197
+      ],
+      "max_rerank": 0.8698,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        225
+      ],
+      "max_rerank": 0.7315,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:262",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        157
+      ],
+      "max_rerank": 0.6868,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:477",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.9925,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Drugs for Heart failure:340",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        203
+      ],
+      "max_rerank": 0.5952,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:355",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        209
+      ],
+      "max_rerank": 0.916,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:22 tIm's stoRy:544",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.5164,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Phosphodiesterase inhibitors:347",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        205
+      ],
+      "max_rerank": 0.8078,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:349",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        206
+      ],
+      "max_rerank": 0.4864,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:342",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        204
+      ],
+      "max_rerank": 0.6298,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:128",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        82
+      ],
+      "max_rerank": 0.1633,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Tracking Your Fluid Intake:633",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.0983,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:332",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        198
+      ],
+      "max_rerank": 0.7252,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:IMPLANTABLE CARDIAC DEVICES:672",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        22
+      ],
+      "max_rerank": 0.5306,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "generated",
+    "best_score": 0.9925076365470886
+  },
+  "top_context": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:477",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:357",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:133",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        86
+      ]
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:468",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ]
+    }
+  ],
+  "raw_answer": "C1| Pharmacologic treatment of chronic heart failure with reduced ejection fraction includes ACE inhibitors or angiotensin receptor blockers or neprilysin inhibitor‑angiotensin receptor blocker, beta blockers, mineralocorticoid receptor antagonists, diuretics, and digoxin |Passage 2|\n\nC2| Heart‑rate‑modulating drug classes used in chronic heart failure include beta blockers, non‑dihydropyridine calcium channel blockers, digoxin, and ivabradine; ivabradine uniquely slows heart rate without affecting contractility and is indicated for certain patients with reduced ejection fraction and persistent symptoms, reducing hospitalization risk |Passage 3|\n\nSpeak to your doctor or pharmacist about your specific situation.",
+  "overall": {
+    "score": 0.9615017771720886,
+    "level": "Strongly Supported"
+  },
+  "expected": "answered"
+}

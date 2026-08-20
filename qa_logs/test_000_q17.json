@@ -1,0 +1,534 @@
+{
+  "events": [],
+  "question": "How many moons does Jupiter have and what is its orbital period?",
+  "sub_queries": [
+    "How many moons does Jupiter have and what is its orbital period?",
+    "many moons jupiter have orbital period",
+    "statistics percentage many moons jupiter have"
+  ],
+  "sub_query_results": [
+    {
+      "query": "How many moons does Jupiter have and what is its orbital period?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:455",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0056,
+          "dense": 0.4856
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:473",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0032,
+          "dense": 0.4887
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:471",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0014,
+          "dense": 0.4893
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:452",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0009,
+          "dense": 0.4949
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:462",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0006,
+          "dense": 0.4943
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:461",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0003,
+          "dense": 0.5228
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:460",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0002,
+          "dense": 0.4742
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:D. Repolarization::146",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            92
+          ],
+          "rerank": 0.0001,
+          "dense": 0.3705
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:453",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0001,
+          "dense": 0.4971
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:474",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0001,
+          "dense": 0.4862
+        }
+      ]
+    },
+    {
+      "query": "many moons jupiter have orbital period",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:136",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            87
+          ],
+          "rerank": 0.0028,
+          "dense": 0.3898
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:338",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201
+          ],
+          "rerank": 0.001,
+          "dense": 0.4666
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Chronic rheumatic heart disease::278",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            167
+          ],
+          "rerank": 0.0003,
+          "dense": 0.4092
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:95",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            63,
+            64
+          ],
+          "rerank": 0.0002,
+          "dense": 0.3709
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:D. Repolarization::146",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            92
+          ],
+          "rerank": 0.0001,
+          "dense": 0.3964
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Patent ductus arteriosus::182",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            115
+          ],
+          "rerank": 0.0,
+          "dense": 0.4284
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:462",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0,
+          "dense": 0.5328
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Infantile form (Preductal)::186",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            116
+          ],
+          "rerank": 0.0,
+          "dense": 0.3941
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:455",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0,
+          "dense": 0.5211
+        },
+        {
+          "rank": 10,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.0,
+          "dense": 0.3652
+        }
+      ]
+    },
+    {
+      "query": "statistics percentage many moons jupiter have",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:475",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0172,
+          "dense": 0.4758
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:463",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0157,
+          "dense": 0.5362
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:488",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0043,
+          "dense": 0.4317
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:Data Analysis:438",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0032,
+          "dense": 0.4717
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:455",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0027,
+          "dense": 0.5291
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:461",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0026,
+          "dense": 0.5477
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:462",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0022,
+          "dense": 0.5255
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:473",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0022,
+          "dense": 0.5343
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:472",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0019,
+          "dense": 0.5276
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:471",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0018,
+          "dense": 0.5384
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:455",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0056,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:473",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0032,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:471",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0018,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:452",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0009,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:462",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0022,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:461",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0026,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:460",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0002,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:D. Repolarization::146",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        92
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:453",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:474",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:136",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        87
+      ],
+      "max_rerank": 0.0028,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:338",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        201
+      ],
+      "max_rerank": 0.001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Chronic rheumatic heart disease::278",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        167
+      ],
+      "max_rerank": 0.0003,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:95",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        63,
+        64
+      ],
+      "max_rerank": 0.0002,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Patent ductus arteriosus::182",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        115
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Infantile form (Preductal)::186",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        116
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        17
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:475",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0172,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:463",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0157,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:488",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.0043,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Data Analysis:438",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.0032,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:472",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0019,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "best_score": 0.017175782471895218,
+    "reason": "best retrieval score below 0.77"
+  },
+  "expected": "refused"
+}

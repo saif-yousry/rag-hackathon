@@ -1,0 +1,775 @@
+{
+  "events": [],
+  "question": "What is coarctation of the aorta and how is it diagnosed?",
+  "sub_queries": [
+    "What is coarctation of the aorta and how is it diagnosed?",
+    "definition of coarctation of the aorta",
+    "mechanism and pathophysiology of coarctation of the aorta",
+    "diagnostic techniques for coarctation of the aorta imaging modalities",
+    "clinical evaluation and screening methods for coarctation of the aorta"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is coarctation of the aorta and how is it diagnosed?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Infantile form (Preductal)::185",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            116
+          ],
+          "rerank": 0.9166,
+          "dense": 0.7503
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Secondary hypertension::193",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.6226,
+          "dense": 0.5607
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::189",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.565,
+          "dense": 0.7349
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            118
+          ],
+          "rerank": 0.1661,
+          "dense": 0.6342
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::187",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.1424,
+          "dense": 0.7435
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Aortic dissection:211",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            130
+          ],
+          "rerank": 0.1029,
+          "dense": 0.6409
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.0919,
+          "dense": 0.6658
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Abdominal aortic aneurysm:222",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            135
+          ],
+          "rerank": 0.0428,
+          "dense": 0.5973
+        },
+        {
+          "rank": 9,
+          "chunk_id": "living-with-hf-guide.pdf:SURGERY OR PROCEDURES:676",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.0307,
+          "dense": 0.6348
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::188",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.0262,
+          "dense": 0.6687
+        }
+      ]
+    },
+    {
+      "query": "definition of coarctation of the aorta",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Infantile form (Preductal)::185",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            116
+          ],
+          "rerank": 0.9837,
+          "dense": 0.7549
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::189",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.6641,
+          "dense": 0.7469
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.5233,
+          "dense": 0.655
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Secondary hypertension::193",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.4313,
+          "dense": 0.5723
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::187",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.3802,
+          "dense": 0.7334
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Wall tension = pressure × radius:57",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            38
+          ],
+          "rerank": 0.2573,
+          "dense": 0.6347
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            118
+          ],
+          "rerank": 0.2511,
+          "dense": 0.6177
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::215",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            133
+          ],
+          "rerank": 0.0854,
+          "dense": 0.6945
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Aortic dissection:211",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            130
+          ],
+          "rerank": 0.0716,
+          "dense": 0.6393
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:220",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            134
+          ],
+          "rerank": 0.0695,
+          "dense": 0.595
+        }
+      ]
+    },
+    {
+      "query": "mechanism and pathophysiology of coarctation of the aorta",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Infantile form (Preductal)::185",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            116
+          ],
+          "rerank": 0.8865,
+          "dense": 0.7894
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::189",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.7028,
+          "dense": 0.77
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Aortic dissection:211",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            130
+          ],
+          "rerank": 0.5911,
+          "dense": 0.7093
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Septation of Ventricles:7",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            6,
+            7
+          ],
+          "rerank": 0.5865,
+          "dense": 0.6869
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.4116,
+          "dense": 0.6688
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::187",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.3118,
+          "dense": 0.739
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::215",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            133
+          ],
+          "rerank": 0.2821,
+          "dense": 0.7092
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Secondary hypertension::193",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.2354,
+          "dense": 0.6076
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            118
+          ],
+          "rerank": 0.1589,
+          "dense": 0.6983
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:220",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            134
+          ],
+          "rerank": 0.1429,
+          "dense": 0.6906
+        }
+      ]
+    },
+    {
+      "query": "diagnostic techniques for coarctation of the aorta imaging modalities",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Infantile form (Preductal)::185",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            116
+          ],
+          "rerank": 0.5662,
+          "dense": 0.6818
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Abdominal aortic aneurysm:224",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            135,
+            136
+          ],
+          "rerank": 0.4023,
+          "dense": 0.5774
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::189",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.2938,
+          "dense": 0.6828
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::187",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.2372,
+          "dense": 0.6833
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:23",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            14,
+            15
+          ],
+          "rerank": 0.1458,
+          "dense": 0.6516
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Aortic dissection:211",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            130
+          ],
+          "rerank": 0.1199,
+          "dense": 0.6318
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            118
+          ],
+          "rerank": 0.1076,
+          "dense": 0.6321
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:87",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            60
+          ],
+          "rerank": 0.0771,
+          "dense": 0.6131
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Secondary hypertension::193",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.0599,
+          "dense": 0.5166
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. D-transposition of great vessels::173",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            109
+          ],
+          "rerank": 0.0556,
+          "dense": 0.6024
+        }
+      ]
+    },
+    {
+      "query": "clinical evaluation and screening methods for coarctation of the aorta",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "living-with-hf-guide.pdf:WHAT IS CARDIAC REHAB?:612",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.5216,
+          "dense": 0.521
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Infantile form (Preductal)::185",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            116
+          ],
+          "rerank": 0.3352,
+          "dense": 0.6994
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Aortic dissection:211",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            130
+          ],
+          "rerank": 0.1581,
+          "dense": 0.6476
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:Study Characteristics:446",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6,
+            7
+          ],
+          "rerank": 0.1014,
+          "dense": 0.6439
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:23",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            14,
+            15
+          ],
+          "rerank": 0.101,
+          "dense": 0.6295
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::187",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.0987,
+          "dense": 0.7067
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::189",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.0859,
+          "dense": 0.7225
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.0702,
+          "dense": 0.6069
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:94",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            62,
+            63
+          ],
+          "rerank": 0.0623,
+          "dense": 0.6452
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:437",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0601,
+          "dense": 0.5951
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Infantile form (Preductal)::185",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        116
+      ],
+      "max_rerank": 0.9837,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Secondary hypertension::193",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        119
+      ],
+      "max_rerank": 0.6226,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::189",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        117
+      ],
+      "max_rerank": 0.7028,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        118
+      ],
+      "max_rerank": 0.2511,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::187",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        117
+      ],
+      "max_rerank": 0.3802,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Aortic dissection:211",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        130
+      ],
+      "max_rerank": 0.5911,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        117
+      ],
+      "max_rerank": 0.5233,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Abdominal aortic aneurysm:222",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        135
+      ],
+      "max_rerank": 0.0428,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:SURGERY OR PROCEDURES:676",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        23
+      ],
+      "max_rerank": 0.0307,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::188",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        117
+      ],
+      "max_rerank": 0.0262,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Wall tension = pressure × radius:57",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        38
+      ],
+      "max_rerank": 0.2573,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::215",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        133
+      ],
+      "max_rerank": 0.2821,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:220",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        134
+      ],
+      "max_rerank": 0.1429,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Septation of Ventricles:7",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        6,
+        7
+      ],
+      "max_rerank": 0.5865,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Abdominal aortic aneurysm:224",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        135,
+        136
+      ],
+      "max_rerank": 0.4023,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:23",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        14,
+        15
+      ],
+      "max_rerank": 0.1458,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:87",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        60
+      ],
+      "max_rerank": 0.0771,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. D-transposition of great vessels::173",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        109
+      ],
+      "max_rerank": 0.0556,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:WHAT IS CARDIAC REHAB?:612",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.5216,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Study Characteristics:446",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6,
+        7
+      ],
+      "max_rerank": 0.1014,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:94",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        62,
+        63
+      ],
+      "max_rerank": 0.0623,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:437",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.0601,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "generated",
+    "best_score": 0.9836713075637817
+  },
+  "top_context": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Infantile form (Preductal)::185",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        116
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Adult form (Postductal)::189",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        117
+      ]
+    }
+  ],
+  "raw_answer": "C1|Coarctation of the aorta is a narrowing of the aortic lumen caused by thickening of the tunica media near the junction of the ductus arteriosus and the aortic arch, resulting in mechanical obstruction to blood flow|Passage 1|\nC2|The condition is associated with a patent ductus arteriosus, Turner syndrome, and may present with lower extremity exercise intolerance in infants, but the provided context does not describe specific diagnostic methods, so diagnosis is only partially covered|Passage 1|",
+  "overall": {
+    "score": 0.9836713075637817,
+    "level": "Strongly Supported"
+  },
+  "expected": "answered"
+}

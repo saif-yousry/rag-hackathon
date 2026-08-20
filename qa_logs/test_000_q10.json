@@ -1,0 +1,780 @@
+{
+  "events": [],
+  "question": "What causes dilated cardiomyopathy?",
+  "sub_queries": [
+    "What causes dilated cardiomyopathy?",
+    "dilated cardiomyopathy causes",
+    "etiology of dilated cardiomyopathy",
+    "mechanisms leading to dilated cardiomyopathy",
+    "risk factors for dilated cardiomyopathy"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What causes dilated cardiomyopathy?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            152
+          ],
+          "rerank": 0.9864,
+          "dense": 0.7991
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            156
+          ],
+          "rerank": 0.9527,
+          "dense": 0.7091
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:290",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            173
+          ],
+          "rerank": 0.9096,
+          "dense": 0.7561
+        },
+        {
+          "rank": 4,
+          "chunk_id": "living-with-hf-guide.pdf:EDEMA:613",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.8581,
+          "dense": 0.6858
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:No true isovolumetric phase:89",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            60,
+            61
+          ],
+          "rerank": 0.7227,
+          "dense": 0.728
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocardial infarction:229",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            140
+          ],
+          "rerank": 0.5603,
+          "dense": 0.6922
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:257",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            154
+          ],
+          "rerank": 0.5363,
+          "dense": 0.6844
+        },
+        {
+          "rank": 8,
+          "chunk_id": "living-with-hf-guide.pdf:UNDERSTANDING YOUR RISK FACTORS:608",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            5
+          ],
+          "rerank": 0.4837,
+          "dense": 0.7097
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sudden cardiac death (SCD):248",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            151
+          ],
+          "rerank": 0.4786,
+          "dense": 0.7116
+        },
+        {
+          "rank": 10,
+          "chunk_id": "heart disease.pdf:Cardiomyopathy ::516",
+          "source": "heart disease.pdf",
+          "pages": [
+            5
+          ],
+          "rerank": 0.4543,
+          "dense": 0.7323
+        }
+      ]
+    },
+    {
+      "query": "dilated cardiomyopathy causes",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            152
+          ],
+          "rerank": 0.996,
+          "dense": 0.7857
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:290",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            173
+          ],
+          "rerank": 0.9756,
+          "dense": 0.7479
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:259",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            155
+          ],
+          "rerank": 0.9402,
+          "dense": 0.6826
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Left-sided heart failure::263",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.9372,
+          "dense": 0.72
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sudden cardiac death (SCD):248",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            151
+          ],
+          "rerank": 0.9274,
+          "dense": 0.7086
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            156
+          ],
+          "rerank": 0.7502,
+          "dense": 0.7054
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:257",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            154
+          ],
+          "rerank": 0.7041,
+          "dense": 0.6903
+        },
+        {
+          "rank": 8,
+          "chunk_id": "heart disease.pdf:Cardiomyopathy ::516",
+          "source": "heart disease.pdf",
+          "pages": [
+            5
+          ],
+          "rerank": 0.4562,
+          "dense": 0.7151
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Heart failure:261",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.415,
+          "dense": 0.6539
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:33",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            20
+          ],
+          "rerank": 0.3757,
+          "dense": 0.6094
+        }
+      ]
+    },
+    {
+      "query": "etiology of dilated cardiomyopathy",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            152
+          ],
+          "rerank": 0.4845,
+          "dense": 0.7641
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sudden cardiac death (SCD):248",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            151
+          ],
+          "rerank": 0.269,
+          "dense": 0.704
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:257",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            154
+          ],
+          "rerank": 0.2674,
+          "dense": 0.6898
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            156
+          ],
+          "rerank": 0.1817,
+          "dense": 0.7017
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:290",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            173
+          ],
+          "rerank": 0.1508,
+          "dense": 0.7254
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:289",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            172
+          ],
+          "rerank": 0.1255,
+          "dense": 0.66
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Left-sided heart failure::263",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.1138,
+          "dense": 0.678
+        },
+        {
+          "rank": 8,
+          "chunk_id": "heart disease.pdf:Cardiomyopathy ::516",
+          "source": "heart disease.pdf",
+          "pages": [
+            5
+          ],
+          "rerank": 0.1009,
+          "dense": 0.686
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:259",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            155
+          ],
+          "rerank": 0.0909,
+          "dense": 0.6589
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Heart failure:261",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.0807,
+          "dense": 0.6658
+        }
+      ]
+    },
+    {
+      "query": "mechanisms leading to dilated cardiomyopathy",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:242",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            148
+          ],
+          "rerank": 0.962,
+          "dense": 0.6763
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            152
+          ],
+          "rerank": 0.7561,
+          "dense": 0.758
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            156
+          ],
+          "rerank": 0.6196,
+          "dense": 0.7167
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Left-sided heart failure::263",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.5703,
+          "dense": 0.6911
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sudden cardiac death (SCD):248",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            151
+          ],
+          "rerank": 0.4137,
+          "dense": 0.684
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:257",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            154
+          ],
+          "rerank": 0.3626,
+          "dense": 0.6799
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:259",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            155
+          ],
+          "rerank": 0.3549,
+          "dense": 0.6666
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Heart failure:261",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.3527,
+          "dense": 0.685
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:290",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            173
+          ],
+          "rerank": 0.2466,
+          "dense": 0.6906
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):388",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.1733,
+          "dense": 0.6776
+        }
+      ]
+    },
+    {
+      "query": "risk factors for dilated cardiomyopathy",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Reported CVDs in Women Compared to Men:447",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.9852,
+          "dense": 0.6673
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:405",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.615,
+          "dense": 0.6631
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            152
+          ],
+          "rerank": 0.4994,
+          "dense": 0.7322
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:259",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            155
+          ],
+          "rerank": 0.3344,
+          "dense": 0.626
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::215",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            133
+          ],
+          "rerank": 0.3034,
+          "dense": 0.6766
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:CV Risk Factors in Women Compared to Men:449",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.2956,
+          "dense": 0.696
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:290",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            173
+          ],
+          "rerank": 0.2897,
+          "dense": 0.6817
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:257",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            154
+          ],
+          "rerank": 0.2694,
+          "dense": 0.6526
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Left-sided heart failure::263",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.253,
+          "dense": 0.6603
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Ischemic heart disease (IHD):225",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            137
+          ],
+          "rerank": 0.2412,
+          "dense": 0.6638
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        152
+      ],
+      "max_rerank": 0.996,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        156
+      ],
+      "max_rerank": 0.9527,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:290",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        173
+      ],
+      "max_rerank": 0.9756,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:EDEMA:613",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        7
+      ],
+      "max_rerank": 0.8581,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:No true isovolumetric phase:89",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        60,
+        61
+      ],
+      "max_rerank": 0.7227,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocardial infarction:229",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        140
+      ],
+      "max_rerank": 0.5603,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:257",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        154
+      ],
+      "max_rerank": 0.7041,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:UNDERSTANDING YOUR RISK FACTORS:608",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        5
+      ],
+      "max_rerank": 0.4837,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sudden cardiac death (SCD):248",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        151
+      ],
+      "max_rerank": 0.9274,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "heart disease.pdf:Cardiomyopathy ::516",
+      "source": "heart disease.pdf",
+      "pages": [
+        5
+      ],
+      "max_rerank": 0.4562,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:259",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        155
+      ],
+      "max_rerank": 0.9402,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Left-sided heart failure::263",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        157
+      ],
+      "max_rerank": 0.9372,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Heart failure:261",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        157
+      ],
+      "max_rerank": 0.415,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:33",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        20
+      ],
+      "max_rerank": 0.3757,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:289",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        172
+      ],
+      "max_rerank": 0.1255,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:242",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        148
+      ],
+      "max_rerank": 0.962,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):388",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        225
+      ],
+      "max_rerank": 0.1733,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Reported CVDs in Women Compared to Men:447",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        7
+      ],
+      "max_rerank": 0.9852,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:405",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 0.615,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::215",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        133
+      ],
+      "max_rerank": 0.3034,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:CV Risk Factors in Women Compared to Men:449",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        7
+      ],
+      "max_rerank": 0.2956,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Ischemic heart disease (IHD):225",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        137
+      ],
+      "max_rerank": 0.2412,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "generated",
+    "best_score": 0.9959789514541626
+  },
+  "top_context": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        152
+      ]
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Reported CVDs in Women Compared to Men:447",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        7
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:290",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        173
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:242",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        148
+      ]
+    }
+  ],
+  "raw_answer": "C1| Dilated cardiomyopathy can be caused by idiopathic factors, familial TTN gene mutations, myocarditis, thiamine deficiency, Chagas disease, alcohol abuse, certain drugs (such as doxorubicin and cocaine), and peripartum pregnancy. |Passage 1|\n\nC2| Myocarditis, which may arise from viral (e.g., adenovirus, coxsackie B, parvovirus B19, HIV, HHV-6), parasitic (e.g., Trypanosoma cruzi, Toxoplasma gondii), bacterial (e.g., Borrelia burgdorferi, Mycoplasma pneumoniae, Corynebacterium diphtheriae), toxin (e.g., carbon monoxide, black widow venom), rheumatic fever, drug (e.g., doxorubicin, cocaine), or autoimmune (e.g., Kawasaki disease, sarcoidosis, SLE, polymyositis/dermatomyositis) origins, is a cause of dilated cardiomyopathy. |Passage 3|",
+  "overall": {
+    "score": 0.9755841493606567,
+    "level": "Strongly Supported"
+  },
+  "expected": "answered"
+}

@@ -1,0 +1,831 @@
+{
+  "events": [],
+  "question": "What is the mechanism of action of clopidogrel and when is it preferred over aspirin?",
+  "sub_queries": [
+    "What is the mechanism of action of clopidogrel and when is it preferred over aspirin?",
+    "clopidogrel mechanism of action",
+    "clopidogrel versus aspirin preferred indications",
+    "how does clopidogrel work antiplatelet mechanism",
+    "clinical situations where clopidogrel is chosen over aspirin"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is the mechanism of action of clopidogrel and when is it preferred over aspirin?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.9342,
+          "dense": 0.7719
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.4929,
+          "dense": 0.6506
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Digoxin:341",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            203,
+            204
+          ],
+          "rerank": 0.4152,
+          "dense": 0.5797
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.3925,
+          "dense": 0.6103
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Niacin:367",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            215
+          ],
+          "rerank": 0.3803,
+          "dense": 0.5586
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Procainamide::374",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            218
+          ],
+          "rerank": 0.3594,
+          "dense": 0.6294
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.3214,
+          "dense": 0.7135
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219,
+            220
+          ],
+          "rerank": 0.3115,
+          "dense": 0.5672
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Quinidine::373",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            218
+          ],
+          "rerank": 0.2895,
+          "dense": 0.6423
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:β -blockers (class II):382",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.2622,
+          "dense": 0.6105
+        }
+      ]
+    },
+    {
+      "query": "clopidogrel mechanism of action",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.4573,
+          "dense": 0.7066
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Direct acting vasodilators:324",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            194,
+            195
+          ],
+          "rerank": 0.3101,
+          "dense": 0.5926
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (CCBs):315",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            191
+          ],
+          "rerank": 0.2651,
+          "dense": 0.6846
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):388",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.2211,
+          "dense": 0.6453
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Digoxin:341",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            203,
+            204
+          ],
+          "rerank": 0.2049,
+          "dense": 0.6411
+        },
+        {
+          "rank": 6,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.1887,
+          "dense": 0.7102
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223,
+            224
+          ],
+          "rerank": 0.175,
+          "dense": 0.6409
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.1613,
+          "dense": 0.6416
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Antianginal Drugs:334",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            199
+          ],
+          "rerank": 0.1328,
+          "dense": 0.6576
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Adenosine::390",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            226
+          ],
+          "rerank": 0.1276,
+          "dense": 0.6549
+        }
+      ]
+    },
+    {
+      "query": "clopidogrel versus aspirin preferred indications",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.9186,
+          "dense": 0.7746
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.3719,
+          "dense": 0.671
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.2538,
+          "dense": 0.6543
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Aspirin:560",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.0851,
+          "dense": 0.6662
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Niacin:367",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            215
+          ],
+          "rerank": 0.0656,
+          "dense": 0.4766
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:338",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201
+          ],
+          "rerank": 0.0389,
+          "dense": 0.5517
+        },
+        {
+          "rank": 7,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:562",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            18
+          ],
+          "rerank": 0.034,
+          "dense": 0.6418
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:486",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0335,
+          "dense": 0.644
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:468",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0136,
+          "dense": 0.6369
+        },
+        {
+          "rank": 10,
+          "chunk_id": "heart disease.pdf:Prevention ::514",
+          "source": "heart disease.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.0135,
+          "dense": 0.5638
+        }
+      ]
+    },
+    {
+      "query": "how does clopidogrel work antiplatelet mechanism",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.767,
+          "dense": 0.7626
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.6593,
+          "dense": 0.6944
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:350",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            207
+          ],
+          "rerank": 0.0596,
+          "dense": 0.6402
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:338",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201
+          ],
+          "rerank": 0.0511,
+          "dense": 0.6135
+        },
+        {
+          "rank": 5,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:562",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            18
+          ],
+          "rerank": 0.0408,
+          "dense": 0.6708
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Adenosine::390",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            226
+          ],
+          "rerank": 0.0325,
+          "dense": 0.643
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:205",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            127
+          ],
+          "rerank": 0.0312,
+          "dense": 0.6355
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219,
+            220
+          ],
+          "rerank": 0.0302,
+          "dense": 0.5958
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sacubitril:352",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            208
+          ],
+          "rerank": 0.0176,
+          "dense": 0.6438
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:362",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            213
+          ],
+          "rerank": 0.0162,
+          "dense": 0.6382
+        }
+      ]
+    },
+    {
+      "query": "clinical situations where clopidogrel is chosen over aspirin",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            17
+          ],
+          "rerank": 0.7105,
+          "dense": 0.7735
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.1853,
+          "dense": 0.6562
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.1135,
+          "dense": 0.6734
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:338",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201
+          ],
+          "rerank": 0.0924,
+          "dense": 0.5796
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Mechanism of action of vasodilators:336",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            200
+          ],
+          "rerank": 0.0442,
+          "dense": 0.5489
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:486",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0209,
+          "dense": 0.6235
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Niacin:367",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            215
+          ],
+          "rerank": 0.0169,
+          "dense": 0.5073
+        },
+        {
+          "rank": 8,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:562",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            18
+          ],
+          "rerank": 0.0124,
+          "dense": 0.6643
+        },
+        {
+          "rank": 9,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:22 tIm's stoRy:544",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0103,
+          "dense": 0.6249
+        },
+        {
+          "rank": 10,
+          "chunk_id": "heart disease.pdf:Prevention ::514",
+          "source": "heart disease.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.0072,
+          "dense": 0.5787
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        17
+      ],
+      "max_rerank": 0.9342,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9,
+        10
+      ],
+      "max_rerank": 0.4929,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Digoxin:341",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        203,
+        204
+      ],
+      "max_rerank": 0.4152,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        192
+      ],
+      "max_rerank": 0.3925,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Niacin:367",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        215
+      ],
+      "max_rerank": 0.3803,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Procainamide::374",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        218
+      ],
+      "max_rerank": 0.3594,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        141,
+        142
+      ],
+      "max_rerank": 0.6593,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219,
+        220
+      ],
+      "max_rerank": 0.3115,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Quinidine::373",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        218
+      ],
+      "max_rerank": 0.2895,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:β -blockers (class II):382",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        222
+      ],
+      "max_rerank": 0.2622,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Direct acting vasodilators:324",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        194,
+        195
+      ],
+      "max_rerank": 0.3101,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (CCBs):315",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        191
+      ],
+      "max_rerank": 0.2651,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):388",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        225
+      ],
+      "max_rerank": 0.2211,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        223,
+        224
+      ],
+      "max_rerank": 0.175,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Antianginal Drugs:334",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        199
+      ],
+      "max_rerank": 0.1328,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Adenosine::390",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        226
+      ],
+      "max_rerank": 0.1276,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Aspirin:560",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        17
+      ],
+      "max_rerank": 0.0851,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:338",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        201
+      ],
+      "max_rerank": 0.0924,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:562",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        18
+      ],
+      "max_rerank": 0.0408,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:486",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.0335,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:468",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0136,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "heart disease.pdf:Prevention ::514",
+      "source": "heart disease.pdf",
+      "pages": [
+        4
+      ],
+      "max_rerank": 0.0135,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:350",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        207
+      ],
+      "max_rerank": 0.0596,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:205",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        127
+      ],
+      "max_rerank": 0.0312,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sacubitril:352",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        208
+      ],
+      "max_rerank": 0.0176,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:362",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        213
+      ],
+      "max_rerank": 0.0162,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Mechanism of action of vasodilators:336",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        200
+      ],
+      "max_rerank": 0.0442,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:22 tIm's stoRy:544",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0103,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "generated",
+    "best_score": 0.9342472553253174
+  },
+  "top_context": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Clopidogrel:561",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        17
+      ]
+    }
+  ],
+  "raw_answer": "C1|The context does not describe the mechanism of action of clopidogrel|Passage 1|\nC2|Clopidogrel is preferred over aspirin for patients who cannot tolerate aspirin, for those with unstable angina, and for patients who have recently undergone coronary angioplasty with stenting|Passage 1|",
+  "overall": {
+    "score": 0.9342472553253174,
+    "level": "Well Supported"
+  },
+  "expected": "answered"
+}

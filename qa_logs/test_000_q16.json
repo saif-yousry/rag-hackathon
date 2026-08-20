@@ -1,0 +1,548 @@
+{
+  "events": [],
+  "question": "What is the best way to cure all cancers using gene therapy by 2027?",
+  "sub_queries": [
+    "What is the best way to cure all cancers using gene therapy by 2027?",
+    "best way cure all cancers using",
+    "statistics percentage best way cure all"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is the best way to cure all cancers using gene therapy by 2027?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            152
+          ],
+          "rerank": 0.0006,
+          "dense": 0.4245
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Statins:570",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            21
+          ],
+          "rerank": 0.0003,
+          "dense": 0.4514
+        },
+        {
+          "rank": 3,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:LeADIng tHe FIgHt…:581",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            26
+          ],
+          "rerank": 0.0002,
+          "dense": 0.5338
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. Class 1B::375",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219
+          ],
+          "rerank": 0.0001,
+          "dense": 0.4129
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:291",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            173,
+            174
+          ],
+          "rerank": 0.0001,
+          "dense": 0.3589
+        },
+        {
+          "rank": 6,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:toP tIPs...:534",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0001,
+          "dense": 0.3826
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223,
+            224
+          ],
+          "rerank": 0.0001,
+          "dense": 0.3839
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:332",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            198
+          ],
+          "rerank": 0.0001,
+          "dense": 0.4899
+        },
+        {
+          "rank": 9,
+          "chunk_id": "living-with-hf-guide.pdf:Going to Cardiac Rehabilitation:611",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0001,
+          "dense": 0.4706
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:If a Heart Transplant Is Needed:678",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.0001,
+          "dense": 0.4909
+        }
+      ]
+    },
+    {
+      "query": "best way cure all cancers using",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Medicines that reduce triglyceride levels (fish oils):573",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.0274,
+          "dense": 0.524
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Statins:570",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            21
+          ],
+          "rerank": 0.0258,
+          "dense": 0.5087
+        },
+        {
+          "rank": 3,
+          "chunk_id": "living-with-hf-guide.pdf:Going to Cardiac Rehabilitation:611",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0251,
+          "dense": 0.5534
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Glyceryl trinitrate (GTN):587",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            27,
+            28
+          ],
+          "rerank": 0.0125,
+          "dense": 0.5303
+        },
+        {
+          "rank": 5,
+          "chunk_id": "living-with-hf-guide.pdf:MANAGING STRESS AND ANXIETY:654",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            16
+          ],
+          "rerank": 0.0118,
+          "dense": 0.5815
+        },
+        {
+          "rank": 6,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:toP tIPs...:534",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0095,
+          "dense": 0.5194
+        },
+        {
+          "rank": 7,
+          "chunk_id": "living-with-hf-guide.pdf:Using Diuretics:662",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            20
+          ],
+          "rerank": 0.0081,
+          "dense": 0.4958
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223,
+            224
+          ],
+          "rerank": 0.0066,
+          "dense": 0.4458
+        },
+        {
+          "rank": 9,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:22 tIm's stoRy:545",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0061,
+          "dense": 0.5501
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:If a Heart Transplant Is Needed:678",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.0057,
+          "dense": 0.5305
+        }
+      ]
+    },
+    {
+      "query": "statistics percentage best way cure all",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:475",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.013,
+          "dense": 0.5462
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:463",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0054,
+          "dense": 0.571
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:Data Analysis:438",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0024,
+          "dense": 0.5915
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:488",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.002,
+          "dense": 0.5103
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:474",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0018,
+          "dense": 0.5533
+        },
+        {
+          "rank": 6,
+          "chunk_id": "living-with-hf-guide.pdf:MANAGING STRESS AND ANXIETY:654",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            16
+          ],
+          "rerank": 0.0012,
+          "dense": 0.5821
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. Class 1B::375",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219
+          ],
+          "rerank": 0.001,
+          "dense": 0.426
+        },
+        {
+          "rank": 8,
+          "chunk_id": "living-with-hf-guide.pdf:REDUCING SODIUM (SALT):623",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0009,
+          "dense": 0.5351
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:461",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0009,
+          "dense": 0.564
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:503",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            14
+          ],
+          "rerank": 0.0008,
+          "dense": 0.485
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        152
+      ],
+      "max_rerank": 0.0006,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Statins:570",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        21
+      ],
+      "max_rerank": 0.0258,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:LeADIng tHe FIgHt…:581",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        26
+      ],
+      "max_rerank": 0.0002,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. Class 1B::375",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219
+      ],
+      "max_rerank": 0.001,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:291",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        173,
+        174
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:toP tIPs...:534",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.0095,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        223,
+        224
+      ],
+      "max_rerank": 0.0066,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:332",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        198
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Going to Cardiac Rehabilitation:611",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.0251,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:If a Heart Transplant Is Needed:678",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        23
+      ],
+      "max_rerank": 0.0057,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Medicines that reduce triglyceride levels (fish oils):573",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        23
+      ],
+      "max_rerank": 0.0274,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Glyceryl trinitrate (GTN):587",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        27,
+        28
+      ],
+      "max_rerank": 0.0125,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:MANAGING STRESS AND ANXIETY:654",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        16
+      ],
+      "max_rerank": 0.0118,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Using Diuretics:662",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        20
+      ],
+      "max_rerank": 0.0081,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:22 tIm's stoRy:545",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0061,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:475",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.013,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:463",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0054,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Data Analysis:438",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.0024,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:488",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.002,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:474",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0018,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:REDUCING SODIUM (SALT):623",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0009,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:461",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0009,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:503",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        14
+      ],
+      "max_rerank": 0.0008,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "best_score": 0.027446676045656204,
+    "reason": "best retrieval score below 0.77"
+  },
+  "expected": "refused"
+}

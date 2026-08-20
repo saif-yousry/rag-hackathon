@@ -1,0 +1,801 @@
+{
+  "events": [],
+  "question": "What is the role of ezetimibe in lipid lowering?",
+  "sub_queries": [
+    "What is the role of ezetimibe in lipid lowering?",
+    "ezetimibe mechanism of action lipid lowering",
+    "role of ezetimibe in cholesterol management",
+    "ezetimibe effect on LDL and triglyceride reduction",
+    "ezetimibe therapy overview for lipid lowering"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is the role of ezetimibe in lipid lowering?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Cholesterol-lowering medicines (lipid-lowering medicines):568",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            20
+          ],
+          "rerank": 0.0531,
+          "dense": 0.7173
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.0473,
+          "dense": 0.6267
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.0353,
+          "dense": 0.6854
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Other cholesterol-lowering medicines:571",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            22
+          ],
+          "rerank": 0.0237,
+          "dense": 0.7783
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            214
+          ],
+          "rerank": 0.0099,
+          "dense": 0.6498
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:HMG-CoA reductase inhibitors:358",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            212
+          ],
+          "rerank": 0.0083,
+          "dense": 0.72
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:370",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.003,
+          "dense": 0.6351
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:422",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.0021,
+          "dense": 0.6023
+        },
+        {
+          "rank": 9,
+          "chunk_id": "heart disease.pdf:Prevention ::514",
+          "source": "heart disease.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.0011,
+          "dense": 0.6547
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:362",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            213
+          ],
+          "rerank": 0.001,
+          "dense": 0.6583
+        }
+      ]
+    },
+    {
+      "query": "ezetimibe mechanism of action lipid lowering",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.3895,
+          "dense": 0.7405
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Cholesterol-lowering medicines (lipid-lowering medicines):568",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            20
+          ],
+          "rerank": 0.2673,
+          "dense": 0.7032
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:HMG-CoA reductase inhibitors:358",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            212
+          ],
+          "rerank": 0.1971,
+          "dense": 0.7617
+        },
+        {
+          "rank": 4,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Other cholesterol-lowering medicines:571",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            22
+          ],
+          "rerank": 0.1559,
+          "dense": 0.7552
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            214
+          ],
+          "rerank": 0.1001,
+          "dense": 0.7236
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Digoxin:341",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            203,
+            204
+          ],
+          "rerank": 0.0333,
+          "dense": 0.6509
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:362",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            213
+          ],
+          "rerank": 0.0248,
+          "dense": 0.7104
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. Class 1B::375",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219
+          ],
+          "rerank": 0.0243,
+          "dense": 0.5944
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):388",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.0237,
+          "dense": 0.6485
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (CCBs):315",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            191
+          ],
+          "rerank": 0.0193,
+          "dense": 0.6536
+        }
+      ]
+    },
+    {
+      "query": "role of ezetimibe in cholesterol management",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Other cholesterol-lowering medicines:571",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            22
+          ],
+          "rerank": 0.9708,
+          "dense": 0.7624
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Cholesterol-lowering medicines (lipid-lowering medicines):568",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            20
+          ],
+          "rerank": 0.8481,
+          "dense": 0.6964
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.1927,
+          "dense": 0.6999
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Hypertensive emergency:326",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            196
+          ],
+          "rerank": 0.0101,
+          "dense": 0.5501
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:365",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            214
+          ],
+          "rerank": 0.0084,
+          "dense": 0.6568
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:502",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            14
+          ],
+          "rerank": 0.0079,
+          "dense": 0.6642
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. α 1 blockers::321",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            193,
+            194
+          ],
+          "rerank": 0.0067,
+          "dense": 0.5902
+        },
+        {
+          "rank": 8,
+          "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:660",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.0043,
+          "dense": 0.6363
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:HMG-CoA reductase inhibitors:358",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            212
+          ],
+          "rerank": 0.0033,
+          "dense": 0.7085
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:362",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            213
+          ],
+          "rerank": 0.0031,
+          "dense": 0.6772
+        }
+      ]
+    },
+    {
+      "query": "ezetimibe effect on LDL and triglyceride reduction",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.8977,
+          "dense": 0.7235
+        },
+        {
+          "rank": 2,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Other cholesterol-lowering medicines:571",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            22
+          ],
+          "rerank": 0.859,
+          "dense": 0.754
+        },
+        {
+          "rank": 3,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Cholesterol-lowering medicines (lipid-lowering medicines):568",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            20
+          ],
+          "rerank": 0.5776,
+          "dense": 0.6888
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:HMG-CoA reductase inhibitors:358",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            212
+          ],
+          "rerank": 0.0609,
+          "dense": 0.7245
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. α 1 blockers::321",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            193,
+            194
+          ],
+          "rerank": 0.057,
+          "dense": 0.5889
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:370",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.0562,
+          "dense": 0.6837
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            214
+          ],
+          "rerank": 0.0532,
+          "dense": 0.7068
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:362",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            213
+          ],
+          "rerank": 0.0426,
+          "dense": 0.6967
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:350",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            207
+          ],
+          "rerank": 0.039,
+          "dense": 0.5685
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:363",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            213,
+            214
+          ],
+          "rerank": 0.0383,
+          "dense": 0.6475
+        }
+      ]
+    },
+    {
+      "query": "ezetimibe therapy overview for lipid lowering",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Cholesterol-lowering medicines (lipid-lowering medicines):568",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            20
+          ],
+          "rerank": 0.462,
+          "dense": 0.7032
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.319,
+          "dense": 0.7028
+        },
+        {
+          "rank": 3,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Other cholesterol-lowering medicines:571",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            22
+          ],
+          "rerank": 0.0744,
+          "dense": 0.7418
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.0479,
+          "dense": 0.6496
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:HMG-CoA reductase inhibitors:358",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            212
+          ],
+          "rerank": 0.0423,
+          "dense": 0.7156
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:469",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0368,
+          "dense": 0.6566
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            214
+          ],
+          "rerank": 0.022,
+          "dense": 0.6628
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:370",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.0166,
+          "dense": 0.6701
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:421",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.0121,
+          "dense": 0.5843
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:300",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            179,
+            180
+          ],
+          "rerank": 0.0096,
+          "dense": 0.5008
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Cholesterol-lowering medicines (lipid-lowering medicines):568",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        20
+      ],
+      "max_rerank": 0.8481,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9,
+        10
+      ],
+      "max_rerank": 0.0479,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        216
+      ],
+      "max_rerank": 0.8977,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Other cholesterol-lowering medicines:571",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        22
+      ],
+      "max_rerank": 0.9708,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Gemfibrozil, Fenofibrate (fibrates):366",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        214
+      ],
+      "max_rerank": 0.1001,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:HMG-CoA reductase inhibitors:358",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        212
+      ],
+      "max_rerank": 0.1971,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:370",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        216
+      ],
+      "max_rerank": 0.0562,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:422",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        4
+      ],
+      "max_rerank": 0.0021,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "heart disease.pdf:Prevention ::514",
+      "source": "heart disease.pdf",
+      "pages": [
+        4
+      ],
+      "max_rerank": 0.0011,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:362",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        213
+      ],
+      "max_rerank": 0.0426,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Digoxin:341",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        203,
+        204
+      ],
+      "max_rerank": 0.0333,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. Class 1B::375",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219
+      ],
+      "max_rerank": 0.0243,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):388",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        225
+      ],
+      "max_rerank": 0.0237,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (CCBs):315",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        191
+      ],
+      "max_rerank": 0.0193,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Hypertensive emergency:326",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        196
+      ],
+      "max_rerank": 0.0101,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:365",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        214
+      ],
+      "max_rerank": 0.0084,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:502",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        14
+      ],
+      "max_rerank": 0.0079,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. α 1 blockers::321",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        193,
+        194
+      ],
+      "max_rerank": 0.057,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:660",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        19
+      ],
+      "max_rerank": 0.0043,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:350",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        207
+      ],
+      "max_rerank": 0.039,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Bile acid sequestrants:363",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        213,
+        214
+      ],
+      "max_rerank": 0.0383,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:469",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0368,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:421",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        4
+      ],
+      "max_rerank": 0.0121,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:300",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        179,
+        180
+      ],
+      "max_rerank": 0.0096,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "generated",
+    "best_score": 0.9707874059677124
+  },
+  "top_context": [
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Other cholesterol-lowering medicines:571",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        22
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:369",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Cholesterol-lowering medicines (lipid-lowering medicines):568",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        20
+      ]
+    }
+  ],
+  "raw_answer": "C1| Ezetimibe lowers blood cholesterol by preventing its absorption in the intestine, which reduces LDL (non‑HDL) cholesterol |Passage 1|\nC2| Co‑administration of ezetimibe with statins may increase the risk of hepatotoxicity |Passage 2|",
+  "overall": {
+    "score": 0.8976954221725464,
+    "level": "Well Supported"
+  },
+  "expected": "answered"
+}

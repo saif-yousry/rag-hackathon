@@ -1,0 +1,429 @@
+{
+  "events": [],
+  "question": "What are the main classes of antiarrhythmic drugs and their mechanisms?",
+  "sub_queries": [
+    "What are the main classes of antiarrhythmic drugs and their mechanisms?",
+    "main classes antiarrhythmic drugs mechanisms"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What are the main classes of antiarrhythmic drugs and their mechanisms?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:821",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.9991,
+          "dense": 0.5654
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:β -blockers (class II):382",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.9989,
+          "dense": 0.6984
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Potassium channel blockers (class III):384",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223
+          ],
+          "rerank": 0.9974,
+          "dense": 0.7506
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.9951,
+          "dense": 0.6202
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Emotional Stress:550",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            53
+          ],
+          "rerank": 0.9922,
+          "dense": 0.5812
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            105,
+            106
+          ],
+          "rerank": 0.9891,
+          "dense": 0.6413
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Class 1A::372",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            217
+          ],
+          "rerank": 0.9875,
+          "dense": 0.7054
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (CCBs):315",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            191
+          ],
+          "rerank": 0.9819,
+          "dense": 0.7249
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:328",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197
+          ],
+          "rerank": 0.9707,
+          "dense": 0.6866
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. Class 1B::375",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219
+          ],
+          "rerank": 0.966,
+          "dense": 0.7423
+        }
+      ]
+    },
+    {
+      "query": "main classes antiarrhythmic drugs mechanisms",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. Class 1B::375",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219
+          ],
+          "rerank": 0.9836,
+          "dense": 0.7563
+        },
+        {
+          "rank": 2,
+          "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            105,
+            106
+          ],
+          "rerank": 0.9758,
+          "dense": 0.6565
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            219,
+            220
+          ],
+          "rerank": 0.9755,
+          "dense": 0.7856
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:133",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            86
+          ],
+          "rerank": 0.9622,
+          "dense": 0.6573
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:379",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            221
+          ],
+          "rerank": 0.955,
+          "dense": 0.7797
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:380",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            221
+          ],
+          "rerank": 0.892,
+          "dense": 0.72
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:381",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            221
+          ],
+          "rerank": 0.8726,
+          "dense": 0.7403
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::386",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            224
+          ],
+          "rerank": 0.8724,
+          "dense": 0.7058
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::378",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            220
+          ],
+          "rerank": 0.8167,
+          "dense": 0.7814
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:135",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            86
+          ],
+          "rerank": 0.7698,
+          "dense": 0.7088
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:821",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.9991,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:β -blockers (class II):382",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        222
+      ],
+      "max_rerank": 0.9989,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Potassium channel blockers (class III):384",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        223
+      ],
+      "max_rerank": 0.9974,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        192
+      ],
+      "max_rerank": 0.9951,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Emotional Stress:550",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        53
+      ],
+      "max_rerank": 0.9922,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        105,
+        106
+      ],
+      "max_rerank": 0.9891,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Class 1A::372",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        217
+      ],
+      "max_rerank": 0.9875,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (CCBs):315",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        191
+      ],
+      "max_rerank": 0.9819,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:328",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        197
+      ],
+      "max_rerank": 0.9707,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:2. Class 1B::375",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219
+      ],
+      "max_rerank": 0.9836,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::377",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        219,
+        220
+      ],
+      "max_rerank": 0.9755,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:133",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        86
+      ],
+      "max_rerank": 0.9622,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:379",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        221
+      ],
+      "max_rerank": 0.955,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:380",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        221
+      ],
+      "max_rerank": 0.892,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:381",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        221
+      ],
+      "max_rerank": 0.8726,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::386",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        224
+      ],
+      "max_rerank": 0.8724,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:3. Class 1C::378",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        220
+      ],
+      "max_rerank": 0.8167,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:135",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        86
+      ],
+      "max_rerank": 0.7698,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "generated",
+    "best_score": 0.9990770816802979
+  },
+  "top_context": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:821",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:β -blockers (class II):382",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        222
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Potassium channel blockers (class III):384",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        223
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        192
+      ]
+    }
+  ],
+  "raw_answer": "C1|The context only partially covers the main classes of antiarrhythmic drugs, describing class II (beta blockers) and class III (potassium‑channel blockers). |Passage 2|Passage 3|Passage 4  \nC2|Class II antiarrhythmic drugs (beta blockers) decrease SA and AV nodal activity by lowering cAMP and calcium currents, suppress abnormal pacemaker activity by reducing the phase‑4 slope, and increase PR interval. |Passage 2|Passage 4  \nC3|Class III antiarrhythmic drugs (e.g., amiodarone, ibutilide, dofetilide, sotalol) block the delayed‑rectifier potassium current (I_K), slowing phase 3 repolarization, which lengthens action‑potential duration, increases the effective refractory period, and prolongs the QT interval.",
+  "overall": {
+    "score": 0.995063841342926,
+    "level": "Strongly Supported"
+  },
+  "expected": "answered"
+}

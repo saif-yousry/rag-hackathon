@@ -1,0 +1,904 @@
+{
+  "events": [],
+  "question": "What is Eisenmenger syndrome?",
+  "sub_queries": [
+    "What is Eisenmenger syndrome?",
+    "Eisenmenger syndrome definition and description",
+    "Eisenmenger syndrome pathophysiology mechanism",
+    "Eisenmenger syndrome clinical presentation and physiology",
+    "Eisenmenger syndrome treatment and management strategies"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is Eisenmenger syndrome?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Ventricular septal defect::180",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            113
+          ],
+          "rerank": 0.9512,
+          "dense": 0.6399
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left to right shunts:179",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            113
+          ],
+          "rerank": 0.712,
+          "dense": 0.7151
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.5951,
+          "dense": 0.5984
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Patent Ductus Arteriosus:106",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            72
+          ],
+          "rerank": 0.4557,
+          "dense": 0.5849
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Abdominal aortic aneurysm:221",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            135
+          ],
+          "rerank": 0.3597,
+          "dense": 0.5575
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:772",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.1038,
+          "dense": 0.471
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Hypertrophic cardiomyopathy:253",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            152,
+            153
+          ],
+          "rerank": 0.0309,
+          "dense": 0.5816
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Pathogenesis of congestive heart failure:270",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            160,
+            161
+          ],
+          "rerank": 0.0205,
+          "dense": 0.556
+        },
+        {
+          "rank": 9,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:611",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            71,
+            72
+          ],
+          "rerank": 0.0156,
+          "dense": 0.531
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:WHEN YOU HAVE HEART FAILURE:935",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.013,
+          "dense": 0.5574
+        }
+      ]
+    },
+    {
+      "query": "Eisenmenger syndrome definition and description",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left to right shunts:179",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            113
+          ],
+          "rerank": 0.8755,
+          "dense": 0.724
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Ventricular septal defect::180",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            113
+          ],
+          "rerank": 0.8147,
+          "dense": 0.6598
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.7629,
+          "dense": 0.6172
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Patent Ductus Arteriosus:106",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            72
+          ],
+          "rerank": 0.3807,
+          "dense": 0.5949
+        },
+        {
+          "rank": 5,
+          "chunk_id": "heart disease.pdf:Cardiovascular disease ::844",
+          "source": "heart disease.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.0396,
+          "dense": 0.5887
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:649",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            88
+          ],
+          "rerank": 0.0149,
+          "dense": 0.5257
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Hypertrophic cardiomyopathy:253",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            152,
+            153
+          ],
+          "rerank": 0.0129,
+          "dense": 0.6008
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:234",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            142
+          ],
+          "rerank": 0.0115,
+          "dense": 0.5871
+        },
+        {
+          "rank": 9,
+          "chunk_id": "heart disease.pdf:Congenital Heart Disease ::850",
+          "source": "heart disease.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.0113,
+          "dense": 0.5773
+        },
+        {
+          "rank": 10,
+          "chunk_id": "book14-cardiovascular.pdf:Evaluation of Biblical Resuscitation:684",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            98
+          ],
+          "rerank": 0.0095,
+          "dense": 0.513
+        }
+      ]
+    },
+    {
+      "query": "Eisenmenger syndrome pathophysiology mechanism",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left to right shunts:179",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            113
+          ],
+          "rerank": 0.8675,
+          "dense": 0.7405
+        },
+        {
+          "rank": 2,
+          "chunk_id": "book14-cardiovascular.pdf:Mechanism of Injury:568",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            58
+          ],
+          "rerank": 0.6825,
+          "dense": 0.62
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.6606,
+          "dense": 0.6279
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Ventricular septal defect::180",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            113
+          ],
+          "rerank": 0.592,
+          "dense": 0.6745
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Mechanism of Injury:566",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            57,
+            58
+          ],
+          "rerank": 0.1575,
+          "dense": 0.6117
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:CONCLUDING REMARKS:728",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            115,
+            116
+          ],
+          "rerank": 0.0783,
+          "dense": 0.6564
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:205",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            127
+          ],
+          "rerank": 0.0654,
+          "dense": 0.6422
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:β -blockers (class II):382",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.0592,
+          "dense": 0.6096
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):388",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.059,
+          "dense": 0.6124
+        },
+        {
+          "rank": 10,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:608",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            70,
+            71
+          ],
+          "rerank": 0.0587,
+          "dense": 0.6418
+        }
+      ]
+    },
+    {
+      "query": "Eisenmenger syndrome clinical presentation and physiology",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Ventricular septal defect::180",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            113
+          ],
+          "rerank": 0.8828,
+          "dense": 0.6764
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left to right shunts:179",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            113
+          ],
+          "rerank": 0.5512,
+          "dense": 0.7355
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.4144,
+          "dense": 0.6269
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:612",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            72
+          ],
+          "rerank": 0.3314,
+          "dense": 0.6246
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:608",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            70,
+            71
+          ],
+          "rerank": 0.0385,
+          "dense": 0.6516
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:650",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            88
+          ],
+          "rerank": 0.0361,
+          "dense": 0.5718
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Kawasaki Disease::306",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            182,
+            183
+          ],
+          "rerank": 0.0275,
+          "dense": 0.5819
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:742",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            2
+          ],
+          "rerank": 0.0255,
+          "dense": 0.5211
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::214",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            132
+          ],
+          "rerank": 0.0185,
+          "dense": 0.5673
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            118
+          ],
+          "rerank": 0.0182,
+          "dense": 0.6261
+        }
+      ]
+    },
+    {
+      "query": "Eisenmenger syndrome treatment and management strategies",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Ventricular septal defect::180",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            113
+          ],
+          "rerank": 0.6131,
+          "dense": 0.6486
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left to right shunts:179",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            113
+          ],
+          "rerank": 0.3065,
+          "dense": 0.7045
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:801",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8,
+            9
+          ],
+          "rerank": 0.1691,
+          "dense": 0.5519
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            105,
+            106
+          ],
+          "rerank": 0.1108,
+          "dense": 0.6049
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Management:516",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            42,
+            43
+          ],
+          "rerank": 0.0935,
+          "dense": 0.6066
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            117
+          ],
+          "rerank": 0.0865,
+          "dense": 0.5827
+        },
+        {
+          "rank": 7,
+          "chunk_id": "book14-cardiovascular.pdf:Steps in Resuscitation:690",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            100
+          ],
+          "rerank": 0.0763,
+          "dense": 0.6028
+        },
+        {
+          "rank": 8,
+          "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:672",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            93
+          ],
+          "rerank": 0.0533,
+          "dense": 0.6328
+        },
+        {
+          "rank": 9,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:611",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            71,
+            72
+          ],
+          "rerank": 0.0303,
+          "dense": 0.5818
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Direct acting vasodilators:323",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            194,
+            195
+          ],
+          "rerank": 0.0257,
+          "dense": 0.5687
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Ventricular septal defect::180",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        113
+      ],
+      "max_rerank": 0.9512,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left to right shunts:179",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        113
+      ],
+      "max_rerank": 0.8755,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        117
+      ],
+      "max_rerank": 0.7629,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Patent Ductus Arteriosus:106",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        72
+      ],
+      "max_rerank": 0.4557,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Abdominal aortic aneurysm:221",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        135
+      ],
+      "max_rerank": 0.3597,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:772",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.1038,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Hypertrophic cardiomyopathy:253",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        152,
+        153
+      ],
+      "max_rerank": 0.0309,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Pathogenesis of congestive heart failure:270",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        160,
+        161
+      ],
+      "max_rerank": 0.0205,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:611",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        71,
+        72
+      ],
+      "max_rerank": 0.0303,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:WHEN YOU HAVE HEART FAILURE:935",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        4
+      ],
+      "max_rerank": 0.013,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "heart disease.pdf:Cardiovascular disease ::844",
+      "source": "heart disease.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 0.0396,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:649",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        88
+      ],
+      "max_rerank": 0.0149,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:234",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        142
+      ],
+      "max_rerank": 0.0115,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "heart disease.pdf:Congenital Heart Disease ::850",
+      "source": "heart disease.pdf",
+      "pages": [
+        4
+      ],
+      "max_rerank": 0.0113,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Evaluation of Biblical Resuscitation:684",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        98
+      ],
+      "max_rerank": 0.0095,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Mechanism of Injury:568",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        58
+      ],
+      "max_rerank": 0.6825,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Mechanism of Injury:566",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        57,
+        58
+      ],
+      "max_rerank": 0.1575,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:CONCLUDING REMARKS:728",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        115,
+        116
+      ],
+      "max_rerank": 0.0783,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:205",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        127
+      ],
+      "max_rerank": 0.0654,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:β -blockers (class II):382",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        222
+      ],
+      "max_rerank": 0.0592,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):388",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        225
+      ],
+      "max_rerank": 0.059,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:608",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        70,
+        71
+      ],
+      "max_rerank": 0.0587,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:612",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        72
+      ],
+      "max_rerank": 0.3314,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:650",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        88
+      ],
+      "max_rerank": 0.0361,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Kawasaki Disease::306",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        182,
+        183
+      ],
+      "max_rerank": 0.0275,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:742",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        2
+      ],
+      "max_rerank": 0.0255,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::214",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        132
+      ],
+      "max_rerank": 0.0185,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Congenital cardiac defect associations:191",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        118
+      ],
+      "max_rerank": 0.0182,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:801",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8,
+        9
+      ],
+      "max_rerank": 0.1691,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Several Changes:713",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        105,
+        106
+      ],
+      "max_rerank": 0.1108,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Management:516",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        42,
+        43
+      ],
+      "max_rerank": 0.0935,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Steps in Resuscitation:690",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        100
+      ],
+      "max_rerank": 0.0763,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:672",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        93
+      ],
+      "max_rerank": 0.0533,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Direct acting vasodilators:323",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        194,
+        195
+      ],
+      "max_rerank": 0.0257,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "generated",
+    "best_score": 0.9511590003967285
+  },
+  "top_context": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Ventricular septal defect::180",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        113
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left to right shunts:179",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        113
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:190",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        117
+      ]
+    }
+  ],
+  "raw_answer": "C1|Eisenmenger syndrome is a condition that develops when an uncorrected left‑to‑right cardiac shunt (such as a ventricular septal defect, atrial septal defect, or patent ductus arteriosus) leads to increased pulmonary blood flow, pathological remodeling of pulmonary vessels, pulmonary arterial hypertension, right ventricular hypertrophy, and reversal of the shunt to right‑to‑left, resulting in late cyanosis, polycythemia, and clubbing |Passage 2|\n\nSpeak to your doctor or pharmacist about your specific situation.",
+  "overall": {
+    "score": 0.8754937052726746,
+    "level": "Partially Supported"
+  },
+  "expected": "answered"
+}

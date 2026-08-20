@@ -1,0 +1,399 @@
+{
+  "events": [],
+  "question": "Explain quantum entanglement and its applications in quantum computing in detail.",
+  "sub_queries": [
+    "Explain quantum entanglement and its applications in quantum computing in detail.",
+    "explain quantum entanglement applications quantum computing"
+  ],
+  "sub_query_results": [
+    {
+      "query": "Explain quantum entanglement and its applications in quantum computing in detail.",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::396",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0033,
+          "dense": 0.4635
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:452",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.003,
+          "dense": 0.4644
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:460",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0018,
+          "dense": 0.4761
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::395",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0013,
+          "dense": 0.486
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:473",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.001,
+          "dense": 0.4664
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::394",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0009,
+          "dense": 0.4969
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:461",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0008,
+          "dense": 0.5134
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:462",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0006,
+          "dense": 0.4654
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:EKG Paper:154",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            95
+          ],
+          "rerank": 0.0003,
+          "dense": 0.4649
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:454",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0003,
+          "dense": 0.4952
+        }
+      ]
+    },
+    {
+      "query": "explain quantum entanglement applications quantum computing",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Class 1A::372",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            217
+          ],
+          "rerank": 0.0002,
+          "dense": 0.4299
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:121",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            79
+          ],
+          "rerank": 0.0001,
+          "dense": 0.4266
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:E. Naming the Straight Lines::150",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            93
+          ],
+          "rerank": 0.0,
+          "dense": 0.459
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Electrocardiography:137",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            88
+          ],
+          "rerank": 0.0,
+          "dense": 0.4574
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::395",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0,
+          "dense": 0.4352
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Gender Bias in Diagnosis, Prevention, and Treatment of Cardiovascular Diseases: A Systematic Review:399",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.0,
+          "dense": 0.4264
+        },
+        {
+          "rank": 7,
+          "chunk_id": "living-with-hf-guide.pdf:SEEKING ONGOING SUPPORT:681",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            24
+          ],
+          "rerank": 0.0,
+          "dense": 0.3516
+        },
+        {
+          "rank": 8,
+          "chunk_id": "living-with-hf-guide.pdf:SURGERY OR PROCEDURES:676",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.0,
+          "dense": 0.3411
+        },
+        {
+          "rank": 9,
+          "chunk_id": "living-with-hf-guide.pdf:IMPLANTABLE CARDIAC DEVICES:673",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            22
+          ],
+          "rerank": 0.0,
+          "dense": 0.3742
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:SURGERY OR PROCEDURES:675",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.0,
+          "dense": 0.3487
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::396",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        229
+      ],
+      "max_rerank": 0.0033,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:452",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.003,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:460",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0018,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::395",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        229
+      ],
+      "max_rerank": 0.0013,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:473",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::394",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        229
+      ],
+      "max_rerank": 0.0009,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:461",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0008,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:462",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0006,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:EKG Paper:154",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        95
+      ],
+      "max_rerank": 0.0003,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:454",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0003,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:1. Class 1A::372",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        217
+      ],
+      "max_rerank": 0.0002,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:121",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        79
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:E. Naming the Straight Lines::150",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        93
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Electrocardiography:137",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        88
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Gender Bias in Diagnosis, Prevention, and Treatment of Cardiovascular Diseases: A Systematic Review:399",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:SEEKING ONGOING SUPPORT:681",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        24
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:SURGERY OR PROCEDURES:676",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        23
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:IMPLANTABLE CARDIAC DEVICES:673",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        22
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:SURGERY OR PROCEDURES:675",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        23
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "best_score": 0.0032946167048066854,
+    "reason": "best retrieval score below 0.77"
+  },
+  "expected": "refused"
+}

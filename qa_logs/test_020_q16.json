@@ -1,0 +1,571 @@
+{
+  "events": [],
+  "question": "What is the best way to cure all cancers using gene therapy by 2027?",
+  "sub_queries": [
+    "What is the best way to cure all cancers using gene therapy by 2027?",
+    "best way cure all cancers using",
+    "statistics percentage best way cure all"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is the best way to cure all cancers using gene therapy by 2027?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:661",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            91
+          ],
+          "rerank": 0.0019,
+          "dense": 0.5047
+        },
+        {
+          "rank": 2,
+          "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:665",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            91,
+            92
+          ],
+          "rerank": 0.0008,
+          "dense": 0.5004
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            152
+          ],
+          "rerank": 0.0006,
+          "dense": 0.4245
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:664",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            91,
+            92
+          ],
+          "rerank": 0.0005,
+          "dense": 0.5357
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:The Dynamics of Cardiopulmonary Resuscitation:688",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            99
+          ],
+          "rerank": 0.0003,
+          "dense": 0.4541
+        },
+        {
+          "rank": 6,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:LeADIng tHe FIgHt…:916",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            26
+          ],
+          "rerank": 0.0002,
+          "dense": 0.5338
+        },
+        {
+          "rank": 7,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:459",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.0002,
+          "dense": 0.4692
+        },
+        {
+          "rank": 8,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:461",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5106
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:291",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            173,
+            174
+          ],
+          "rerank": 0.0001,
+          "dense": 0.3589
+        },
+        {
+          "rank": 10,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:toP tIPs...:869",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0001,
+          "dense": 0.3826
+        }
+      ]
+    },
+    {
+      "query": "best way cure all cancers using",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:665",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            91,
+            92
+          ],
+          "rerank": 0.7345,
+          "dense": 0.54
+        },
+        {
+          "rank": 2,
+          "chunk_id": "book14-cardiovascular.pdf:CONCLUDING REMARKS:730",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            116
+          ],
+          "rerank": 0.3323,
+          "dense": 0.5701
+        },
+        {
+          "rank": 3,
+          "chunk_id": "book14-cardiovascular.pdf:The Dynamics of Cardiopulmonary Resuscitation:688",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            99
+          ],
+          "rerank": 0.0636,
+          "dense": 0.5115
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:RESUSCITATION FROM ANCIENT TO MODERN TIMES:637",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            85,
+            86
+          ],
+          "rerank": 0.0564,
+          "dense": 0.558
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:661",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            91
+          ],
+          "rerank": 0.0354,
+          "dense": 0.5554
+        },
+        {
+          "rank": 6,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Statins:905",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            21
+          ],
+          "rerank": 0.0258,
+          "dense": 0.5087
+        },
+        {
+          "rank": 7,
+          "chunk_id": "living-with-hf-guide.pdf:Going to Cardiac Rehabilitation:946",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0251,
+          "dense": 0.5534
+        },
+        {
+          "rank": 8,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:461",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            23
+          ],
+          "rerank": 0.0162,
+          "dense": 0.5425
+        },
+        {
+          "rank": 9,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Glyceryl trinitrate (GTN):922",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            27,
+            28
+          ],
+          "rerank": 0.0125,
+          "dense": 0.5303
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:MANAGING STRESS AND ANXIETY:989",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            16
+          ],
+          "rerank": 0.0118,
+          "dense": 0.5815
+        }
+      ]
+    },
+    {
+      "query": "statistics percentage best way cure all",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "book14-cardiovascular.pdf:The Dynamics of Cardiopulmonary Resuscitation:688",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            99
+          ],
+          "rerank": 0.1039,
+          "dense": 0.536
+        },
+        {
+          "rank": 2,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:810",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.013,
+          "dense": 0.5462
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:798",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0054,
+          "dense": 0.571
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:Data Analysis:773",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0024,
+          "dense": 0.5915
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:823",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.002,
+          "dense": 0.5103
+        },
+        {
+          "rank": 6,
+          "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:809",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0018,
+          "dense": 0.5533
+        },
+        {
+          "rank": 7,
+          "chunk_id": "living-with-hf-guide.pdf:MANAGING STRESS AND ANXIETY:989",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            16
+          ],
+          "rerank": 0.0012,
+          "dense": 0.5821
+        },
+        {
+          "rank": 8,
+          "chunk_id": "living-with-hf-guide.pdf:REDUCING SODIUM (SALT):958",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0009,
+          "dense": 0.5351
+        },
+        {
+          "rank": 9,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:796",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0009,
+          "dense": 0.564
+        },
+        {
+          "rank": 10,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:838",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            14
+          ],
+          "rerank": 0.0008,
+          "dense": 0.485
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:661",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        91
+      ],
+      "max_rerank": 0.0354,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:665",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        91,
+        92
+      ],
+      "max_rerank": 0.7345,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Dilated cardiomyopathy:251",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        152
+      ],
+      "max_rerank": 0.0006,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:664",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        91,
+        92
+      ],
+      "max_rerank": 0.0005,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:The Dynamics of Cardiopulmonary Resuscitation:688",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        99
+      ],
+      "max_rerank": 0.1039,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:LeADIng tHe FIgHt…:916",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        26
+      ],
+      "max_rerank": 0.0002,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Treatment:459",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        23
+      ],
+      "max_rerank": 0.0002,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Treatment:461",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        23
+      ],
+      "max_rerank": 0.0162,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:291",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        173,
+        174
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:toP tIPs...:869",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:CONCLUDING REMARKS:730",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        116
+      ],
+      "max_rerank": 0.3323,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:RESUSCITATION FROM ANCIENT TO MODERN TIMES:637",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        85,
+        86
+      ],
+      "max_rerank": 0.0564,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Statins:905",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        21
+      ],
+      "max_rerank": 0.0258,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Going to Cardiac Rehabilitation:946",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.0251,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Glyceryl trinitrate (GTN):922",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        27,
+        28
+      ],
+      "max_rerank": 0.0125,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:MANAGING STRESS AND ANXIETY:989",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        16
+      ],
+      "max_rerank": 0.0118,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:810",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.013,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 2: Prevalence of CVDs risk factors in men and women patients:798",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0054,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Data Analysis:773",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.0024,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:823",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.002,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Prescription of Medicines to Women:809",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0018,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:REDUCING SODIUM (SALT):958",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0009,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:796",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0009,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:838",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        14
+      ],
+      "max_rerank": 0.0008,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "reason": "escape hatch"
+  },
+  "top_context": [
+    {
+      "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:665",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        91,
+        92
+      ]
+    }
+  ],
+  "raw_answer": "I don't have enough information in the provided context to answer this question.",
+  "expected": "refused"
+}

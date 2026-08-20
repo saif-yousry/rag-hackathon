@@ -1,0 +1,772 @@
+{
+  "events": [],
+  "question": "Why are beta blockers contraindicated in Wolff-Parkinson-White syndrome?",
+  "sub_queries": [
+    "Why are beta blockers contraindicated in Wolff-Parkinson-White syndrome?",
+    "beta blockers contraindication mechanism Wolff-Parkinson-White syndrome",
+    "Wolff-Parkinson-White syndrome beta blocker contraindicated rationale",
+    "beta blocker use physiology accessory pathway Wolff-Parkinson-White",
+    "contraindicated beta blockers WPW treatment guidelines"
+  ],
+  "sub_query_results": [
+    {
+      "query": "Why are beta blockers contraindicated in Wolff-Parkinson-White syndrome?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:356",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.9838,
+          "dense": 0.7007
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:331",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197,
+            198
+          ],
+          "rerank": 0.9683,
+          "dense": 0.5983
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.922,
+          "dense": 0.6747
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:329",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197
+          ],
+          "rerank": 0.7522,
+          "dense": 0.6806
+        },
+        {
+          "rank": 5,
+          "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:564",
+          "source": "his17_medicines_0817_a4_removed.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.6301,
+          "dense": 0.7251
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:339",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201,
+            202
+          ],
+          "rerank": 0.4359,
+          "dense": 0.6346
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:133",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            86
+          ],
+          "rerank": 0.4062,
+          "dense": 0.6651
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.3418,
+          "dense": 0.73
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:342",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            204
+          ],
+          "rerank": 0.2689,
+          "dense": 0.7379
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:256",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            154
+          ],
+          "rerank": 0.2024,
+          "dense": 0.7172
+        }
+      ]
+    },
+    {
+      "query": "beta blockers contraindication mechanism Wolff-Parkinson-White syndrome",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Wolff-Parkinson-White syndrome:166",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            103
+          ],
+          "rerank": 0.7472,
+          "dense": 0.7505
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.584,
+          "dense": 0.6959
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:356",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.3946,
+          "dense": 0.6854
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:329",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197
+          ],
+          "rerank": 0.3903,
+          "dense": 0.6629
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:338",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201
+          ],
+          "rerank": 0.3266,
+          "dense": 0.6671
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Direct acting vasodilators:322",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            194
+          ],
+          "rerank": 0.2616,
+          "dense": 0.6274
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:342",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            204
+          ],
+          "rerank": 0.2425,
+          "dense": 0.7246
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:355",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.1744,
+          "dense": 0.5824
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.1676,
+          "dense": 0.7282
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:331",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197,
+            198
+          ],
+          "rerank": 0.1634,
+          "dense": 0.5681
+        }
+      ]
+    },
+    {
+      "query": "Wolff-Parkinson-White syndrome beta blocker contraindicated rationale",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:329",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197
+          ],
+          "rerank": 0.5939,
+          "dense": 0.6768
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Wolff-Parkinson-White syndrome:166",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            103
+          ],
+          "rerank": 0.475,
+          "dense": 0.718
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:342",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            204
+          ],
+          "rerank": 0.2492,
+          "dense": 0.7165
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.2142,
+          "dense": 0.7113
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:356",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.2096,
+          "dense": 0.7053
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:339",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201,
+            202
+          ],
+          "rerank": 0.2092,
+          "dense": 0.6514
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Direct acting vasodilators:322",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            194
+          ],
+          "rerank": 0.1874,
+          "dense": 0.6353
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            141,
+            142
+          ],
+          "rerank": 0.1305,
+          "dense": 0.6373
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:338",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201
+          ],
+          "rerank": 0.113,
+          "dense": 0.6832
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.1036,
+          "dense": 0.7334
+        }
+      ]
+    },
+    {
+      "query": "beta blocker use physiology accessory pathway Wolff-Parkinson-White",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Wolff-Parkinson-White syndrome:166",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            103
+          ],
+          "rerank": 0.9442,
+          "dense": 0.7575
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.1998,
+          "dense": 0.6775
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:256",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            154
+          ],
+          "rerank": 0.1014,
+          "dense": 0.7279
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.0951,
+          "dense": 0.7034
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:355",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.063,
+          "dense": 0.6032
+        },
+        {
+          "rank": 6,
+          "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:661",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.0495,
+          "dense": 0.6303
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:357",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            210
+          ],
+          "rerank": 0.0493,
+          "dense": 0.606
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Direct acting vasodilators:322",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            194
+          ],
+          "rerank": 0.0481,
+          "dense": 0.6258
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:356",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.0442,
+          "dense": 0.6733
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.0438,
+          "dense": 0.6753
+        }
+      ]
+    },
+    {
+      "query": "contraindicated beta blockers WPW treatment guidelines",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:329",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197
+          ],
+          "rerank": 0.6397,
+          "dense": 0.6991
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.4433,
+          "dense": 0.7072
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:356",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            209
+          ],
+          "rerank": 0.4142,
+          "dense": 0.6874
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:339",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201,
+            202
+          ],
+          "rerank": 0.3429,
+          "dense": 0.6529
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:256",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            154
+          ],
+          "rerank": 0.3255,
+          "dense": 0.7218
+        },
+        {
+          "rank": 6,
+          "chunk_id": "heart disease.pdf:Prevention ::514",
+          "source": "heart disease.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.3213,
+          "dense": 0.6308
+        },
+        {
+          "rank": 7,
+          "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "rerank": 0.271,
+          "dense": 0.6735
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            225
+          ],
+          "rerank": 0.2599,
+          "dense": 0.7051
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            222
+          ],
+          "rerank": 0.2398,
+          "dense": 0.728
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:338",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            201
+          ],
+          "rerank": 0.1737,
+          "dense": 0.673
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:356",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        209
+      ],
+      "max_rerank": 0.9838,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:331",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        197,
+        198
+      ],
+      "max_rerank": 0.9683,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        192
+      ],
+      "max_rerank": 0.922,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:329",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        197
+      ],
+      "max_rerank": 0.7522,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "his17_medicines_0817_a4_removed.pdf:Adverse Effects:564",
+      "source": "his17_medicines_0817_a4_removed.pdf",
+      "pages": [
+        19
+      ],
+      "max_rerank": 0.6301,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:339",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        201,
+        202
+      ],
+      "max_rerank": 0.4359,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:133",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        86
+      ],
+      "max_rerank": 0.4062,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:383",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        222
+      ],
+      "max_rerank": 0.3418,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:342",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        204
+      ],
+      "max_rerank": 0.2689,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:256",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        154
+      ],
+      "max_rerank": 0.3255,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Wolff-Parkinson-White syndrome:166",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        103
+      ],
+      "max_rerank": 0.9442,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:338",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        201
+      ],
+      "max_rerank": 0.3266,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Direct acting vasodilators:322",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        194
+      ],
+      "max_rerank": 0.2616,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:355",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        209
+      ],
+      "max_rerank": 0.1744,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:231",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        141,
+        142
+      ],
+      "max_rerank": 0.1305,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:MEDICATIONS COMMONLY USED TO TREAT HEART FAILURE:661",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        19
+      ],
+      "max_rerank": 0.0495,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:357",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        210
+      ],
+      "max_rerank": 0.0493,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Calcium channel blockers (class IV):389",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        225
+      ],
+      "max_rerank": 0.2599,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "heart disease.pdf:Prevention ::514",
+      "source": "heart disease.pdf",
+      "pages": [
+        4
+      ],
+      "max_rerank": 0.3213,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:TABLE 3: Medications prescribed to men and women CVD patients:478",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        9,
+        10
+      ],
+      "max_rerank": 0.271,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "generated",
+    "best_score": 0.9838355779647827
+  },
+  "top_context": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:356",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:331",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        197,
+        198
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Wolff-Parkinson-White syndrome:166",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        103
+      ]
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        192
+      ]
+    }
+  ],
+  "raw_answer": "C1|Beta blockers are contraindicated in Wolff-Parkinson-White syndrome because slowing AV conduction can enhance the arrhythmia.|Passage 3|\n\nSpeak to your doctor or pharmacist about your specific situation.",
+  "overall": {
+    "score": 0.9441935420036316,
+    "level": "Well Supported"
+  },
+  "expected": "answered"
+}

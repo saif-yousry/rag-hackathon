@@ -26,7 +26,6 @@ from .config import ChunkingConfig, PreprocessingConfig
 
 import re
 
-# أنماط الحطام: حقوق نشر + أكواد وثائق (نفس patterns اللي في cleaning.py)
 _GARBAGE_PATTERNS = [
     re.compile(r"(unauthorized\s+use\s+(is\s+)?prohibited|all\s+rights\s+reserved)", re.IGNORECASE),
     re.compile(r"(no\s+part\s+of\s+(this\s+(publication|document))|(may\s+not\s+be\s+reproduced|stored\s+in\s+a\s+retrieval))", re.IGNORECASE),
@@ -35,10 +34,8 @@ _GARBAGE_PATTERNS = [
 ]
 _GARBAGE_BOOST_RE = re.compile(r"(copyright|©|prohibited|reproduction|WF\d{4,}|JACC-?\d)", re.IGNORECASE)
 
-# markers اللي مش عناوين فعلًا (bullet markers من المحاضرات)
 _BULLET_MARKERS = ("❖", "▪", "•", "* N.B", "N.B.", "Note:", "Clinical note")
 
-# أسماء عامة تُرفع لقسم أبوي بدل ما تبهدل الـ breadcrumbs
 _GENERIC_SECTIONS = {
     "methods", "results", "discussion", "conclusion", "side effects",
     "appendices", "appendix", "references", "summary", "introduction",
@@ -58,7 +55,6 @@ _PARENT_MAP = {
 
 
 def _is_garbage_text(text: str) -> bool:
-    """True للسطور المكونة من حطام: حقوق نشر / أكواد وثائق / سطور قصيرة مليانة junk tokens."""
     t = text.strip()
     if not t:
         return True
@@ -75,7 +71,6 @@ def _is_bullet_marker(section: str) -> bool:
 
 
 def _normalize_section(section: str, current_markers: int) -> str:
-    """يعيد تسمية markers والعناوين العامة لقسم أبوي واضح."""
     s = section.strip()
     if not s:
         return "General Context"

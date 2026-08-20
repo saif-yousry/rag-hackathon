@@ -1,0 +1,812 @@
+{
+  "events": [],
+  "question": "What determines cardiac output and how is it measured by the Fick principle?",
+  "sub_queries": [
+    "What determines cardiac output and how is it measured by the Fick principle?",
+    "determinants of cardiac output physiology",
+    "cardiac output definition and influencing factors",
+    "measurement of cardiac output using the Fick principle methodology",
+    "Fick principle calculation of cardiac output explanation"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What determines cardiac output and how is it measured by the Fick principle?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            156
+          ],
+          "rerank": 0.4024,
+          "dense": 0.6122
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:45",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30,
+            31
+          ],
+          "rerank": 0.0773,
+          "dense": 0.6465
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:44",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30
+          ],
+          "rerank": 0.0623,
+          "dense": 0.6419
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:295",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            176
+          ],
+          "rerank": 0.0378,
+          "dense": 0.6656
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:43",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30
+          ],
+          "rerank": 0.0313,
+          "dense": 0.6842
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:259",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            155
+          ],
+          "rerank": 0.0279,
+          "dense": 0.6337
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:94",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            62,
+            63
+          ],
+          "rerank": 0.0249,
+          "dense": 0.601
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stroke volume::52",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            36
+          ],
+          "rerank": 0.0234,
+          "dense": 0.7244
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Biochemical changes in early ischemic injury:247",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            149
+          ],
+          "rerank": 0.0211,
+          "dense": 0.6201
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Phosphodiesterase inhibitors:347",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            205
+          ],
+          "rerank": 0.014,
+          "dense": 0.5547
+        }
+      ]
+    },
+    {
+      "query": "determinants of cardiac output physiology",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stroke volume::52",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            36
+          ],
+          "rerank": 0.5594,
+          "dense": 0.7365
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:87",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            60
+          ],
+          "rerank": 0.4567,
+          "dense": 0.6675
+        },
+        {
+          "rank": 3,
+          "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:670",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            93
+          ],
+          "rerank": 0.3969,
+          "dense": 0.5944
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:FOREWORD:409",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.3267,
+          "dense": 0.6668
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:45",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30,
+            31
+          ],
+          "rerank": 0.296,
+          "dense": 0.6756
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Applying the Poiseuille equation to the systemic circuit, the following is true::48",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            34
+          ],
+          "rerank": 0.2849,
+          "dense": 0.7089
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:62",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            42
+          ],
+          "rerank": 0.2412,
+          "dense": 0.6028
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:D. Afterload::55",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            37
+          ],
+          "rerank": 0.2392,
+          "dense": 0.6826
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:44",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30
+          ],
+          "rerank": 0.2021,
+          "dense": 0.6764
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Biochemical changes in early ischemic injury:247",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            149
+          ],
+          "rerank": 0.1979,
+          "dense": 0.6067
+        }
+      ]
+    },
+    {
+      "query": "cardiac output definition and influencing factors",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stroke volume::52",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            36
+          ],
+          "rerank": 0.3743,
+          "dense": 0.7275
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:62",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            42
+          ],
+          "rerank": 0.2265,
+          "dense": 0.6045
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:120",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            79
+          ],
+          "rerank": 0.2018,
+          "dense": 0.6341
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            156
+          ],
+          "rerank": 0.1746,
+          "dense": 0.5801
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:45",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30,
+            31
+          ],
+          "rerank": 0.1731,
+          "dense": 0.6833
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:295",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            176
+          ],
+          "rerank": 0.1509,
+          "dense": 0.673
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::213",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            131
+          ],
+          "rerank": 0.1018,
+          "dense": 0.6792
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left ventricular myocardial perfusion & heart rate:70",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            49,
+            50
+          ],
+          "rerank": 0.0864,
+          "dense": 0.645
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Biochemical changes in early ischemic injury:247",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            149
+          ],
+          "rerank": 0.0753,
+          "dense": 0.6244
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Applying the Poiseuille equation to the systemic circuit, the following is true::48",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            34
+          ],
+          "rerank": 0.0732,
+          "dense": 0.66
+        }
+      ]
+    },
+    {
+      "query": "measurement of cardiac output using the Fick principle methodology",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:612",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            72
+          ],
+          "rerank": 0.8677,
+          "dense": 0.6424
+        },
+        {
+          "rank": 2,
+          "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:669",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            93
+          ],
+          "rerank": 0.3972,
+          "dense": 0.6428
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:87",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            60
+          ],
+          "rerank": 0.1874,
+          "dense": 0.6722
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:651",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            88
+          ],
+          "rerank": 0.1562,
+          "dense": 0.6217
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:45",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30,
+            31
+          ],
+          "rerank": 0.1359,
+          "dense": 0.6138
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:66",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            47
+          ],
+          "rerank": 0.1306,
+          "dense": 0.6522
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:95",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            63,
+            64
+          ],
+          "rerank": 0.13,
+          "dense": 0.657
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left ventricular myocardial perfusion & heart rate:70",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            49,
+            50
+          ],
+          "rerank": 0.1258,
+          "dense": 0.6427
+        },
+        {
+          "rank": 9,
+          "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:670",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            93
+          ],
+          "rerank": 0.1236,
+          "dense": 0.6473
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:350",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            207
+          ],
+          "rerank": 0.084,
+          "dense": 0.5592
+        }
+      ]
+    },
+    {
+      "query": "Fick principle calculation of cardiac output explanation",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            156
+          ],
+          "rerank": 0.0592,
+          "dense": 0.603
+        },
+        {
+          "rank": 2,
+          "chunk_id": "book14-cardiovascular.pdf:FOREWORD:409",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.0424,
+          "dense": 0.6665
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left ventricular myocardial perfusion & heart rate:70",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            49,
+            50
+          ],
+          "rerank": 0.0311,
+          "dense": 0.6621
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:651",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            88
+          ],
+          "rerank": 0.0219,
+          "dense": 0.6441
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:FOREWORD:405",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            7
+          ],
+          "rerank": 0.02,
+          "dense": 0.6286
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:44",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30
+          ],
+          "rerank": 0.0198,
+          "dense": 0.6472
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Cardiac murmurs* *:110",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            75
+          ],
+          "rerank": 0.0182,
+          "dense": 0.6794
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:295",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            176
+          ],
+          "rerank": 0.0181,
+          "dense": 0.6664
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:45",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30,
+            31
+          ],
+          "rerank": 0.0166,
+          "dense": 0.6599
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stroke volume::52",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            36
+          ],
+          "rerank": 0.0113,
+          "dense": 0.7128
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Eccentric left ventricular enlargement & heart failure:260",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        156
+      ],
+      "max_rerank": 0.4024,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:45",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        30,
+        31
+      ],
+      "max_rerank": 0.296,
+      "queries_hit": 5
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:44",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        30
+      ],
+      "max_rerank": 0.2021,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:295",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        176
+      ],
+      "max_rerank": 0.1509,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:43",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        30
+      ],
+      "max_rerank": 0.0313,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:259",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        155
+      ],
+      "max_rerank": 0.0279,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:94",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        62,
+        63
+      ],
+      "max_rerank": 0.0249,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stroke volume::52",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        36
+      ],
+      "max_rerank": 0.5594,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Biochemical changes in early ischemic injury:247",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        149
+      ],
+      "max_rerank": 0.1979,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Phosphodiesterase inhibitors:347",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        205
+      ],
+      "max_rerank": 0.014,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:87",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        60
+      ],
+      "max_rerank": 0.4567,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:670",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        93
+      ],
+      "max_rerank": 0.3969,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:FOREWORD:409",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        7
+      ],
+      "max_rerank": 0.3267,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Applying the Poiseuille equation to the systemic circuit, the following is true::48",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        34
+      ],
+      "max_rerank": 0.2849,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:62",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        42
+      ],
+      "max_rerank": 0.2412,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:D. Afterload::55",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        37
+      ],
+      "max_rerank": 0.2392,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:120",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        79
+      ],
+      "max_rerank": 0.2018,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::213",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        131
+      ],
+      "max_rerank": 0.1018,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Left ventricular myocardial perfusion & heart rate:70",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        49,
+        50
+      ],
+      "max_rerank": 0.1258,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:612",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        72
+      ],
+      "max_rerank": 0.8677,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:The Standard Treatment:669",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        93
+      ],
+      "max_rerank": 0.3972,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:History of CardioPulmonary Resuscitation:651",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        88
+      ],
+      "max_rerank": 0.1562,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:66",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        47
+      ],
+      "max_rerank": 0.1306,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:95",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        63,
+        64
+      ],
+      "max_rerank": 0.13,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Sympathomimetics: dobutamine and dopamine:350",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        207
+      ],
+      "max_rerank": 0.084,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:FOREWORD:405",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        7
+      ],
+      "max_rerank": 0.02,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Cardiac murmurs* *:110",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        75
+      ],
+      "max_rerank": 0.0182,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "reason": "escape hatch"
+  },
+  "top_context": [
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:612",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        72
+      ]
+    }
+  ],
+  "raw_answer": "I don't have enough information in the provided context to answer this question.",
+  "expected": "answered"
+}

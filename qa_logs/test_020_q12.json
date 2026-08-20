@@ -1,0 +1,967 @@
+{
+  "events": [],
+  "question": "What is cardiovascular-kidney-metabolic syndrome?",
+  "sub_queries": [
+    "What is cardiovascular-kidney-metabolic syndrome?",
+    "cardiovascular kidney metabolic syndrome definition",
+    "pathophysiology mechanism of cardiovascular-kidney-metabolic syndrome",
+    "clinical features and physiology of cardiovascular kidney metabolic syndrome",
+    "treatment and management of cardiovascular-kidney-metabolic syndrome"
+  ],
+  "sub_query_results": [
+    {
+      "query": "What is cardiovascular-kidney-metabolic syndrome?",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:738",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 1.0,
+          "dense": 0.6328
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Abdominal aortic aneurysm:221",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            135
+          ],
+          "rerank": 0.9132,
+          "dense": 0.6302
+        },
+        {
+          "rank": 3,
+          "chunk_id": "book14-cardiovascular.pdf:The Etiologic Diagnosis:483",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            33,
+            34
+          ],
+          "rerank": 0.8615,
+          "dense": 0.6045
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:618",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            73
+          ],
+          "rerank": 0.8261,
+          "dense": 0.5325
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.8022,
+          "dense": 0.5501
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:Mechanism of Injury:557",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            56
+          ],
+          "rerank": 0.7247,
+          "dense": 0.6366
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fibromuscular dysplasia:197",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            121,
+            122
+          ],
+          "rerank": 0.6378,
+          "dense": 0.679
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:772",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.5677,
+          "dense": 0.5468
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:44",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            30
+          ],
+          "rerank": 0.5485,
+          "dense": 0.5372
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:stenosis:194",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.543,
+          "dense": 0.6211
+        }
+      ]
+    },
+    {
+      "query": "cardiovascular kidney metabolic syndrome definition",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:611",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            71,
+            72
+          ],
+          "rerank": 0.202,
+          "dense": 0.6104
+        },
+        {
+          "rank": 2,
+          "chunk_id": "living-with-hf-guide.pdf:UNDERSTANDING YOUR RISK FACTORS:942",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            5
+          ],
+          "rerank": 0.1095,
+          "dense": 0.7109
+        },
+        {
+          "rank": 3,
+          "chunk_id": "book14-cardiovascular.pdf:The Etiologic Diagnosis:483",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            33,
+            34
+          ],
+          "rerank": 0.0704,
+          "dense": 0.5944
+        },
+        {
+          "rank": 4,
+          "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:738",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            1
+          ],
+          "rerank": 0.0591,
+          "dense": 0.613
+        },
+        {
+          "rank": 5,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:823",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            11
+          ],
+          "rerank": 0.0566,
+          "dense": 0.5197
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:The Etiologic Diagnosis:484",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            34
+          ],
+          "rerank": 0.0523,
+          "dense": 0.5065
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:291",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            173,
+            174
+          ],
+          "rerank": 0.0481,
+          "dense": 0.5461
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            192
+          ],
+          "rerank": 0.0459,
+          "dense": 0.5366
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stable angina::226",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            137,
+            138
+          ],
+          "rerank": 0.0411,
+          "dense": 0.5238
+        },
+        {
+          "rank": 10,
+          "chunk_id": "book14-cardiovascular.pdf:Emotional Stress:543",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            51,
+            52
+          ],
+          "rerank": 0.0371,
+          "dense": 0.5506
+        }
+      ]
+    },
+    {
+      "query": "pathophysiology mechanism of cardiovascular-kidney-metabolic syndrome",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "book14-cardiovascular.pdf:Vasovagal Syncope:491",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            36,
+            37
+          ],
+          "rerank": 0.9495,
+          "dense": 0.6105
+        },
+        {
+          "rank": 2,
+          "chunk_id": "book14-cardiovascular.pdf:Psychological Disturbances:528",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            48
+          ],
+          "rerank": 0.6512,
+          "dense": 0.6856
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:267",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            159
+          ],
+          "rerank": 0.5656,
+          "dense": 0.67
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:stenosis:194",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.4661,
+          "dense": 0.6924
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Vasovagal Syncope:489",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            36
+          ],
+          "rerank": 0.4527,
+          "dense": 0.5983
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:Mechanism of Injury:557",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            56
+          ],
+          "rerank": 0.4239,
+          "dense": 0.6939
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Natriuretic peptides:118",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            78
+          ],
+          "rerank": 0.4056,
+          "dense": 0.6565
+        },
+        {
+          "rank": 8,
+          "chunk_id": "book14-cardiovascular.pdf:The Etiologic Diagnosis:483",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            33,
+            34
+          ],
+          "rerank": 0.373,
+          "dense": 0.6176
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            223,
+            224
+          ],
+          "rerank": 0.185,
+          "dense": 0.5914
+        },
+        {
+          "rank": 10,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Procainamide::374",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            218
+          ],
+          "rerank": 0.1449,
+          "dense": 0.578
+        }
+      ]
+    },
+    {
+      "query": "clinical features and physiology of cardiovascular kidney metabolic syndrome",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:300",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            179,
+            180
+          ],
+          "rerank": 0.6356,
+          "dense": 0.6209
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:stenosis:194",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            119
+          ],
+          "rerank": 0.399,
+          "dense": 0.6566
+        },
+        {
+          "rank": 3,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::214",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            132
+          ],
+          "rerank": 0.3711,
+          "dense": 0.5848
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:267",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            159
+          ],
+          "rerank": 0.3399,
+          "dense": 0.646
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:370",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            216
+          ],
+          "rerank": 0.2992,
+          "dense": 0.6444
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocardial infarction:229",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            140
+          ],
+          "rerank": 0.2757,
+          "dense": 0.563
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Rheumatic fever:277",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            166
+          ],
+          "rerank": 0.2742,
+          "dense": 0.5283
+        },
+        {
+          "rank": 8,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Acute endocarditis::284",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            170
+          ],
+          "rerank": 0.2665,
+          "dense": 0.5164
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Left-sided heart failure::263",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            157
+          ],
+          "rerank": 0.234,
+          "dense": 0.5718
+        },
+        {
+          "rank": 10,
+          "chunk_id": "book14-cardiovascular.pdf:Management:513",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            42
+          ],
+          "rerank": 0.1975,
+          "dense": 0.547
+        }
+      ]
+    },
+    {
+      "query": "treatment and management of cardiovascular-kidney-metabolic syndrome",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "book14-cardiovascular.pdf:Management:516",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            42,
+            43
+          ],
+          "rerank": 0.973,
+          "dense": 0.659
+        },
+        {
+          "rank": 2,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:449",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            20,
+            21
+          ],
+          "rerank": 0.9717,
+          "dense": 0.6306
+        },
+        {
+          "rank": 3,
+          "chunk_id": "book14-cardiovascular.pdf:Management:513",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            42
+          ],
+          "rerank": 0.9515,
+          "dense": 0.5561
+        },
+        {
+          "rank": 4,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:454",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            21,
+            22
+          ],
+          "rerank": 0.7915,
+          "dense": 0.6545
+        },
+        {
+          "rank": 5,
+          "chunk_id": "book14-cardiovascular.pdf:Treatment:455",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            22
+          ],
+          "rerank": 0.6717,
+          "dense": 0.6696
+        },
+        {
+          "rank": 6,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Hypertensive emergency:325",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            196
+          ],
+          "rerank": 0.3371,
+          "dense": 0.656
+        },
+        {
+          "rank": 7,
+          "chunk_id": "heart disease.pdf:Prevention ::849",
+          "source": "heart disease.pdf",
+          "pages": [
+            4
+          ],
+          "rerank": 0.3201,
+          "dense": 0.6879
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:838",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            14
+          ],
+          "rerank": 0.2714,
+          "dense": 0.6199
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:331",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            197,
+            198
+          ],
+          "rerank": 0.2658,
+          "dense": 0.6565
+        },
+        {
+          "rank": 10,
+          "chunk_id": "book14-cardiovascular.pdf:The Etiologic Diagnosis:483",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            33,
+            34
+          ],
+          "rerank": 0.191,
+          "dense": 0.5939
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:738",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ],
+      "max_rerank": 1.0,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Abdominal aortic aneurysm:221",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        135
+      ],
+      "max_rerank": 0.9132,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:The Etiologic Diagnosis:483",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        33,
+        34
+      ],
+      "max_rerank": 0.8615,
+      "queries_hit": 4
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:618",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        73
+      ],
+      "max_rerank": 0.8261,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. β blockers ::317",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        192
+      ],
+      "max_rerank": 0.8022,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Mechanism of Injury:557",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        56
+      ],
+      "max_rerank": 0.7247,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fibromuscular dysplasia:197",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        121,
+        122
+      ],
+      "max_rerank": 0.6378,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:772",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.5677,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:44",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        30
+      ],
+      "max_rerank": 0.5485,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:stenosis:194",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        119
+      ],
+      "max_rerank": 0.543,
+      "queries_hit": 3
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Complications of Acute Myocardial Infarction:611",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        71,
+        72
+      ],
+      "max_rerank": 0.202,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:UNDERSTANDING YOUR RISK FACTORS:942",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        5
+      ],
+      "max_rerank": 0.1095,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:823",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        11
+      ],
+      "max_rerank": 0.0566,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:The Etiologic Diagnosis:484",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        34
+      ],
+      "max_rerank": 0.0523,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocarditis:291",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        173,
+        174
+      ],
+      "max_rerank": 0.0481,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Stable angina::226",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        137,
+        138
+      ],
+      "max_rerank": 0.0411,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Emotional Stress:543",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        51,
+        52
+      ],
+      "max_rerank": 0.0371,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Vasovagal Syncope:491",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        36,
+        37
+      ],
+      "max_rerank": 0.9495,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Psychological Disturbances:528",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        48
+      ],
+      "max_rerank": 0.6512,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:267",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        159
+      ],
+      "max_rerank": 0.5656,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Vasovagal Syncope:489",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        36
+      ],
+      "max_rerank": 0.4527,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Natriuretic peptides:118",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        78
+      ],
+      "max_rerank": 0.4056,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Amiodarone::385",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        223,
+        224
+      ],
+      "max_rerank": 0.185,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Procainamide::374",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        218
+      ],
+      "max_rerank": 0.1449,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:300",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        179,
+        180
+      ],
+      "max_rerank": 0.6356,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Stanford type B (distal)::214",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        132
+      ],
+      "max_rerank": 0.3711,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Fish oil and marine omega-3 fatty acids:370",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        216
+      ],
+      "max_rerank": 0.2992,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Myocardial infarction:229",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        140
+      ],
+      "max_rerank": 0.2757,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Rheumatic fever:277",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        166
+      ],
+      "max_rerank": 0.2742,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Acute endocarditis::284",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        170
+      ],
+      "max_rerank": 0.2665,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:A. Left-sided heart failure::263",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        157
+      ],
+      "max_rerank": 0.234,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Management:513",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        42
+      ],
+      "max_rerank": 0.9515,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Management:516",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        42,
+        43
+      ],
+      "max_rerank": 0.973,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Treatment:449",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        20,
+        21
+      ],
+      "max_rerank": 0.9717,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Treatment:454",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        21,
+        22
+      ],
+      "max_rerank": 0.7915,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Treatment:455",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        22
+      ],
+      "max_rerank": 0.6717,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:Hypertensive emergency:325",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        196
+      ],
+      "max_rerank": 0.3371,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "heart disease.pdf:Prevention ::849",
+      "source": "heart disease.pdf",
+      "pages": [
+        4
+      ],
+      "max_rerank": 0.3201,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:838",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        14
+      ],
+      "max_rerank": 0.2714,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:High-Yield Notes:331",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        197,
+        198
+      ],
+      "max_rerank": 0.2658,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "reason": "escape hatch"
+  },
+  "top_context": [
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Introduction And Background:738",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Management:516",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        42,
+        43
+      ]
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Treatment:449",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        20,
+        21
+      ]
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Management:513",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        42
+      ]
+    }
+  ],
+  "raw_answer": "I don't have enough information in the provided context to answer this question.",
+  "expected": "answered"
+}
