@@ -25,8 +25,8 @@ class PdfInfo:
     size_bytes: int
     mime_type: str
     total_pages: int
-    pages: List[str] = field(default_factory=list)     # ← ده هيتشال
-    docling_doc: "DoclingDocument" = None                # ← جديد: الناتج الخام من Docling
+    pages: List[str] = field(default_factory=list)     
+    docling_doc: "DoclingDocument" = None                
 
 
 def compute_file_hash(path: Path) -> str:
@@ -36,31 +36,6 @@ def compute_file_hash(path: Path) -> str:
         for chunk in iter(lambda: fh.read(1 << 20), b""):
             hasher.update(chunk)
     return hasher.hexdigest()
-
-"""
-def clean_pdf_text(text: str) -> str:
-    Basic text repair copied from the notebook: line endings, whitespace,
-    hyphen-joined words split across lines.
-    if not text:
-        return text
-    # Hard line endings
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
-    # Hyphenated word continuation: "cardio- \n vascular" -> "cardiovascular"
-    text = re.sub(r"(?<=[A-Za-z])-\s*\n\s*(?=[a-z])", "", text)
-    # Normalize whitespace
-    text = re.sub(r"[ \t]+", " ", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
-"""
-"""
-def extract_pdf_pages(path: Path) -> Tuple[List[str], int]:
-    Extract per-page text. Returns (pages, total_pages).
-    reader = PdfReader(str(path))
-    pages: List[str] = []
-    for page in reader.pages:
-        pages.append(clean_pdf_text(page.extract_text() or ""))
-    return pages, len(pages)
-"""
 
 def discover_pdfs(data_dir: Path) -> List[Path]:
     """Find all PDFs in the data directory (non-recursive)."""
@@ -73,7 +48,7 @@ def discover_pdfs(data_dir: Path) -> List[Path]:
 def ingest_pdf(path: Path) -> PdfInfo:
     from docling.document_converter import DocumentConverter
     converter = DocumentConverter()
-    result = converter.convert(str(path))          # ← بديل PdfReader + extract_pdf_pages
+    result = converter.convert(str(path))          
     mime, _ = mimetypes.guess_type(str(path))
     return PdfInfo(
         name=path.name,
