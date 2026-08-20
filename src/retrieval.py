@@ -267,73 +267,75 @@ class RetrievalResult:
 
 
 class Retriever:
-    """End-to-end retriever: embed query -> candidate search -> rerank."""
-
     def __init__(
         self,
-        chunks: List[ProcessedChunk],
-        matrix: np.ndarray,
+        chunks_by_id: Dict[str, ProcessedChunk],
+        collection,
         cfg: RetrievalConfig,
         embedder,
         reranker: Reranker,
     ):
-        self.bm25_weights = _bm25_token_weights([c.original_text for c in chunks])
-        self.chunks = chunks
-        self.matrix = matrix
+        self.chunks_by_id = chunks_by_id
+        self.collection = collection
         self.cfg = cfg
         self.embedder = embedder
         self.reranker = reranker
 
     def retrieve(self, query: str, k: int, rerank_k: int) -> List[RetrievalResult]:
-        query_vec = np.asarray(
-            self.embedder.encode([query])[0], dtype=np.float32
-        )
+        query_vec = np.asarray(self.embedder.encode([query])[0], dtype=np.float32)
         query_vec = query_vec / (np.linalg.norm(query_vec) + 1e-9)
 
-        # --- Stage 1: dense ---
-        dense_scores = dense_similarity(query_vec, self.matrix)
-        dense_indices = similarity_search(dense_scores, k)
+        search_type = self.cfg.search_types[0]
 
-        # --- Stage 2: BM25 (sparse) with keyword-expanded query ---
-        bm25_terms = extract_query_keywords(query)
-        bm25_vec = bm25_scores(" ".join(bm25_terms), self.bm25_weights)
+        if search_type == "mmr":
+            raw = self.collection.query(
+                query_embeddings=[query_vec.tolist()],
+                n_results=min(self.cfg.mmr_fetch_k_cap, self.collection.count()),
+                include=["embeddings", "distances"],
+            )
+            cand_ids = raw["ids"][0]
+            cand_vecs = np.array(raw["embeddings"][0], dtype=np.float32)
+            selected_local = mmr_search(
+                query_vec, cand_vecs, k,
+                fetch_k=len(cand_ids), diversity=self.cfg.mmr_diversity,
+            )
+            top_ids = [cand_ids[i] for i in selected_local]
+            top_vecs = {cand_ids[i]: cand_vecs[i] for i in selected_local}
+        else:
+            raw = self.collection.query(
+                query_embeddings=[query_vec.tolist()],
+                n_results=k,
+                include=["embeddings", "distances"],
+            )
+            top_ids = raw["ids"][0]
+            top_vecs = {cid: np.array(v, dtype=np.float32) for cid, v in zip(top_ids, raw["embeddings"][0])}
 
-        # --- Stage 3: RRF fusion of both ranked lists ---
-        fused = rrf_rank_fusion(
-            rank_lists=[dense_indices, similarity_search(bm25_vec, k)],
-            weights=[1.0, 1.0],  # dense == BM25 weight; اضبط لو حبيت
-            k=60,
-        )
-
-        # Use the fused rank order but keep dense scores for display
-        candidate_matrix_indices = [
-            i for i in fused
-            if not is_low_quality_candidate(query, self.chunks[i].original_text)
+        candidate_chunks = [self.chunks_by_id[cid] for cid in top_ids]
+        candidates = [
+            c for c in candidate_chunks
+            if not is_low_quality_candidate(query, c.original_text)
         ]
-        if not candidate_matrix_indices:
-            candidate_matrix_indices = list(dense_indices)
-        candidates = [self.chunks[i] for i in candidate_matrix_indices]
+        if not candidates:
+            candidates = candidate_chunks
+        candidate_ids_ordered = [c.chunk_id for c in candidates]
 
         reranked = (
             self.reranker.rerank(query, [c.original_text for c in candidates], top_k=rerank_k)
             if self.cfg.rerank_k > 0 else [(j, 0.0) for j in range(len(candidates))]
         )
 
-        # fused_dense_scores mirrors candidate order for display
-        fused_dense = {idx: float(dense_scores[idx]) for idx in candidate_matrix_indices}
-
         results: List[RetrievalResult] = []
         for rank, (idx, score) in enumerate(reranked, start=1):
+            cid = candidate_ids_ordered[idx]
             results.append(
                 RetrievalResult(
                     chunk=candidates[idx],
                     rank=rank,
-                    dense_score=fused_dense.get(candidate_matrix_indices[idx], 0.0),
+                    dense_score=float(np.dot(top_vecs[cid], query_vec)),
                     rerank_score=score,
                 )
             )
         return results
-
 # ---------------------------------------------------------------------------
 # Configuration selection sweep
 # ---------------------------------------------------------------------------
@@ -355,21 +357,17 @@ def sigmoid(x: float) -> float:
 
 
 def select_best_retriever(
-    chunks: List[ProcessedChunk],
-    matrix: np.ndarray,
+    chunks_by_id: Dict[str, ProcessedChunk],
+    collection,
     eval_cfg: RetrievalConfig,
     embedder,
     reranker: Reranker,
     test_queries: List[Dict[str, str]],
     output_path: Path,
 ) -> tuple:
-    """Grid sweep: search_type × k × rerank_k. Returns (best_name, best_cfg)
-    and persists the chosen configuration to JSON."""
     retriever_results: Dict[str, ConfigScore] = {}
-
     for search_type in eval_cfg.search_types:
         for k in eval_cfg.k_values:
-            # Per-config retriever with its own search type / rerank_k.
             cfg = RetrievalConfig(
                 search_types=[search_type],
                 k_values=[k],
@@ -377,15 +375,13 @@ def select_best_retriever(
                 mmr_fetch_k_cap=eval_cfg.mmr_fetch_k_cap,
                 mmr_diversity=eval_cfg.mmr_diversity,
             )
-            ret = Retriever(chunks, matrix, cfg, embedder, reranker)
+            ret = Retriever(chunks_by_id, collection, cfg, embedder, reranker)   # ← اتغيرت هنا بس
             relevance_scores, top_scores = [], []
             for item in test_queries:
                 results = ret.retrieve(item["question"], k, eval_cfg.rerank_k)
                 if results:
                     top = results[0]
-                    relevance_scores.append(
-                        is_relevant(top.chunk, item.get("keywords", []))
-                    )
+                    relevance_scores.append(is_relevant(top.chunk, item.get("keywords", [])))
                     top_scores.append(top.rerank_score or 0.0)
 
             relevance_rate = float(np.mean(relevance_scores)) if relevance_scores else 0.0

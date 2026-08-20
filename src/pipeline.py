@@ -1,7 +1,7 @@
 """End-to-end pipeline orchestrator.
 
 Wires ingestion -> cleaning -> structural units -> semantic chunking ->
-enrichment -> embeddings -> retriever selection -> evaluation into one
+enrichment -> Chroma indexing -> retriever selection -> evaluation into one
 reproducible flow with checkpointing at every stage.
 """
 
@@ -20,7 +20,7 @@ from .chunking import (
 )
 from .cleaning import prepare_pdf_pages_from_docling
 from .config import AppConfig
-from .embeddings import build_embedder, build_index, load_index
+from .embeddings import build_embedder, build_chroma_index
 from .enrich import (
     enrich_and_build,
     file_coverage_report,
@@ -113,7 +113,7 @@ def process_corpus(cfg: AppConfig) -> List[ProcessedChunk]:
 
 
 # ---------------------------------------------------------------------------
-# Stage 2: embeddings + retriever
+# Stage 2: Chroma index + retriever
 # ---------------------------------------------------------------------------
 
 
@@ -121,17 +121,21 @@ def build_retrieval_stack(
     cfg: AppConfig,
     chunks: Optional[List[ProcessedChunk]] = None,
 ):
-    """Embed chunks (or load cached), select best retriever config,
-    and return a ready-to-query Retriever."""
+    """Build/refresh the Chroma collection (reusing cache/embeddings.npz
+    when it matches the current chunk count, so no re-embedding happens
+    unless the chunk set actually changed), select the best retriever
+    config, and return a ready-to-query Retriever."""
     cache_dir, output_dir = Path(cfg.paths.cache_dir), Path(cfg.paths.output_dir)
 
     if chunks is None:
         chunks = ProcessedChunk.load_all(output_dir / cfg.paths.chunks_json)
-    print(f"\n[5/6] Embedding {len(chunks)} chunks...")
-    matrix, chunks = build_index(
-        chunks, cfg.embeddings,
-        cache_path=cache_dir / cfg.paths.embedding_matrix_npz,
+
+    print(f"\n[5/6] Building Chroma index for {len(chunks)} chunks...")
+    collection = build_chroma_index(
+        chunks, cfg.embeddings, cfg.chroma,
+        legacy_npz_cache=cache_dir / cfg.paths.embedding_matrix_npz,
     )
+    chunks_by_id: Dict[str, ProcessedChunk] = {c.chunk_id: c for c in chunks}
 
     embedder = build_embedder(cfg.embeddings, role="index")
     reranker = Reranker(cfg.embeddings.reranker_model, device=cfg.embeddings.device)
@@ -147,16 +151,16 @@ def build_retrieval_stack(
             mmr_fetch_k_cap=cfg.retrieval.mmr_fetch_k_cap,
             mmr_diversity=cfg.retrieval.mmr_diversity,
         )
-        retriever = Retriever(chunks, matrix, best_cfg, embedder, reranker)
+        retriever = Retriever(chunks_by_id, collection, best_cfg, embedder, reranker)
         print(f"    Loaded saved retriever config: {saved['search_type']} k={saved['k']}")
     else:
         print("\n[6/6] Selecting best retriever configuration...")
         from .evaluation import load_questions
         best_name, best = select_best_retriever(
-            chunks, matrix, cfg.retrieval, embedder, reranker,
+            chunks_by_id, collection, cfg.retrieval, embedder, reranker,
             load_questions(), output_dir / cfg.paths.retriever_config_json,
         )
-        retriever = Retriever(chunks, matrix, RetrievalConfig(
+        retriever = Retriever(chunks_by_id, collection, RetrievalConfig(
             search_types=[best.search_type],
             k_values=[best.k],
             rerank_k=best.rerank_k,

@@ -43,6 +43,13 @@ class PathsConfig:
     def retriever_config_path(self) -> Path:
         return Path(self.output_dir) / self.retriever_config_json
 
+
+@dataclass
+class ChromaConfig:
+    persist_directory: str = "cache/chroma"
+    collection_name: str = "rag_chunks"
+
+
 @dataclass
 class ParsingConfig:
     use_ocr: bool = True                 # للصفحات اللي هي صور (بيحل مشكلة الـ27 صفحة الناقصة)
@@ -123,10 +130,11 @@ class RetrievalConfig:
 @dataclass
 class AppConfig:
     paths: PathsConfig = field(default_factory=PathsConfig)
-    parsing: ParsingConfig = field(default_factory=ParsingConfig)  # ← جديد
+    parsing: ParsingConfig = field(default_factory=ParsingConfig)
     preprocessing: PreprocessingConfig = field(default_factory=PreprocessingConfig)
     chunking: ChunkingConfig = field(default_factory=ChunkingConfig)
     embeddings: EmbeddingConfig = field(default_factory=EmbeddingConfig)
+    chroma: ChromaConfig = field(default_factory=ChromaConfig)
     retrieval: RetrievalConfig = field(default_factory=RetrievalConfig)
 
     @classmethod
@@ -134,6 +142,7 @@ class AppConfig:
         path = Path(path)
         with path.open(encoding="utf-8") as fh:
             raw = yaml.safe_load(fh) or {}
+
 
         def nested(obj, mapping: Dict[str, Any]) -> None:
             for key, value in mapping.items():

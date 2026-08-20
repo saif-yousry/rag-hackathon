@@ -1,0 +1,372 @@
+{
+  "events": [],
+  "question": "Give me a detailed recipe for Egyptian koshary with exact cooking temperatures.",
+  "sub_queries": [
+    "Give me a detailed recipe for Egyptian koshary with exact cooking temperatures.",
+    "give detailed recipe egyptian koshary exact"
+  ],
+  "sub_query_results": [
+    {
+      "query": "Give me a detailed recipe for Egyptian koshary with exact cooking temperatures.",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "living-with-hf-guide.pdf:HEALTHY COOKING TIPS:966",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0006,
+          "dense": 0.5607
+        },
+        {
+          "rank": 2,
+          "chunk_id": "living-with-hf-guide.pdf:WHEN EATING AWAY FROM HOME:967",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0003,
+          "dense": 0.5674
+        },
+        {
+          "rank": 3,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:796",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0003,
+          "dense": 0.5248
+        },
+        {
+          "rank": 4,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::396",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0003,
+          "dense": 0.5043
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::395",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5079
+        },
+        {
+          "rank": 6,
+          "chunk_id": "living-with-hf-guide.pdf:Limiting Saturated and Trans Fats and Added Sugars:963",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5062
+        },
+        {
+          "rank": 7,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::394",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5159
+        },
+        {
+          "rank": 8,
+          "chunk_id": "cureus-0016-00000054264.pdf:Cureus:787",
+          "source": "cureus-0016-00000054264.pdf",
+          "pages": [
+            8
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5078
+        },
+        {
+          "rank": 9,
+          "chunk_id": "living-with-hf-guide.pdf:TIPS FOR REDUCING SODIUM AT HOME:960",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0,
+          "dense": 0.5744
+        },
+        {
+          "rank": 10,
+          "chunk_id": "living-with-hf-guide.pdf:THE IMPORTANCE OF POTASSIUM:965",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0,
+          "dense": 0.5295
+        }
+      ]
+    },
+    {
+      "query": "give detailed recipe egyptian koshary exact",
+      "top_results": [
+        {
+          "rank": 1,
+          "chunk_id": "book14-cardiovascular.pdf:Biblical Accounts of Resuscitation:674",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            95
+          ],
+          "rerank": 0.0007,
+          "dense": 0.5324
+        },
+        {
+          "rank": 2,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::396",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0002,
+          "dense": 0.5488
+        },
+        {
+          "rank": 3,
+          "chunk_id": "book14-cardiovascular.pdf:FOREWORD:402",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5197
+        },
+        {
+          "rank": 4,
+          "chunk_id": "living-with-hf-guide.pdf:WHEN EATING AWAY FROM HOME:967",
+          "source": "Living-With-HF-Guide.pdf",
+          "pages": [
+            10
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5619
+        },
+        {
+          "rank": 5,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::395",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5713
+        },
+        {
+          "rank": 6,
+          "chunk_id": "book14-cardiovascular.pdf:References:414",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            9
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5681
+        },
+        {
+          "rank": 7,
+          "chunk_id": "book14-cardiovascular.pdf:References:519",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            44
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5614
+        },
+        {
+          "rank": 8,
+          "chunk_id": "book14-cardiovascular.pdf:FOREWORD:400",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            6
+          ],
+          "rerank": 0.0001,
+          "dense": 0.5507
+        },
+        {
+          "rank": 9,
+          "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::394",
+          "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+          "pages": [
+            229
+          ],
+          "rerank": 0.0,
+          "dense": 0.5827
+        },
+        {
+          "rank": 10,
+          "chunk_id": "book14-cardiovascular.pdf:Risk Factors:442",
+          "source": "Book14-Cardiovascular.pdf",
+          "pages": [
+            19
+          ],
+          "rerank": 0.0,
+          "dense": 0.5393
+        }
+      ]
+    }
+  ],
+  "merged_chunks": [
+    {
+      "chunk_id": "living-with-hf-guide.pdf:HEALTHY COOKING TIPS:966",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0006,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:WHEN EATING AWAY FROM HOME:967",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0003,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:796",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0003,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::396",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        229
+      ],
+      "max_rerank": 0.0003,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::395",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        229
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:Limiting Saturated and Trans Fats and Added Sugars:963",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "4.-elhusseinys cardiovascular-system.pdf:B. Magnesium::394",
+      "source": "4.-ELHusseinys Cardiovascular-System.pdf",
+      "pages": [
+        229
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 2
+    },
+    {
+      "chunk_id": "cureus-0016-00000054264.pdf:Cureus:787",
+      "source": "cureus-0016-00000054264.pdf",
+      "pages": [
+        8
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:TIPS FOR REDUCING SODIUM AT HOME:960",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "living-with-hf-guide.pdf:THE IMPORTANCE OF POTASSIUM:965",
+      "source": "Living-With-HF-Guide.pdf",
+      "pages": [
+        10
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Biblical Accounts of Resuscitation:674",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        95
+      ],
+      "max_rerank": 0.0007,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:FOREWORD:402",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:References:414",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        9
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:References:519",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        44
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:FOREWORD:400",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        6
+      ],
+      "max_rerank": 0.0001,
+      "queries_hit": 1
+    },
+    {
+      "chunk_id": "book14-cardiovascular.pdf:Risk Factors:442",
+      "source": "Book14-Cardiovascular.pdf",
+      "pages": [
+        19
+      ],
+      "max_rerank": 0.0,
+      "queries_hit": 1
+    }
+  ],
+  "gate": {
+    "decision": "refused",
+    "best_score": 0.0006700704689137638,
+    "reason": "best retrieval score below 0.77"
+  },
+  "expected": "refused"
+}

@@ -150,3 +150,73 @@ def build_index(
 def load_index(cache_path: Path):
     with np.load(cache_path, allow_pickle=True) as data:
         return data["matrix"]
+
+
+
+import json as json_lib
+
+def _metadata_to_chroma(chunk: ProcessedChunk) -> dict:
+    """يحوّل ChunkMetadata لصيغة Chroma-compatible (scalars بس)."""
+    m = chunk.metadata
+    return {
+        "source_file": m.source_file,
+        "file_path": m.file_path,
+        "file_hash_sha256": m.file_hash_sha256,
+        "section_title": m.section_title,
+        "start_page": m.start_page if m.start_page is not None else -1,
+        "end_page": m.end_page if m.end_page is not None else -1,
+        "page_numbers_json": json_lib.dumps(m.page_numbers),
+        "char_count": m.char_count,
+        "content_type": m.content_type,
+        "table_atomic": m.table_atomic,
+        "has_visual_reference": m.has_visual_reference,
+        "visual_references_json": json_lib.dumps(m.visual_references),
+        "parser_type": m.parser_type,
+    }
+
+
+def build_chroma_index(
+    chunks: List[ProcessedChunk],
+    cfg: EmbeddingConfig,
+    chroma_cfg,
+    embedder=None,
+    legacy_npz_cache: Optional[Path] = None,
+):
+
+    import chromadb
+
+    client = chromadb.PersistentClient(path=chroma_cfg.persist_directory)
+    collection = client.get_or_create_collection(
+        name=chroma_cfg.collection_name,
+        metadata={"hnsw:space": "cosine"},
+    )
+
+    chunk_ids = [c.chunk_id for c in chunks]
+    texts = [c.original_text.strip() for c in chunks]
+
+    # --- المسار المهم: استيراد الـ embeddings القديمة من غير re-embed ---
+    matrix = None
+    if legacy_npz_cache and Path(legacy_npz_cache).exists():
+        with np.load(legacy_npz_cache, allow_pickle=True) as data:
+            cached_matrix = data["matrix"]
+            if cached_matrix.shape[0] == len(chunks):
+                matrix = cached_matrix
+                print(f"    Reusing existing embeddings.npz ({matrix.shape}) -- NO re-embedding")
+
+    if matrix is None:
+        embedder = embedder or build_embedder(cfg, role="index")
+        matrix = embedder.encode(texts)
+
+    # يمسح أي نسخة قديمة من نفس الـ IDs قبل الإضافة (عشان upsert نضيف)
+    existing = collection.get(ids=chunk_ids, include=[])["ids"]
+    if existing:
+        collection.delete(ids=existing)
+
+    collection.add(
+        ids=chunk_ids,
+        embeddings=matrix.tolist(),           # ← بيدّي الـ vectors جاهزة، Chroma ملهاش دعوة تحسبها
+        documents=texts,
+        metadatas=[_metadata_to_chroma(c) for c in chunks],
+    )
+    print(f"    Chroma collection '{chroma_cfg.collection_name}': {collection.count()} vectors")
+    return collection
